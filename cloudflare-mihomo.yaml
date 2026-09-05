@@ -1,7 +1,19 @@
 proxies:
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE336|29.2MB/s|DNSOK|GPT⁺-DE"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE276|25.4MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 8443
+    server: ip.kickfarsi.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 412d7fbe-7474-4f1d-86c6-7eebdc628f72
+    xhttp-opts: {}
+    xudp: true
+    servername: sd39cz.utady.ir
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE286|5.2MB/s|DNSOK|GPT⁺"
     network: ws
-    port: 2052
+    port: 2082
     server: 172.64.52.6
     type: vless
     udp: true
@@ -10,100 +22,126 @@ proxies:
       headers:
         Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/56.0.2924.87 Safari/537.36
-      path: /?ed=2560security=tls
-    xudp: true
-  - name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT214|9.6MB/s|DNSOK|GPT⁺"
-    network: ws
-    port: 8080
-    server: 172.64.42.85
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /?ed=2560security=tls
-    xudp: true
-  - name: "\U0001F1E8\U0001F1ED | @WhiteDNS | CH21|7.3MB/s|DNSOK|GPT⁺-CH"
-    network: ws
-    port: 2082
-    server: 108.162.198.178
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.67 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /?ed=2560security=tls
     xudp: true
     servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  - client-fingerprint: edge
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1159|1.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2053
+    server: 104.20.30.31
+    tls: true
+    type: vless
+    udp: true
+    uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+    ws-opts:
+      headers:
+        Host: us.105794.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+      path: /download/v3/installer-x64.bin
+    xudp: true
+    servername: us.105794.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1165|1.3MB/s|DNSOK|GPT⁺"
+    network: ws
+    port: 2053
+    server: 104.18.120.160
+    tls: true
+    type: vless
+    udp: true
+    uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+    ws-opts:
+      headers:
+        Host: us.105794.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/59.0.3071.125 Mobile Safari/537.36
+      path: /download/v3/installer-x64.bin
+    xudp: true
+    servername: us.105794.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP226|701KB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 443
+    server: 172.67.156.147
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+    ws-opts:
+      headers:
+        Host: jp3.yohototo.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /tyxyws
+    xudp: true
+    servername: jp3.yohototo.top
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP227|652KB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 443
+    server: 162.159.254.3
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+    ws-opts:
+      headers:
+        Host: jp3.yohototo.top
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: /tyxyws
+    xudp: true
+    servername: jp3.yohototo.top
   - client-fingerprint: unsafe
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE351|6.6MB/s|DNSOK|GPT⁺-NL"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP228|650KB/s|DNSOK|GPT⁺-JP"
     network: ws
     port: 443
     server: 104.21.33.59
     tls: true
     type: vless
     udp: true
-    uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
+    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
     ws-opts:
       headers:
-        Host: xwrivr.pages.dev
+        Host: jp3.yohototo.top
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /tyxyws
     xudp: true
-    servername: xwrivr.pages.dev
-  - encryption: none
-    name: "\U0001F1E8\U0001F1ED | @WhiteDNS | CH22|5.4MB/s|DNSOK|GPT⁺-CH"
+    servername: jp3.yohototo.top
+  - client-fingerprint: unsafe
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP229|586KB/s|DNSOK|GPT⁺-JP"
     network: ws
-    port: 2086
-    server: 108.162.198.178
+    port: 443
+    server: 172.67.217.240
+    tls: true
     type: vless
     udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE359|3.4MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8080
-    server: 188.114.97.6
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
     ws-opts:
       headers:
-        Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+        Host: jp3.yohototo.top
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
-          Mobile Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /tyxyws
     xudp: true
+    servername: jp3.yohototo.top
 dns:
   enable: true
   prefer-h3: false
