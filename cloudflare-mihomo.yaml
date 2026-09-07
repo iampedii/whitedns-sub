@@ -1,96 +1,41 @@
 proxies:
-  - encryption: none
-    name: "\U0001F1E8\U0001F1ED | @WhiteDNS | CH19|28.5MB/s|DNSOK|GPT⁺-CH"
+  - client-fingerprint: unsafe
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG160|10.3MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 2086
-    server: 108.162.198.178
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1E8\U0001F1ED | @WhiteDNS | CH20|22.1MB/s|DNSOK|GPT⁺-CH"
-    network: ws
-    port: 8080
-    server: 108.162.198.178
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.110 Safari/537.36
-      path: /?ed=2560security=tls
-    xudp: true
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE22|19.8MB/s|DNSOK|GPT⁺-SE"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
+    port: 2096
+    server: 188.114.97.6
     tls: true
     type: vless
     udp: true
-    uuid: 367d010d-e93f-46ba-a0c7-46d13ef4e9cd
+    uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
     ws-opts:
       headers:
-        Host: se-sto.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: se-sto.xhs152.shop
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE23|17.9MB/s|DNSOK|GPT⁺-SE"
-    network: ws
-    port: 443
-    server: 104.18.20.69
-    tls: true
-    type: vless
-    udp: true
-    uuid: 367d010d-e93f-46ba-a0c7-46d13ef4e9cd
-    ws-opts:
-      headers:
-        Host: se-sto.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: se-sto.xhs152.shop
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE369|15.0MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2086
-    server: 172.64.32.103
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+        Host: shalana.xyz
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
-      path: /?ed=2560security=tls
+          Chrome/41.0.2228.0 Safari/537.36
+      path: /shalana
     xudp: true
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE372|12.6MB/s|DNSOK|GPT⁺-DE"
+    servername: shalana.xyz
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US974|6.1MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 2052
+    port: 2095
+    server: cdnjs.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: /
+    xudp: true
+    servername: cdnjs.com
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE358|5.6MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2095
     server: 162.159.38.127
     type: vless
     udp: true
@@ -98,88 +43,61 @@ proxies:
     ws-opts:
       headers:
         Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-      path: /?ed=2560security=tls
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE374|8.7MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 162.159.43.187
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+          Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /?ed=2560security=tls
     xudp: true
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE376|7.2MB/s|DNSOK|GPT⁺-DE"
+    servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US976|5.6MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
-    server: 162.159.24.131
+    server: 104.16.6.189
     type: vless
     udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     ws-opts:
       headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /?ed=2560security=tls
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: /
     xudp: true
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE377|7.1MB/s|DNSOK|GPT⁺-DE"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US977|5.6MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
-    server: 172.64.32.103
+    server: 104.16.249.249
     type: vless
     udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     ws-opts:
       headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /?ed=2560security=tls
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: /
     xudp: true
-    servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  - name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT167|6.7MB/s|DNSOK|GPT⁺"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US978|5.5MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 2082
-    server: 172.64.32.103
+    port: 2095
+    server: 104.24.196.20
     type: vless
     udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     ws-opts:
       headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36
-      path: /?ed=2560security=tls
+          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/44.0.2403.157 Safari/537.36
+      path: /
     xudp: true
-    servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE381|6.3MB/s|DNSOK|GPT⁺-DE"
+  - name: "\U0001F1E8\U0001F1ED | @WhiteDNS | CH19|5.5MB/s|DNSOK|GPT⁺-CH"
     network: ws
-    port: 80
-    server: 172.64.32.108
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: /?ed=2560security=tls
-    xudp: true
-    servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  - name: "\U0001F1E8\U0001F1ED | @WhiteDNS | CH21|6.2MB/s|DNSOK|GPT⁺-CH"
-    network: ws
-    port: 80
+    port: 8880
     server: 108.162.198.178
     type: vless
     udp: true
@@ -188,13 +106,60 @@ proxies:
       headers:
         Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
       path: /?ed=2560security=tls
     xudp: true
     servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US979|5.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.npmjs.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US980|5.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.whatismyip.net
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
+    xudp: true
+    servername: www.whatismyip.net
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US981|5.1MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.udemy.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /
+    xudp: true
+    servername: www.udemy.com
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG153|6.2MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG161|5.1MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 2096
     server: 104.17.70.206
@@ -206,63 +171,106 @@ proxies:
       headers:
         Host: shalana.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/41.0.2272.101 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
       path: /shalana
     xudp: true
     servername: shalana.xyz
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE386|3.5MB/s|DNSOK|GPT⁺-DE"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US982|5.1MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 2082
-    server: 104.18.34.14
+    port: 2095
+    server: openai.com
     type: vless
     udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     ws-opts:
       headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /?ed=2560security=tls
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      path: /
     xudp: true
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE388|2.4MB/s|DNSOK|GPT⁺-DE"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US983|5.1MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 80
-    server: 162.159.45.19
+    port: 2095
+    server: www.temu.com
     type: vless
     udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     ws-opts:
       headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /?ed=2560security=tls
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
     xudp: true
-  - name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT168|2.2MB/s|DNSOK|GPT⁺-DE"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US984|5.0MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 2086
-    server: 162.159.48.32
+    port: 2095
+    server: developers.cloudflare.com
     type: vless
     udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     ws-opts:
       headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /
+    xudp: true
+    servername: developers.cloudflare.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US985|5.0MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.16.248.249
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /?ed=2560security=tls
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
     xudp: true
-    servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE391|997KB/s|DNSOK|GPT⁺-DE"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US986|4.9MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 8880
-    server: 172.64.52.6
+    port: 2095
+    server: 173.245.59.100
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US987|4.9MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.wto.org
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE363|4.9MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2052
+    server: 104.18.39.218
     type: vless
     udp: true
     uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -270,11 +278,329 @@ proxies:
       headers:
         Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/49.0.2623.112 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
       path: /?ed=2560security=tls
     xudp: true
     servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US988|4.9MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.epicgames.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US989|4.8MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.18.21.94
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US990|4.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.shopify.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US991|4.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: docs.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.94 Safari/537.36
+      path: /
+    xudp: true
+    servername: docs.cloudflare.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US992|4.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.18.41.190
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US993|4.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.16.142.237
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US994|4.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.18.22.4
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US995|4.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.18.20.94
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US996|4.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: ns.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US997|4.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 173.245.58.100
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US999|4.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.udemy.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1000|4.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: cloudflare-dns.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: cloudflare-dns.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1001|4.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: support.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /
+    xudp: true
+    servername: support.cloudflare.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1002|4.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.whatismyip.net
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1003|4.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: docs.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1005|4.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.18.33.45
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1010|2.9MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.fbi.gov
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: fangbinxingnmsl.fuckingnigga.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP199|986KB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 443
+    server: 172.67.156.147
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+    ws-opts:
+      headers:
+        Host: jp3.yohototo.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /tyxyws
+    xudp: true
+    servername: jp3.yohototo.top
+  - client-fingerprint: unsafe
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP206|762KB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 443
+    server: 188.114.97.6
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+    ws-opts:
+      headers:
+        Host: jp3.yohototo.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /tyxyws
+    xudp: true
+    servername: jp3.yohototo.top
+  - client-fingerprint: unsafe
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP210|665KB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 443
+    server: 172.67.217.240
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+    ws-opts:
+      headers:
+        Host: jp3.yohototo.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /tyxyws
+    xudp: true
+    servername: jp3.yohototo.top
 dns:
   enable: true
   prefer-h3: false
