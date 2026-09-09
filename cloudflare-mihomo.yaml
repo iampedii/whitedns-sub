@@ -1,27 +1,25 @@
 proxies:
-  - client-fingerprint: random
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US935|3.2MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE256|6.8MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 443
-    server: www.visa.com.hk
+    server: 172.67.217.10
     tls: true
     type: vless
     udp: true
-    uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
+    uuid: bfea31b5-371b-48d9-a9fa-4767ed6a5973
     ws-opts:
       headers:
-        Host: us-lax.xhs152.shop
+        Host: bluerocketway-bcc.lat
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/36.0.1985.125 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /jetiona
     xudp: true
-    servername: us-lax.xhs152.shop
+    servername: bluerocketway-bcc.lat
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP110|2.7MB/s|DNSOK|GPT⁺-JP"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP110|3.7MB/s|DNSOK|GPT⁺-JP"
     network: ws
     port: 443
     server: 162.159.36.5
@@ -33,34 +31,77 @@ proxies:
       headers:
         Host: jpb2.jjjjjj.eu.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /jige
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
     servername: jpb2.jjjjjj.eu.cc
-  - client-fingerprint: random
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP131|1.0MB/s|DNSOK|GPT⁺-JP"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP111|2.7MB/s|DNSOK|GPT⁺-JP"
     network: ws
     port: 443
-    server: ct.877774.xyz
+    server: node1.jjjjjj.eu.cc
     tls: true
     type: vless
     udp: true
-    uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
+    uuid: 75bc1bab-ff62-4c7c-a946-ec49fd53f89f
     ws-opts:
       headers:
-        Host: jp-osa.xhs152.shop
+        Host: jpb2.jjjjjj.eu.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /announcement
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
+      path: /jige
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
-    servername: jp-osa.xhs152.shop
+    servername: jpb2.jjjjjj.eu.cc
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG116|2.6MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 8443
+    server: 104.17.73.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 542fd687-5160-4f80-9223-56678567dd29
+    ws-opts:
+      headers:
+        Host: 8.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
+    xudp: true
+    servername: 8.sahanwickramasinghe.me
+  - alpn:
+      - h2
+      - http/1.1
+      - h3
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1106|1.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ccs2g.pai50288.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/62.0.3202.84 Mobile Safari/537.36
+      path: /pai50288
+    xudp: true
+    servername: ccs2g.pai50288.uk
 dns:
   enable: true
   prefer-h3: false
