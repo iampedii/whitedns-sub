@@ -1,158 +1,66 @@
 proxies:
-  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL545|13.8MB/s|DNSOK|GPT⁺"
-    network: ws
-    port: 80
-    server: 104.27.2.172
-    type: vless
-    udp: true
-    uuid: 234c52f2-0d7b-dc4a-0d6b-b0b300000025
-    ws-opts:
-      headers:
-        Host: billowing-surf-d251.netizo06.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-          Chrome/v1.0.0 Safari/538.1
-      path: /sync
-    xudp: true
-    servername: billowing-surf-d251.netizo06.workers.dev
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
+  - client-fingerprint: random
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE234|6.1MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US935|3.2MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: 172.67.187.121
+    server: www.visa.com.hk
     tls: true
     type: vless
     udp: true
-    uuid: f8546acb-185c-43a9-8065-b901c9f353c9
+    uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
     ws-opts:
       headers:
-        Host: jtv3y5hswdq0iiykejteoqqecsx.uybhnhbhbj.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /vl/lQvZpD6BDBDFcrhffa1JYDt
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: jtv3y5hswdq0iiykejteoqqecsx.uybhnhbhbj.workers.dev
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB427|5.8MB/s|DNSOK|GPT⁺"
-    network: ws
-    password: Telegram_healer_config
-    port: 443
-    server: 188.114.97.7
-    skip-cert-verify: false
-    sni: TH1R714O73d1P35f.mr2esNK29L620Xo76Kpuv-QUb4B7IDfR.WOrkeRS.DeV
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
+        Host: us-lax.xhs152.shop
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /tr/gtMkuJkm42JnKfAr
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
+      path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+      max-early-data: 2048
+    xudp: true
+    servername: us-lax.xhs152.shop
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP204|1.4MB/s|DNSOK|GPT⁺-JP"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP110|2.7MB/s|DNSOK|GPT⁺-JP"
     network: ws
     port: 443
-    server: 104.21.70.21
+    server: 162.159.36.5
     tls: true
     type: vless
     udp: true
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+    uuid: 75bc1bab-ff62-4c7c-a946-ec49fd53f89f
     ws-opts:
       headers:
-        Host: jp3.yohototo.top
+        Host: jpb2.jjjjjj.eu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /jige
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: jpb2.jjjjjj.eu.cc
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP131|1.0MB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 443
+    server: ct.877774.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
+    ws-opts:
+      headers:
+        Host: jp-osa.xhs152.shop
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
-      path: /tyxyws
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
     xudp: true
-    servername: jp3.yohototo.top
-  - client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP205|1.3MB/s|DNSOK|GPT⁺-JP"
-    network: ws
-    port: 443
-    server: 104.21.33.59
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    ws-opts:
-      headers:
-        Host: jp3.yohototo.top
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /tyxyws
-    xudp: true
-    servername: jp3.yohototo.top
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP209|1.3MB/s|DNSOK|GPT⁺-JP"
-    network: ws
-    port: 443
-    server: 162.159.254.3
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    ws-opts:
-      headers:
-        Host: jp3.yohototo.top
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/35.0.1916.153 Safari/537.36
-      path: /tyxyws
-    xudp: true
-    servername: jp3.yohototo.top
-  - client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP223|1021KB/s|DNSOK|GPT⁺-JP"
-    network: ws
-    port: 443
-    server: 172.67.217.240
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    ws-opts:
-      headers:
-        Host: jp3.yohototo.top
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile
-          Safari/537.36
-      path: /tyxyws
-    xudp: true
-    servername: jp3.yohototo.top
-  - client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP229|845KB/s|DNSOK|GPT⁺-JP"
-    network: ws
-    port: 443
-    server: 188.114.97.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    ws-opts:
-      headers:
-        Host: jp3.yohototo.top
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: /tyxyws
-    xudp: true
-    servername: jp3.yohototo.top
+    servername: jp-osa.xhs152.shop
 dns:
   enable: true
   prefer-h3: false
