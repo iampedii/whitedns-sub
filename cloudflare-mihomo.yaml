@@ -1,107 +1,88 @@
 proxies:
   - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU6|35.4MB/s|DNSOK|GPT⁺-CH"
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU6|7.3MB/s|DNSOK|GPT⁺-CH"
     network: ws
     password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
     port: 443
     server: mfyousheng.nl.eu.org
     skip-cert-verify: true
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /tjwsLhx0SFASG4l9FERJ1g
     sni: mfyousheng.nl.eu.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1064|4.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ccs2g.pai50288.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /pai50288
+    xudp: true
+    servername: ccs2g.pai50288.uk
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP80|2.5MB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    password: 62dbcf02-0989-4441-a01a-93f9c3b93525
+    port: 443
+    server: 162.159.38.58
+    skip-cert-verify: false
+    sni: ot.hyas.space
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /x7f9k2m4p8
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP81|2.4MB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    password: 624209bb-8216-45fe-bbe0-50132ec63162
+    port: 443
+    server: ot2.hyas.space
+    skip-cert-verify: false
+    sni: ot2.hyas.space
     type: trojan
     udp: true
     ws-opts:
       headers:
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
-      path: /tjwsLhx0SFASG4l9FERJ1g
+          Gecko) Chrome/45.0.2454.93 Safari/537.36
+      path: /x7f9k2m4p8
   - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU7|32.3MB/s|DNSOK|GPT⁺-CH"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP85|1.7MB/s|DNSOK|GPT⁺-JP"
     network: ws
-    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+    password: 62dbcf02-0989-4441-a01a-93f9c3b93525
     port: 443
-    server: mfyousheng.nl.eu.org
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-          like Gecko) Chrome/5.0.342.1 Safari/533.2
-      path: /tjwsLhx0SFASG4l9FERJ1g
-    sni: mfyousheng.nl.eu.org
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU8|32.1MB/s|DNSOK|GPT⁺-CH"
-    network: ws
-    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
-    port: 443
-    server: 188.114.97.3
+    server: 172.64.229.84
     skip-cert-verify: false
-    sni: mfyousheng.nl.eu.org
+    sni: ot.hyas.space
     type: trojan
     udp: true
     ws-opts:
       headers:
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /tjwsLhx0SFASG4l9FERJ1g
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU9|21.0MB/s|DNSOK|GPT⁺-CH"
-    network: ws
-    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
-    port: 443
-    server: 188.114.96.3
-    skip-cert-verify: true
-    sni: mfyousheng.nl.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /tjwsLhx0SFASG4l9FERJ1g
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB92|7.0MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    password: Telegram_healer_config
-    port: 443
-    server: 188.114.97.3
-    skip-cert-verify: false
-    sni: N19HYbk46HtAL-mvnTu149WCU-H.bKcZgnqOdLQtM6enDLZ3VS4f2KzQ.wOrkeRS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-          Chrome/v1.0.0 Safari/538.1
-      path: /tr/QjO9GZbQ41dJ7RJJykX
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG125|1.1MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8443
-    server: 104.17.73.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: 542fd687-5160-4f80-9223-56678567dd29
-    ws-opts:
-      headers:
-        Host: 8.sahanwickramasinghe.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.111 Safari/537.36
-      path: /
-    xudp: true
-    servername: 8.sahanwickramasinghe.me
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /x7f9k2m4p8
 dns:
   enable: true
   prefer-h3: false
