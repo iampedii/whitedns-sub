@@ -1,10 +1,10 @@
 proxies:
   - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU6|37.0MB/s|DNSOK|GPT⁺-CH"
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU6|35.4MB/s|DNSOK|GPT⁺-CH"
     network: ws
     password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
     port: 443
-    server: chatgpt.com
+    server: mfyousheng.nl.eu.org
     skip-cert-verify: true
     sni: mfyousheng.nl.eu.org
     type: trojan
@@ -12,11 +12,27 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
       path: /tjwsLhx0SFASG4l9FERJ1g
   - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU7|35.9MB/s|DNSOK|GPT⁺-CH"
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU7|32.3MB/s|DNSOK|GPT⁺-CH"
+    network: ws
+    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+    port: 443
+    server: mfyousheng.nl.eu.org
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+          like Gecko) Chrome/5.0.342.1 Safari/533.2
+      path: /tjwsLhx0SFASG4l9FERJ1g
+    sni: mfyousheng.nl.eu.org
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU8|32.1MB/s|DNSOK|GPT⁺-CH"
     network: ws
     password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
     port: 443
@@ -29,65 +45,10 @@ proxies:
       headers:
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
       path: /tjwsLhx0SFASG4l9FERJ1g
   - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU8|35.0MB/s|DNSOK|GPT⁺-CH"
-    network: ws
-    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
-    port: 443
-    server: mfyousheng.nl.eu.org
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/39.0.2171.95 Safari/537.36
-      path: /tjwsLhx0SFASG4l9FERJ1g
-    sni: mfyousheng.nl.eu.org
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE221|18.5MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: ct.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: eccb12a8-72b0-42a5-b2b7-2357f4aad591
-    ws-opts:
-      headers:
-        Host: eu-central.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: eu-central.xhs152.shop
-  - client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT242|7.7MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    password: bpb-trojan
-    port: 443
-    server: vless.herogoing.top
-    skip-cert-verify: false
-    sni: vless.herogoing.top
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
-      path: /tr
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU9|6.0MB/s|DNSOK|GPT⁺-CH"
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU9|21.0MB/s|DNSOK|GPT⁺-CH"
     network: ws
     password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
     port: 443
@@ -99,88 +60,48 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /tjwsLhx0SFASG4l9FERJ1g
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1048|4.0MB/s|DNSOK|GPT⁺-US"
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB92|7.0MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 2053
-    server: 104.18.37.233
-    tls: true
-    type: vless
-    udp: true
-    uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-    ws-opts:
-      headers:
-        Host: us.105794.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
-      path: /download/v3/installer-x64.bin
-    xudp: true
-    servername: us.105794.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP78|3.0MB/s|DNSOK|GPT⁺-JP"
-    network: ws
+    password: Telegram_healer_config
     port: 443
-    server: node1.jjjjjj.eu.cc
-    tls: true
-    type: vless
+    server: 188.114.97.3
+    skip-cert-verify: false
+    sni: N19HYbk46HtAL-mvnTu149WCU-H.bKcZgnqOdLQtM6enDLZ3VS4f2KzQ.wOrkeRS.Dev
+    type: trojan
     udp: true
-    uuid: 75bc1bab-ff62-4c7c-a946-ec49fd53f89f
     ws-opts:
       headers:
-        Host: jpb2.jjjjjj.eu.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /jige
+          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+          Chrome/v1.0.0 Safari/538.1
+      path: /tr/QjO9GZbQ41dJ7RJJykX
       early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: jpb2.jjjjjj.eu.cc
-  - client-fingerprint: random
+      max-early-data: 2560
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP79|2.4MB/s|DNSOK|GPT⁺-JP"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG125|1.1MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 443
-    server: www.visa.com.hk
+    port: 8443
+    server: 104.17.73.206
     tls: true
     type: vless
     udp: true
-    uuid: eccb12a8-72b0-42a5-b2b7-2357f4aad591
+    uuid: 542fd687-5160-4f80-9223-56678567dd29
     ws-opts:
       headers:
-        Host: jp-osa.xhs152.shop
+        Host: 8.sahanwickramasinghe.me
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.86 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
+      path: /
     xudp: true
-    servername: jp-osa.xhs152.shop
-  - client-fingerprint: edge
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1080|2.2MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 104.20.30.31
-    tls: true
-    type: vless
-    udp: true
-    uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-    ws-opts:
-      headers:
-        Host: us.105794.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /download/v3/installer-x64.bin
-    xudp: true
-    servername: us.105794.xyz
+    servername: 8.sahanwickramasinghe.me
 dns:
   enable: true
   prefer-h3: false
