@@ -1,86 +1,101 @@
 proxies:
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE181|33.1MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: ct.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
-    ws-opts:
-      headers:
-        Host: eu-central.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: eu-central.xhs152.shop
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1E7\U0001F1F7 | @WhiteDNS | BR5|5.7MB/s|DNSOK|GPT⁺-BR"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: f94a04aa-a98c-4b6c-8fe2-7290d81c500a
-    ws-opts:
-      headers:
-        Host: br-gru.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: br-gru.xhs152.shop
-  - client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG250|3.7MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.18.242.3
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.106 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG251|3.7MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE168|13.4MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 2096
-    server: 104.17.70.206
+    port: 443
+    server: zcfznk-y7or1r-dry91q.spider-0a507c1e.workers.dev
     tls: true
     type: vless
     udp: true
-    uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+    uuid: f98cc943-3c25-a499-948d-1c0500000001
     ws-opts:
       headers:
-        Host: shalana.xyz
+        Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: /shalana
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /sync
     xudp: true
-    servername: shalana.xyz
+    servername: zcfznk-y7or1r-dry91q.spider-0a507c1e.workers.dev
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE171|7.0MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: zcfznk-y7or1r-dry91q.spider-0a507c1e.workers.dev
+    tls: true
+    type: vless
+    udp: true
+    uuid: f98cc943-3c25-a499-948d-1c0500000001
+    ws-opts:
+      headers:
+        Host: zcfznk-y7or1r-dry91q.spider-0a507c1e.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
+      path: /sync
+    xudp: true
+    servername: zcfznk-y7or1r-dry91q.spider-0a507c1e.workers.dev
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE3|6.9MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 443
+    server: 104.16.63.138
+    tls: true
+    type: vless
+    udp: true
+    uuid: ff2e6fa4-3eed-f4e3-f757-c88300000029
+    ws-opts:
+      headers:
+        Host: nahannew.shoameni15.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /sync
+    xudp: true
+    servername: nahannew.shoameni15.workers.dev
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE4|6.1MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 443
+    server: 104.19.32.26
+    tls: true
+    type: vless
+    udp: true
+    uuid: ff2e6fa4-3eed-f4e3-f757-c88300000037
+    ws-opts:
+      headers:
+        Host: nahannew.shoameni15.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /sync
+    xudp: true
+    servername: nahannew.shoameni15.workers.dev
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F2\U0001F1E9 | @WhiteDNS | MD2|5.2MB/s|DNSOK|GPT⁺-MD"
+    network: ws
+    port: 443
+    server: 172.64.190.105
+    tls: true
+    type: vless
+    udp: true
+    uuid: ff2e6fa4-3eed-f4e3-f757-c88300000003
+    ws-opts:
+      headers:
+        Host: nahannew.shoameni15.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      path: /sync
+    xudp: true
+    servername: nahannew.shoameni15.workers.dev
   - client-fingerprint: unsafe
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG258|2.7MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG149|3.5MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 2096
     server: 188.114.97.6
@@ -92,30 +107,30 @@ proxies:
       headers:
         Host: shalana.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
       path: /shalana
     xudp: true
     servername: shalana.xyz
-  - client-fingerprint: unsafe
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG278|756KB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG154|2.6MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 443
-    server: 104.16.10.48
+    port: 2096
+    server: 104.17.70.206
     tls: true
     type: vless
     udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+    uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
     ws-opts:
       headers:
-        Host: u.srilankangrill.online
+        Host: shalana.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-      path: /
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /shalana
     xudp: true
-    servername: u.srilankangrill.online
+    servername: shalana.xyz
 dns:
   enable: true
   prefer-h3: false
