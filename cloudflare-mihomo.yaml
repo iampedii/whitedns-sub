@@ -1,7 +1,7 @@
 proxies:
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI146|15.9MB/s|DNSOK|GPT⁺-FI"
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI150|14.3MB/s|DNSOK|GPT⁺-FI"
     network: xhttp
     port: 8443
     server: 188.114.97.8
@@ -18,7 +18,7 @@ proxies:
     servername: dl1.rahetejarat.com
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI148|6.3MB/s|DNSOK|GPT⁺-FI"
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI152|7.3MB/s|DNSOK|GPT⁺-FI"
     network: xhttp
     port: 8443
     server: 172.67.158.89
@@ -35,24 +35,7 @@ proxies:
     servername: dl1.rahetejarat.com
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI149|6.2MB/s|DNSOK|GPT⁺-FI"
-    network: xhttp
-    port: 8443
-    server: 104.16.174.81
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
-    xhttp-opts:
-      host: dl1.rahetejarat.com
-      mode: auto
-      path: /dawdawdqwrrtt
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: dl1.rahetejarat.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI150|6.1MB/s|DNSOK|GPT⁺-FI"
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI153|7.1MB/s|DNSOK|GPT⁺-FI"
     network: xhttp
     port: 8443
     server: 188.114.97.2
@@ -67,8 +50,25 @@ proxies:
       x-padding-bytes: 100-1000
     xudp: true
     servername: dl1.rahetejarat.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI159|6.0MB/s|DNSOK|GPT⁺-FI"
+    network: xhttp
+    port: 8443
+    server: 104.16.174.81
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
+    xhttp-opts:
+      host: dl1.rahetejarat.com
+      mode: auto
+      path: /dawdawdqwrrtt
+      x-padding-bytes: 100-1000
+    xudp: true
+    servername: dl1.rahetejarat.com
   - client-fingerprint: unsafe
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG80|3.7MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG98|4.4MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 2096
     server: 188.114.97.6
@@ -80,14 +80,34 @@ proxies:
       headers:
         Host: shalana.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
+      path: /shalana
+    xudp: true
+    servername: shalana.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG99|3.4MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 2096
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+    ws-opts:
+      headers:
+        Host: shalana.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
       path: /shalana
     xudp: true
     servername: shalana.xyz
   - client-fingerprint: unsafe
     encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG81|2.6MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG100|3.2MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 2096
     server: 104.18.32.87
@@ -100,29 +120,29 @@ proxies:
         Host: shalana.xyz
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
       path: /shalana
     xudp: true
     servername: shalana.xyz
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG83|2.0MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1EA\U0001F1EC | @WhiteDNS | EG4|2.6MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 2096
-    server: 104.17.70.206
+    port: 443
+    server: ccs2g.pai50288.uk
     tls: true
     type: vless
     udp: true
-    uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
     ws-opts:
       headers:
-        Host: shalana.xyz
+        Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/42.0.2311.90 Safari/537.36
-      path: /shalana
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /pai50288
     xudp: true
-    servername: shalana.xyz
+    servername: ccs2g.pai50288.uk
 dns:
   enable: true
   prefer-h3: false
