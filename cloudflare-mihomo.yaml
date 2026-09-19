@@ -1,6 +1,6 @@
 proxies:
   - client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT457|48.8MB/s|DNSOK|GPT⁺-IT"
+    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT250|55.2MB/s|DNSOK|GPT⁺-IT"
     network: ws
     port: 443
     server: freev2.cloudflare.182682.xyz
@@ -12,76 +12,15 @@ proxies:
       headers:
         Host: it-mil.xhs152.shop
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
     servername: it-mil.xhs152.shop
   - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE284|37.2MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: freev2.cloudflare.182682.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
-    ws-opts:
-      headers:
-        Host: eu-central.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/31.0.1650.57 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: eu-central.xhs152.shop
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL443|25.9MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: freev2.cloudflare.182682.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
-    ws-opts:
-      headers:
-        Host: nl-ams.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: nl-ams.xhs152.shop
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE310|7.7MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
-    ws-opts:
-      headers:
-        Host: eu-central.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: eu-central.xhs152.shop
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE37|7.4MB/s|DNSOK|GPT⁺-SE"
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE26|18.8MB/s|DNSOK|GPT⁺-SE"
     network: ws
     port: 443
     server: freev2.cloudflare.182682.xyz
@@ -93,56 +32,15 @@ proxies:
       headers:
         Host: se-sto.xhs152.shop
         User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
     servername: se-sto.xhs152.shop
   - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL473|6.6MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
-    ws-opts:
-      headers:
-        Host: nl-ams.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: nl-ams.xhs152.shop
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG270|5.4MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
-    ws-opts:
-      headers:
-        Host: ap-south.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: ap-south.xhs152.shop
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG271|5.3MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG150|5.5MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 443
     server: freev2.cloudflare.182682.xyz
@@ -154,63 +52,14 @@ proxies:
       headers:
         Host: ap-south.xhs152.shop
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
     servername: ap-south.xhs152.shop
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US968|4.9MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2095
-    server: www.whatismyip.net
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: free-claude-api.asshole.us.ci
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG276|4.6MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 2096
-    server: 104.17.70.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
-    ws-opts:
-      headers:
-        Host: shalana.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-      path: /shalana
-    xudp: true
-    servername: shalana.xyz
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US969|4.5MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2095
-    server: www.epicgames.com
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: free-claude-api.asshole.us.ci
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-      path: /
-    xudp: true
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US970|4.5MB/s|DNSOK|GPT⁺-US"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US791|5.4MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
     server: support.cloudflare.com
@@ -221,57 +70,29 @@ proxies:
       headers:
         Host: openai.asshole.us.ci
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
       path: /
     xudp: true
-    servername: openai.asshole.us.ci
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US971|4.5MB/s|DNSOK|GPT⁺-US"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US792|5.3MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 443
-    server: ct.877774.xyz
-    tls: true
+    port: 2095
+    server: www.whatismyip.net
     type: vless
     udp: true
-    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     ws-opts:
       headers:
-        Host: us-lax.xhs152.shop
+        Host: free-claude-api.asshole.us.ci
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /
     xudp: true
-    servername: us-lax.xhs152.shop
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG280|3.4MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 2096
-    server: 104.17.70.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-    ws-opts:
-      headers:
-        Host: free-server.techsonic.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/36.0.1985.143 Safari/537.36
-      path: /free-server.techsonic.dev
-    xudp: true
-    servername: free-server.techsonic.dev
+    servername: www.whatismyip.net
   - client-fingerprint: unsafe
     encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG290|3.2MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG151|4.7MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 2096
     server: 188.114.97.6
@@ -283,31 +104,13 @@ proxies:
       headers:
         Host: shalana.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.115 Safari/537.36
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
       path: /shalana
     xudp: true
     servername: shalana.xyz
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US979|3.1MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: 104.24.204.221
-    tls: true
-    type: vless
-    udp: true
-    uuid: 307ff98e-041b-2a08-235a-4ff61316b090
-    ws-opts:
-      headers:
-        Host: yellow-king-ecd7.nsyrayyly2.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-    xudp: true
-    servername: yellow-king-ecd7.nsyrayyly2.workers.dev
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US980|3.1MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US794|4.6MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: www.visa.com.hk
@@ -320,111 +123,131 @@ proxies:
         Host: us-lax.xhs152.shop
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
     servername: us-lax.xhs152.shop
   - client-fingerprint: chrome
-    name: "\U0001F1E7\U0001F1F7 | @WhiteDNS | BR20|2.7MB/s|DNSOK|GPT⁺-BR"
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG155|4.5MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 443
-    server: www.visa.com.hk
+    port: 2096
+    server: 104.17.70.206
     tls: true
     type: vless
     udp: true
-    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
+    uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
     ws-opts:
       headers:
-        Host: br-gru.xhs152.shop
+        Host: shalana.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.86 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /shalana
     xudp: true
-    servername: br-gru.xhs152.shop
+    servername: shalana.xyz
   - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US986|2.7MB/s|DNSOK|GPT⁺-US"
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US803|3.2MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: 104.24.204.221
-    tls: true
-    type: vless
-    udp: true
-    uuid: 307ff98e-041b-2a08-235a-4ff61316b090
-    ws-opts:
-      headers:
-        Host: yellow-king-ecd7.nsyrayyly2.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-    xudp: true
-    servername: yellow-king-ecd7.nsyrayyly2.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP208|2.4MB/s|DNSOK|GPT⁺-JP"
-    network: ws
-    port: 443
-    server: freev2.cloudflare.182682.xyz
+    server: ct.877774.xyz
     tls: true
     type: vless
     udp: true
     uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
     ws-opts:
       headers:
-        Host: jp-osa.xhs152.shop
+        Host: us-lax.xhs152.shop
         User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: jp-osa.xhs152.shop
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP209|2.3MB/s|DNSOK|GPT⁺-JP"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
-    ws-opts:
-      headers:
-        Host: jp-osa.xhs152.shop
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
           Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
-    servername: jp-osa.xhs152.shop
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR250|1.8MB/s|DNSOK|GPT⁺-FR"
+    servername: us-lax.xhs152.shop
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG169|2.7MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 80
-    server: 188.114.96.19
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    port: 443
+    server: www.visa.com.hk
+    tls: true
+    type: vless
     udp: true
-    uuid: 479526cd-5011-43cf-a788-504da95e07c2
+    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
     ws-opts:
       headers:
-        Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-      path: /
+        Host: ap-south.xhs152.shop
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
     xudp: true
+    servername: ap-south.xhs152.shop
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1038|1.6MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG175|2.7MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 443
+    server: staticdelivery.nexusmods.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+    ws-opts:
+      headers:
+        Host: sg.hejmx.com
+      path: /ws-cdn
+    servername: sg.hejmx.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG181|2.6MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 443
+    server: cdns.doon.eu.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+    ws-opts:
+      headers:
+        Host: sg.hejmx.com
+      path: /ws-cdn
+    servername: sg.hejmx.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG182|2.6MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 443
+    server: cf.877774.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+    ws-opts:
+      headers:
+        Host: sg.hejmx.com
+      path: /ws-cdn
+    servername: sg.hejmx.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG185|2.6MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 443
+    server: saas.sin.fan
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1027576c-c4df-4277-b3ef-38d3213b6574
+    ws-opts:
+      headers:
+        Host: sg.hejmx.com
+      path: /ws-cdn
+    servername: sg.hejmx.com
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP68|2.5MB/s|DNSOK|GPT⁺-JP"
     network: ws
     port: 443
     server: freev2.cloudflare.182682.xyz
@@ -434,31 +257,72 @@ proxies:
     uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
     ws-opts:
       headers:
-        Host: us-lax.xhs152.shop
+        Host: jp-osa.xhs152.shop
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
-    servername: us-lax.xhs152.shop
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR252|1.1MB/s|DNSOK|GPT⁺-PL"
+    servername: jp-osa.xhs152.shop
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG189|2.5MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 80
-    server: 188.114.96.19
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    port: 443
+    server: 104.16.10.117
+    tls: true
+    type: vless
     udp: true
-    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
     ws-opts:
       headers:
-        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+        Host: u.srilankangrill.online
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /
     xudp: true
+    servername: u.srilankangrill.online
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP69|2.4MB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 443
+    server: www.visa.com.hk
+    tls: true
+    type: vless
+    udp: true
+    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
+    ws-opts:
+      headers:
+        Host: jp-osa.xhs152.shop
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: jp-osa.xhs152.shop
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG192|1.7MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 443
+    server: 104.16.10.191
+    tls: true
+    type: vless
+    udp: true
+    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+    ws-opts:
+      headers:
+        Host: u.srilankangrill.online
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
+      path: /
+    xudp: true
+    servername: u.srilankangrill.online
 dns:
   enable: true
   prefer-h3: false
