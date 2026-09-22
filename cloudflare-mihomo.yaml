@@ -1,132 +1,61 @@
 proxies:
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE197|15.1MB/s|DNSOK|GPT⁺"
-    network: xhttp
-    port: 2087
-    server: 104.24.219.225
-    tls: true
-    type: vless
-    udp: true
-    uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
-    xhttp-opts:
-      host: allsmart1.17e1feeuzi.online
-      mode: stream-one
-      path: /meti
-    xudp: true
-    servername: allsmart1.17e1feeuzi.online
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE207|6.9MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE185|15.7MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 2053
     server: fra.huge-b.com
     tls: true
     type: vless
     udp: true
-    uuid: 2b05bba4-4ce8-4820-9f74-449c6758309d
+    uuid: 7b5ee755-9856-49aa-ab17-b3905bfecdfc
     ws-opts:
       headers:
         Host: fra.huge-b.com
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
       path: /@Artemis_Vpn
     xudp: true
     servername: fra.huge-b.com
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1134|5.3MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: ping.pe
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: fangbinxingnmsl.cnmfangbinxing.us.ci
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
-      path: /
-    xudp: true
-    servername: fangbinxingnmsl.cnmfangbinxing.us.ci
-  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE212|3.3MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE195|4.6MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 2053
-    server: do.huge-b.com
+    server: artemis-vpn-free-01.huge-b.com
     tls: true
     type: vless
     udp: true
-    uuid: 13011288-2737-489e-adf0-9314cd7dc4bd
+    uuid: 6a3cdccd-b2d8-4cd2-af76-e3e92d584264
     ws-opts:
       headers:
-        Host: do.huge-b.com
+        Host: artemis-vpn-free-01.huge-b.com
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.81 Safari/537.36
       path: /@Artemis_Vpn
     xudp: true
-    servername: do.huge-b.com
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US1155|2.5MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: www.fbi.gov
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: fangbinxingnmsl.cnmfangbinxing.us.ci
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/63.0.3239.111 Mobile Safari/537.36
-      path: /
-    xudp: true
-    servername: fangbinxingnmsl.cnmfangbinxing.us.ci
+    servername: artemis-vpn-free-01.huge-b.com
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE216|1.6MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE197|2.8MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 2053
-    server: do.huge-b.com
+    server: fra.huge-b.com
     tls: true
     type: vless
     udp: true
-    uuid: e589de2a-af14-4f42-b18a-d9f8bdaaadc4
+    uuid: c3696fac-db8e-4093-9740-87329d9ebeb0
     ws-opts:
       headers:
-        Host: do.huge-b.com
+        Host: fra.huge-b.com
         User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
       path: /@Artemis_Vpn
     xudp: true
-    servername: do.huge-b.com
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR200|939KB/s|DNSOK|GPT⁺-FR"
-    network: ws
-    port: 80
-    server: 188.114.96.19
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 479526cd-5011-43cf-a788-504da95e07c2
-    ws-opts:
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-      path: /
-    xudp: true
+    servername: fra.huge-b.com
 dns:
   enable: true
   prefer-h3: false
