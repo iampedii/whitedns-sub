@@ -1,19 +1,44 @@
 proxies:
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE223|3.3MB/s|DNSOK|GPT⁺-DE"
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG131|3.2MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 80
-    server: 188.114.97.6
+    port: 2096
+    server: 104.17.70.206
+    tls: true
     type: vless
     udp: true
-    uuid: 38aa8e17-2c2e-419a-a522-2f3ca7c79a3f
+    uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
     ws-opts:
       headers:
-        Host: msjsi.azazilvpn.sbs.
+        Host: free-server.techsonic.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.162 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
+          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /free-server.techsonic.dev
+    xudp: true
+    servername: free-server.techsonic.dev
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR234|1.0MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 80
+    server: 188.114.96.19
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 479526cd-5011-43cf-a788-504da95e07c2
+    ws-opts:
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+      path: /
     xudp: true
 dns:
   enable: true
