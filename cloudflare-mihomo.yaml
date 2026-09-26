@@ -1,6 +1,89 @@
 proxies:
   - encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US855|3.9MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE174|18.1MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2086
+    server: 172.67.160.192
+    type: vless
+    udp: true
+    uuid: Mahanvpn-vip1
+    ws-opts:
+      headers:
+        Host: mAhaNrEaliteAm.MaHkHan.iR.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/39.0.2171.95 Safari/537.36
+      path: '/internet,'
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US883|5.1MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: cloudflare-dns.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US884|5.0MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: blog.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/62.0.3202.84 Mobile Safari/537.36
+      path: /
+    xudp: true
+    servername: blog.cloudflare.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US885|5.0MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 172.67.72.83
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      path: /
+    xudp: true
+  - client-fingerprint: unsafe
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US886|5.0MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 188.114.97.6
+    tls: true
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /
+    xudp: true
+    servername: llm-api.sofurry.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US887|4.9MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
     server: openai.com
@@ -11,14 +94,221 @@ proxies:
       headers:
         Host: llm-api.sofurry.dpdns.org
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
       path: /
     xudp: true
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US857|3.8MB/s|DNSOK|GPT⁺-US"
+    servername: openai.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US889|4.9MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
-    server: www.fbi.gov
+    server: blog.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US890|4.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.26.5.139
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US891|4.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.18.29.7
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US892|4.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: cdnjs.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US893|4.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.shopify.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US894|4.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: support.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /
+    xudp: true
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US895|4.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: itarmy.com.ua
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/68.0.3440.106 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US897|4.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: itarmy.com.ua
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /
+    xudp: true
+    servername: itarmy.com.ua
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US900|4.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.whatismyip.net
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
+    xudp: true
+    servername: llm-api.sofurry.dpdns.org
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US901|4.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: cloudflare-dns.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: /
+    xudp: true
+    servername: llm-api.sofurry.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US902|4.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.shopify.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/60.0.3112.116 Mobile Safari/537.36
+      path: /
+    xudp: true
+    servername: www.shopify.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US903|4.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: developers.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
+    xudp: true
+    servername: developers.cloudflare.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US905|4.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: llm-api.sofurry.dpdns.org
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US906|4.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.whatismyip.net
     type: vless
     udp: true
     uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
@@ -30,10 +320,10 @@ proxies:
           like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /
     xudp: true
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US862|3.3MB/s|DNSOK|GPT⁺-US"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US907|4.4MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
-    server: www.shopify.com
+    server: cf.090227.xyz
     type: vless
     udp: true
     uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
@@ -41,15 +331,206 @@ proxies:
       headers:
         Host: llm-api.sofurry.dpdns.org
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US908|4.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.fbi.gov
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.93 Safari/537.36
+      path: /
+    xudp: true
+    servername: www.fbi.gov
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US909|4.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.epicgames.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+          Mobile Safari/537.36
+      path: /
+    xudp: true
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US910|4.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: openai.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+    servername: llm-api.sofurry.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US912|4.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.26.4.139
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US913|4.1MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: developers.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US917|3.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: cf.090227.xyz
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /
+    xudp: true
+    servername: cf.090227.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG87|3.3MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 8443
+    server: cf.090227.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+    ws-opts:
+      headers:
+        Host: aaa.abcai.online
+      path: /vless-argo
+    servername: aaa.abcai.online
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US920|3.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: 104.18.2.186
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US921|3.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: cloudflare-dns.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /
+    xudp: true
+    servername: cloudflare-dns.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG88|3.2MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 8443
+    server: www.5199dy.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+    ws-opts:
+      headers:
+        Host: aaa.abcai.online
+        User-Agent: >-
+          Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+          like Gecko) Chrome/5.0.342.1 Safari/533.2
+      path: /vless-argo
+    xudp: true
+    servername: aaa.abcai.online
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US922|3.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: itarmy.com.ua
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+    servername: llm-api.sofurry.dpdns.org
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE184|3.1MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 80
+    server: chatgpt.com
+    type: vless
+    udp: true
+    uuid: db45b571-47cc-44ef-bbf6-dfd3d411f2d8
+    ws-opts:
+      headers:
+        Host: msjsi.azazilvpn.sbs.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
           Safari/537.36
-      path: /
+      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
     xudp: true
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US893|2.6MB/s|DNSOK|GPT⁺-US"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US923|3.1MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
-    server: blog.cloudflare.com
+    server: llm-api.sofurry.dpdns.org
     type: vless
     udp: true
     uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
@@ -57,11 +538,12 @@ proxies:
       headers:
         Host: llm-api.sofurry.dpdns.org
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
       path: /
     xudp: true
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US897|2.5MB/s|DNSOK|GPT⁺-US"
+    servername: llm-api.sofurry.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US931|2.6MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
     server: www.udemy.com
@@ -72,14 +554,32 @@ proxies:
       headers:
         Host: llm-api.sofurry.dpdns.org
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/37.0.2062.120 Safari/537.36
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile
+          Safari/537.36
       path: /
     xudp: true
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US898|2.5MB/s|DNSOK|GPT⁺-US"
+    servername: www.udemy.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US934|2.6MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
-    server: 104.18.3.186
+    server: www.wto.org
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/34.0.1847.131 Safari/537.36
+      path: /
+    xudp: true
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US950|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: support.cloudflare.com
     type: vless
     udp: true
     uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
@@ -91,7 +591,25 @@ proxies:
           like Gecko) Chrome/66.0.3359.117 Safari/537.36
       path: /
     xudp: true
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US911|2.5MB/s|DNSOK|GPT⁺-US"
+    servername: llm-api.sofurry.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US951|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.npmjs.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: www.npmjs.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US952|2.5MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
     server: www.whatismyip.net
@@ -102,9 +620,57 @@ proxies:
       headers:
         Host: llm-api.sofurry.dpdns.org
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
           Safari/537.36
+      path: /
+    xudp: true
+    servername: www.whatismyip.net
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US953|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: docs.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/60.0.3112.116 Mobile Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US954|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: support.cloudflare.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /
+    xudp: true
+    servername: support.cloudflare.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US958|2.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.udemy.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: llm-api.sofurry.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
       path: /
     xudp: true
 dns:
