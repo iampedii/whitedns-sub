@@ -1,40 +1,68 @@
 proxies:
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE168|27.4MB/s|DNSOK|GPT⁺-DE"
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR169|7.3MB/s|DNSOK|GPT⁺-FR"
     network: ws
-    port: 80
-    server: chatgpt.com
+    port: 2053
+    server: fr.api-music-fa.com
+    tls: true
     type: vless
     udp: true
-    uuid: 3bb1ea3c-8bb6-488d-855b-bd5acb20f0b9
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+    ws-opts:
+      headers:
+        Host: fr.api-music-fa.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /api/voip/updates/static/fr2035
+    xudp: true
+    servername: fr.api-music-fa.com
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE163|6.8MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2053
+    server: any.zavqeron.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 49b65d3a-b53e-45d0-b71e-f295146849c8
+    ws-opts:
+      headers:
+        Host: any.zavqeron.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /de1-cdn
+    xudp: true
+    servername: zavqeron.ir
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE171|3.9MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 80
+    server: 172.67.180.92
+    type: vless
+    udp: true
+    uuid: 05fb2c23-4e23-49e8-be9f-6f931b5716de
     ws-opts:
       headers:
         Host: msjsi.azazilvpn.sbs.
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/36.0.1985.143 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE174|7.3MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 188.114.98.0
-    type: vless
-    udp: true
-    uuid: 3bb1ea3c-8bb6-488d-855b-bd5acb20f0b9
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /CooonfigCooonfigCooonfigCooonfigCooonfig
     xudp: true
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP111|2.4MB/s|DNSOK|GPT⁺-JP"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP121|2.4MB/s|DNSOK|GPT⁺-JP"
     network: ws
     port: 443
     server: 162.159.135.1
@@ -46,14 +74,14 @@ proxies:
       headers:
         Host: d3b866e4.69lover.site
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
+          Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /api/v2/671d8a5bccaf636f/stream
     xudp: true
     servername: d3b866e4.69lover.site
-  - alterId: 0
+  - alterId: '0'
     cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR267|1.3MB/s|DNSOK|GPT⁺-FR"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR184|1004KB/s|DNSOK|GPT⁺-PL"
     network: ws
     port: 80
     server: 188.114.96.19
@@ -61,15 +89,15 @@ proxies:
     tls: false
     type: vmess
     udp: true
-    uuid: 479526cd-5011-43cf-a788-504da95e07c2
+    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
     ws-opts:
       headers:
-        Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
       path: /
     xudp: true
   - alterId: 0
     cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR268|1.0MB/s|DNSOK|GPT⁺-PL"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR185|868KB/s|DNSOK|GPT⁺-PL"
     network: ws
     port: 80
     server: 188.114.96.19
