@@ -3,7 +3,29 @@ proxies:
       - h2
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE170|11.9MB/s|DNSOK|GPT⁺-DE"
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE167|21.7MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: freephonex.starw.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 33246539-96c9-46d1-8709-254c32e6be8e
+    ws-opts:
+      headers:
+        Host: freephonex.starw.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /gkhsnappshpcom2024
+    xudp: true
+    servername: freephonex.starw.ir
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE175|4.9MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 443
     server: maxfieldbox-nayab.org
@@ -15,55 +37,15 @@ proxies:
       headers:
         Host: ewylr.smartorbitbox-bekhabdg.site
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
       path: /tigerjoon
     xudp: true
     servername: ewylr.smartorbitbox-bekhabdg.site
   - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE177|6.8MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: www.large-files.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
-    xudp: true
-    servername: www.large-files.info
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US521|4.2MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: ccs2g.pai50288.uk
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /pai50288
-    xudp: true
-    servername: ccs2g.pai50288.uk
-  - alpn:
       - h2http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE181|4.1MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE177|4.3MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 443
     server: megariverport-nayab.org
@@ -74,8 +56,50 @@ proxies:
     ws-opts:
       headers:
         Host: bkkkl.maxsparkbox-bekhabdg.site
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
       path: /baran
     servername: bkkkl.maxsparkbox-bekhabdg.site
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG130|2.6MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 443
+    server: 188.114.97.6
+    tls: true
+    type: vless
+    udp: true
+    uuid: 38415950-f815-4ca8-94d0-6cbf22be7566
+    ws-opts:
+      headers:
+        Host: asia.csmasterofficial.store
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /cs
+    xudp: true
+    servername: asia.csmasterofficial.store
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR200|1.3MB/s|DNSOK|GPT⁺-PL"
+    network: ws
+    port: 80
+    server: 188.114.96.19
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+    ws-opts:
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+      path: /
+    xudp: true
 dns:
   enable: true
   prefer-h3: false
