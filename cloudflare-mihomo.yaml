@@ -1,6 +1,81 @@
 proxies:
   - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE201|6.2MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE204|29.7MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 80
+    server: 188.114.98.0
+    type: vless
+    udp: true
+    uuid: M
+    ws-opts:
+      headers:
+        Host: msjsi.azazilvpn.sbs.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/46.0.2490.71 Safari/537.36
+      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE213|25.8MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 80
+    server: chatgpt.com
+    type: vless
+    udp: true
+    uuid: M
+    ws-opts:
+      headers:
+        Host: msjsi.azazilvpn.sbs.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
+    xudp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR152|22.4MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 2053
+    server: fr.api-music-fa.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /api/voip/updates/static/fr2035
+    xudp: true
+    servername: fr.api-music-fa.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR153|21.0MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 2053
+    server: 172.67.185.98
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+    ws-opts:
+      headers:
+        Host: fr.api-music-fa.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/56.0.2924.87 Safari/537.36
+      path: /api/voip/updates/static/fr2035
+    xudp: true
+    servername: fr.api-music-fa.com
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE219|19.8MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 80
     server: 188.114.96.2
@@ -12,8 +87,133 @@ proxies:
         Host: msjsi.azazilvpn.sbs.
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /CooonfigCooonfigCooonfigCooonfigCooonfig
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE225|6.9MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 80
+    server: 172.67.180.92
+    type: vless
+    udp: true
+    uuid: M
+    ws-opts:
+      headers:
+        Host: msjsi.azazilvpn.sbs.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
+    xudp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE226|6.6MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: www.large-files.info
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /var/www/html/video/preview/download/i8o0la
+    xudp: true
+    servername: www.large-files.info
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US613|4.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ccs2g.pai50288.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /pai50288
+    xudp: true
+    servername: ccs2g.pai50288.uk
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EA\U0001F1EC | @WhiteDNS | EG2|2.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ccs2g.pai50288.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /pai50288
+    xudp: true
+    servername: ccs2g.pai50288.uk
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F9\U0001F1F7 | @WhiteDNS | TR20|2.5MB/s|DNSOK|GPT⁺-TR"
+    network: ws
+    port: 8443
+    server: tcdnu.azad0namah.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0da0a073-a5b0-4229-bf11-24592f6290b9
+    ws-opts:
+      headers:
+        Host: tcdnu.azad0namah.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /tuws/
+    xudp: true
+    servername: tcdnu.azad0namah.ir
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR168|2.4MB/s|DNSOK|GPT⁺-PL"
+    network: ws
+    port: 80
+    server: 188.114.96.19
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+    ws-opts:
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+      path: /
+    servername: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR169|1.4MB/s|DNSOK|GPT⁺-PL"
+    network: ws
+    port: 80
+    server: 188.114.96.19
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+    ws-opts:
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+      path: /
     xudp: true
 dns:
   enable: true
