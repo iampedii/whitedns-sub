@@ -1,110 +1,20 @@
 proxies:
-  - name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB73|66.8MB/s|DNSOK|GPT⁺-US"
-    password: ''
-    port: 443
-    server: 172.64.69.89
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE191|4.6MB/s|DNSOK|GPT⁺-DE"
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE201|6.2MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 443
-    server: maxfieldbox-nayab.org
-    tls: true
+    port: 80
+    server: 188.114.96.2
     type: vless
     udp: true
-    uuid: bcf89786-1b01-47dc-9a36-a7db03626e53
+    uuid: M
     ws-opts:
       headers:
-        Host: ewylr.smartorbitbox-bekhabdg.site
+        Host: msjsi.azazilvpn.sbs.
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /tigerjoon
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
     xudp: true
-    servername: ewylr.smartorbitbox-bekhabdg.site
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE193|3.9MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: 188.114.97.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: bcf89786-1b01-47dc-9a36-a7db03626e53
-    ws-opts:
-      headers:
-        Host: ewylr.smartorbitbox-bekhabdg.site
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /tigerjoon
-    xudp: true
-    servername: ewylr.smartorbitbox-bekhabdg.site
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE194|2.5MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: ewylr.smartorbitbox-bekhabdg.site
-    tls: true
-    type: vless
-    udp: true
-    uuid: bcf89786-1b01-47dc-9a36-a7db03626e53
-    ws-opts:
-      headers:
-        Host: ewylr.smartorbitbox-bekhabdg.site
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /tigerjoon
-    xudp: true
-    servername: ewylr.smartorbitbox-bekhabdg.site
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE195|1.2MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: 188.114.97.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: 39abda72-f5a5-4ede-9862-bbb8109aba73
-    ws-opts:
-      headers:
-        Host: bkkkl.maxsparkbox-bekhabdg.site
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.116 Safari/537.36
-      path: /baran
-    xudp: true
-    servername: bkkkl.maxsparkbox-bekhabdg.site
-  - alpn:
-      - h2http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE197|642KB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: megariverport-nayab.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 39abda72-f5a5-4ede-9862-bbb8109aba73
-    ws-opts:
-      headers:
-        Host: bkkkl.maxsparkbox-bekhabdg.site
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /baran
-    servername: bkkkl.maxsparkbox-bekhabdg.site
 dns:
   enable: true
   prefer-h3: false
