@@ -1,141 +1,46 @@
 proxies:
   - alpn:
       - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE334|7.1MB/s|DNSOK|GPT⁺-DE"
+    client-fingerprint: unsafe
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP113|1.8MB/s|DNSOK|GPT⁺-JP"
     network: ws
-    port: 8443
-    server: www.large-files.info
+    port: 443
+    server: 188.114.97.6
     tls: true
     type: vless
     udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+    uuid: bb1be788-6b00-47c8-a96e-c828f3a33de4
     ws-opts:
       headers:
-        Host: ''
+        Host: d3b866e4.69lover.site
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /api/v2/671d8a5bccaf636f/stream
     xudp: true
-    servername: www.large-files.info
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE336|6.4MB/s|DNSOK|GPT⁺-DE"
+    servername: d3b866e4.69lover.site
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP116|1.3MB/s|DNSOK|GPT⁺-JP"
     network: ws
-    port: 80
-    server: 188.114.98.0
+    port: 443
+    server: 162.159.135.1
+    tls: true
     type: vless
     udp: true
-    uuid: M
+    uuid: bb1be788-6b00-47c8-a96e-c828f3a33de4
     ws-opts:
       headers:
-        Host: msjsi.azazilvpn.sbs.
+        Host: d3b866e4.69lover.site
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: /api/v2/671d8a5bccaf636f/stream
     xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE351|3.9MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: chatgpt.com
-    type: vless
-    udp: true
-    uuid: M
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE352|3.8MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 188.114.96.2
-    type: vless
-    udp: true
-    uuid: M
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT468|3.7MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8080
-    server: 188.114.97.6
-    type: vless
-    udp: true
-    uuid: 2388e166-3890-33ae-f77e-efac00000002
-    ws-opts:
-      headers:
-        Host: netlivpn4813.ddhshhshs.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: >-
-        /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB82|2.0MB/s|DNSOK|GPT⁺-GB"
-    network: ws
-    port: 80
-    server: 188.114.96.19
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: af4be52a-aab3-4db1-a6bb-c23700dcb9c2
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: https.http.www.net.com.ramseyv2.ir.
-      max-early-data: 2560
-      path: /d3d3LmlyYW5ob3N0LmNvbQ==
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR162|1.5MB/s|DNSOK|GPT⁺-PL"
-    network: ws
-    port: 80
-    server: 188.114.96.19
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
-    ws-opts:
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-      path: /
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR164|1.3MB/s|DNSOK|GPT⁺-PL"
-    network: ws
-    port: 80
-    server: 188.114.96.19
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
-    ws-opts:
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-      path: /
-    servername: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    servername: d3b866e4.69lover.site
 dns:
   enable: true
   prefer-h3: false
