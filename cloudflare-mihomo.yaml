@@ -1,37 +1,104 @@
 proxies:
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE226|13.4MB/s|DNSOK|GPT⁺"
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE219|26.0MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 80
-    server: 188.114.98.0
+    port: 8443
+    server: www.large-files.info
+    tls: true
     type: vless
     udp: true
-    uuid: 'N'
+    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
     ws-opts:
       headers:
-        Host: msjsi.azazilvpn.sbs.
+        Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /var/www/html/video/preview/download/i8o0la
     xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR92|703KB/s|DNSOK|GPT⁺-PL"
+    servername: www.large-files.info
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR94|20.9MB/s|DNSOK|GPT⁺-FR"
     network: ws
-    port: 80
-    server: 188.114.96.19
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    port: 2053
+    server: 172.67.185.98
+    tls: true
+    type: vless
     udp: true
-    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
     ws-opts:
       headers:
-        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+        Host: fr.api-music-fa.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /api/voip/updates/static/fr2035
+    xudp: true
+    servername: fr.api-music-fa.com
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE237|6.2MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: ct.877774.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: f5b4adf2-b603-4915-8bc9-98d98b27f7ad
+    ws-opts:
+      headers:
+        Host: eu-central.862400.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /%2Fannouncement
+    xudp: true
+    servername: eu-central.862400.xyz
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI92|5.3MB/s|DNSOK|GPT⁺-FI"
+    network: xhttp
+    port: 443
+    server: cdn3.alihapp.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: c4394e27-baeb-422d-8905-a93f8e01126f
+    xhttp-opts:
+      host: cdn3.alihapp.com
+      mode: auto
       path: /
-    servername: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    xudp: true
+    servername: cdn3.alihapp.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR102|2.5MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 2053
+    server: 104.21.84.30
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+    ws-opts:
+      headers:
+        Host: fr.api-music-fa.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /api/voip/updates/static/fr2035
+    xudp: true
+    servername: fr.api-music-fa.com
 dns:
   enable: true
   prefer-h3: false
