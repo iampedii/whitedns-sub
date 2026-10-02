@@ -1,46 +1,229 @@
 proxies:
   - alpn:
       - http/1.1
-    client-fingerprint: unsafe
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP113|1.8MB/s|DNSOK|GPT⁺-JP"
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE192|30.6MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 443
-    server: 188.114.97.6
+    port: 8443
+    server: www.large-files.info
     tls: true
     type: vless
     udp: true
-    uuid: bb1be788-6b00-47c8-a96e-c828f3a33de4
+    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
     ws-opts:
       headers:
-        Host: d3b866e4.69lover.site
+        Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /api/v2/671d8a5bccaf636f/stream
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile
+          Safari/537.36
+      path: /var/www/html/video/preview/download/i8o0la
     xudp: true
-    servername: d3b866e4.69lover.site
+    servername: www.large-files.info
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP116|1.3MB/s|DNSOK|GPT⁺-JP"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE197|25.4MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 443
-    server: 162.159.135.1
+    port: 8443
+    server: www.large-files.info
     tls: true
     type: vless
     udp: true
-    uuid: bb1be788-6b00-47c8-a96e-c828f3a33de4
+    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
     ws-opts:
       headers:
-        Host: d3b866e4.69lover.site
+        Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/63.0.3239.111 Mobile Safari/537.36
-      path: /api/v2/671d8a5bccaf636f/stream
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
+      path: /var/www/html/video/preview/download/i8o0la
     xudp: true
-    servername: d3b866e4.69lover.site
+    servername: www.large-files.info
+  - alpn:
+      - h2
+      - http/1.1
+      - h3
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI104|7.5MB/s|DNSOK|GPT⁺-FI"
+    network: xhttp
+    port: 8443
+    server: n2.akan1.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55af8466-53cd-46f4-aef9-5378f5ac34a4
+    xhttp-opts:
+      host: home.akan1.ir
+      mode: auto
+      path: /
+      x-padding-bytes: 100-1000
+    xudp: true
+    servername: home.akan1.ir
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR164|7.3MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 2053
+    server: fr.api-music-fa.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /api/voip/updates/static/fr2035
+    xudp: true
+    servername: fr.api-music-fa.com
+  - encryption: mlkem768x25519plus.native.0rtt.vePNjS_LQdp4Ou_zjp9_Cx1jvA4wrIpvGzk4sMdTSmo
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL376|4.1MB/s|DNSOK|GPT⁺-NL"
+    network: xhttp
+    port: 1011
+    server: zx3.nimnewssup.com
+    type: vless
+    udp: true
+    uuid: 731fa03b-e4a0-4b4a-b355-3248914bcab2
+    xhttp-opts:
+      host: myket.ir
+      mode: stream-up
+      path: /
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EA\U0001F1EC | @WhiteDNS | EG3|2.8MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ccs2g.pai50288.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /pai50288
+    xudp: true
+    servername: ccs2g.pai50288.uk
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EA\U0001F1EC | @WhiteDNS | EG4|2.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ccs2g.pai50288.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /pai50288
+    xudp: true
+    servername: ccs2g.pai50288.uk
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG180|2.6MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 2096
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+    ws-opts:
+      headers:
+        Host: free-server.techsonic.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.102 Safari/537.36
+      path: /free-server.techsonic.dev
+    xudp: true
+    servername: free-server.techsonic.dev
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR177|2.4MB/s|DNSOK|GPT⁺-PL"
+    network: ws
+    port: 80
+    server: 188.114.96.19
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+    ws-opts:
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+      path: /
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR178|2.3MB/s|DNSOK|GPT⁺-PL"
+    network: ws
+    port: 80
+    server: 188.114.96.19
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+    ws-opts:
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+      path: /
+    servername: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB80|2.3MB/s|DNSOK|GPT⁺-GB"
+    network: ws
+    port: 80
+    server: 188.114.96.19
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: af4be52a-aab3-4db1-a6bb-c23700dcb9c2
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: https.http.www.net.com.ramseyv2.ir.
+      max-early-data: 2560
+      path: /d3d3LmlyYW5ob3N0LmNvbQ==
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US866|631KB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 8443
+    server: 104.17.77.77
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+    ws-opts:
+      headers:
+        Host: v2ray1.dozapp.xyz
+      path: /lMnsZUN4/
+    xudp: true
+    servername: v2ray1.dozapp.xyz
 dns:
   enable: true
   prefer-h3: false
