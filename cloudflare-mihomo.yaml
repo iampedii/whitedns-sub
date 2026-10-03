@@ -3,7 +3,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE238|32.1MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE183|30.0MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -17,207 +17,25 @@ proxies:
       x-padding-bytes: 100-1000
     xudp: true
     servername: s3.bamans.uk
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE247|26.1MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: 104.21.60.29
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
-    ws-opts:
-      headers:
-        Host: www.large-files.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
-    xudp: true
-    servername: www.large-files.info
   - alpn:
+      - h2
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE251|21.0MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: www.large-files.info
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI87|6.8MB/s|DNSOK|GPT⁺-FI"
+    network: xhttp
+    port: 443
+    server: cdn3.alihapp.com
     tls: true
     type: vless
     udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
-    xudp: true
-    servername: www.large-files.info
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE253|17.4MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 188.114.97.8
-    type: vless
-    udp: true
-    uuid: NN
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.162 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE257|14.0MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 172.67.180.92
-    type: vless
-    udp: true
-    uuid: NN
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE263|6.3MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 104.16.72.70
-    type: vless
-    udp: true
-    uuid: NN
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE264|6.0MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 188.114.96.2
-    type: vless
-    udp: true
-    uuid: NN
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE274|4.1MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 188.114.98.0
-    type: vless
-    udp: true
-    uuid: NN
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE277|2.8MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 162.159.152.4
-    type: vless
-    udp: true
-    uuid: NN
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE279|2.5MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 104.18.4.130
-    type: vless
-    udp: true
-    uuid: NN
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE280|2.3MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: chatgpt.com
-    type: vless
-    udp: true
-    uuid: NN
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.85 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE283|1.7MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 188.114.97.6
-    type: vless
-    udp: true
-    uuid: NN
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/43.0.2357.65 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F5\U0001F1F1 | @WhiteDNS | PL52|841KB/s|DNSOK|GPT⁺-PL"
-    network: ws
-    port: 80
-    server: 188.114.96.19
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
-    ws-opts:
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    uuid: c4394e27-baeb-422d-8905-a93f8e01126f
+    xhttp-opts:
+      host: cdn3.alihapp.com
+      mode: auto
       path: /
-    servername: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    xudp: true
+    servername: cdn3.alihapp.com
 dns:
   enable: true
   prefer-h3: false
