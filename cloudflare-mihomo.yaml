@@ -3,7 +3,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE269|26.7MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE182|33.4MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -17,49 +17,11 @@ proxies:
       x-padding-bytes: 100-1000
     xudp: true
     servername: s3.bamans.uk
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE272|19.0MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 80
-    server: 188.114.97.8
-    type: vless
-    udp: true
-    uuid: F
-    ws-opts:
-      headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
-    xudp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR110|12.5MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: 104.19.4.176
-    tls: true
-    type: vless
-    udp: true
-    uuid: 65f00119-a3c9-4d7a-8113-2d3276fe4116
-    ws-opts:
-      headers:
-        Host: mb.motdrp.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /
-    xudp: true
-    servername: mb.motdrp.dpdns.org
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE278|7.4MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE186|30.7MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -73,25 +35,46 @@ proxies:
       x-padding-bytes: 100-1000
     xudp: true
     servername: s3.bamans.uk
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE279|6.3MB/s|DNSOK|GPT⁺-DE"
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG209|2.0MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 80
-    server: 188.114.96.2
+    port: 8443
+    server: 190.93.245.7
+    tls: true
     type: vless
     udp: true
-    uuid: F
+    uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: speed.dulacloud.store
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/34.0.1847.131 Safari/537.36
+      max-early-data: 2560
+      path: /dula?Telegram-WangCai2
+    xudp: true
+    servername: speed.dulacloud.store
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR142|1.0MB/s|DNSOK|GPT⁺-PL"
+    network: ws
+    port: 80
+    server: 188.114.96.19
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
     ws-opts:
       headers:
-        Host: msjsi.azazilvpn.sbs.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /CooonfigCooonfigCooonfigCooonfigCooonfig
+        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+      path: /
     xudp: true
   - alterId: 0
     cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR119|1.2MB/s|DNSOK|GPT⁺-PL"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR143|948KB/s|DNSOK|GPT⁺-PL"
     network: ws
     port: 80
     server: 188.114.96.19
