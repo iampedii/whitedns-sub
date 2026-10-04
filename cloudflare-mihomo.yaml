@@ -1,80 +1,123 @@
 proxies:
   - alpn:
-      - h2
+      - h2http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE182|33.4MB/s|DNSOK|GPT⁺-DE"
-    network: xhttp
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE213|6.2MB/s|DNSOK|GPT⁺-DE"
+    network: ws
     port: 443
-    server: s3.bamans.uk
+    server: maxfieldbox-nayab.org
     tls: true
     type: vless
     udp: true
-    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
-    xhttp-opts:
-      mode: stream-up
-      path: /3a6b3b038ea34622bd1e13ec5798ab03
-      x-padding-bytes: 100-1000
+    uuid: 317ac662-c9da-4a69-ab73-1676c247f31e
+    ws-opts:
+      headers:
+        Host: moonleaflab-jamesbondi.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /other
     xudp: true
-    servername: s3.bamans.uk
+    servername: moonleaflab-jamesbondi.info
   - alpn:
       - h2
+      - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE186|30.7MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI64|5.2MB/s|DNSOK|GPT⁺-FI"
     network: xhttp
     port: 443
-    server: s3.bamans.uk
+    server: cdn3.alihapp.com
     tls: true
     type: vless
     udp: true
-    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+    uuid: c4394e27-baeb-422d-8905-a93f8e01126f
     xhttp-opts:
-      mode: stream-up
-      path: /3a6b3b038ea34622bd1e13ec5798ab03
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: s3.bamans.uk
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG209|2.0MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8443
-    server: 190.93.245.7
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: speed.dulacloud.store
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
-      max-early-data: 2560
-      path: /dula?Telegram-WangCai2
-    xudp: true
-    servername: speed.dulacloud.store
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR142|1.0MB/s|DNSOK|GPT⁺-PL"
-    network: ws
-    port: 80
-    server: 188.114.96.19
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
-    ws-opts:
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+      host: cdn3.alihapp.com
+      mode: auto
       path: /
     xudp: true
+    servername: cdn3.alihapp.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US534|2.9MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 8443
+    server: cf.877774.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+    ws-opts:
+      headers:
+        Host: aaa.abcai.online
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /vless-argofp=chrome
+    xudp: true
+    servername: aaa.abcai.online
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US577|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 8443
+    server: www.5199dy.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+    ws-opts:
+      headers:
+        Host: aaa.abcai.online
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /vless-argo
+    xudp: true
+    servername: aaa.abcai.online
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US581|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 8443
+    server: cf.090227.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+    ws-opts:
+      headers:
+        Host: aaa.abcai.online
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /vless-argo
+    xudp: true
+    servername: aaa.abcai.online
+  - alpn:
+      - h2http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE223|2.1MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: megariverport-nayab.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5f2cfa07-db6f-415d-9ad9-d49a3d3466a3
+    ws-opts:
+      headers:
+        Host: ngkje.bluefieldbox-nexolo.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /jar
+    xudp: true
+    servername: ngkje.bluefieldbox-nexolo.sbs
   - alterId: 0
     cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR143|948KB/s|DNSOK|GPT⁺-PL"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR106|1.4MB/s|DNSOK|GPT⁺-PL"
     network: ws
     port: 80
     server: 188.114.96.19
