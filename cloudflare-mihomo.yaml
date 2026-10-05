@@ -3,41 +3,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE226|29.0MB/s|DNSOK|GPT⁺-DE"
-    network: xhttp
-    port: 443
-    server: s3.bamans.uk
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
-    xhttp-opts:
-      mode: stream-up
-      path: /3a6b3b038ea34622bd1e13ec5798ab03
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: s3.bamans.uk
-  - client-fingerprint: random
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL292|25.5MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: f517dad7-c4db-4dce-a291-199cf119271f
-    ws-opts:
-      headers:
-        Host: nl-ams.862400.xyz
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: nl-ams.862400.xyz
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE234|24.1MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE215|28.3MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -53,10 +19,23 @@ proxies:
     servername: s3.bamans.uk
   - alpn:
       - h2
-      - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE240|19.6MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE217|23.8MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 443
+    server: s3.bamans.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+    xhttp-opts:
+      mode: stream-up
+      path: /3a6b3b038ea34622bd1e13ec5798ab03
+    xudp: true
+    servername: s3.bamans.uk
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE219|21.0MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 8443
     server: iiproxy88.iiproxy.com
@@ -68,56 +47,52 @@ proxies:
       headers:
         Host: iiproxy88.iiproxy.com
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /
     xudp: true
     servername: iiproxy88.iiproxy.com
   - alpn:
-      - h2http/1.1
+      - h2
+      - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE246|6.2MB/s|DNSOK|GPT⁺-DE"
-    network: ws
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI71|7.3MB/s|DNSOK|GPT⁺-FI"
+    network: xhttp
     port: 443
-    server: maxfieldbox-nayab.org
+    server: cdn3.alihapp.com
     tls: true
     type: vless
     udp: true
-    uuid: 317ac662-c9da-4a69-ab73-1676c247f31e
-    ws-opts:
-      headers:
-        Host: moonleaflab-jamesbondi.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
-      path: /other
+    uuid: c4394e27-baeb-422d-8905-a93f8e01126f
+    xhttp-opts:
+      host: cdn3.alihapp.com
+      mode: auto
+      path: /
     xudp: true
-    servername: moonleaflab-jamesbondi.info
+    servername: cdn3.alihapp.com
   - alpn:
-      - h2http/1.1
+      - h2
+      - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE249|5.5MB/s|DNSOK|GPT⁺-DE"
-    network: ws
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI72|5.9MB/s|DNSOK|GPT⁺-FI"
+    network: xhttp
     port: 443
-    server: megariverport-nayab.org
+    server: 172.67.162.39
     tls: true
     type: vless
     udp: true
-    uuid: 5f2cfa07-db6f-415d-9ad9-d49a3d3466a3
-    ws-opts:
-      headers:
-        Host: ngkje.bluefieldbox-nexolo.sbs
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /jar
+    uuid: c4394e27-baeb-422d-8905-a93f8e01126f
+    xhttp-opts:
+      host: cdn3.alihapp.com
+      path: /
     xudp: true
-    servername: ngkje.bluefieldbox-nexolo.sbs
+    servername: cdn3.alihapp.com
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US596|1.4MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US613|605KB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2083
     server: www.chatgpt.com
@@ -129,8 +104,8 @@ proxies:
       headers:
         Host: azki.dearhossein-taktaz.ir
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
       path: /
     xudp: true
     servername: azki.dearhossein-taktaz.ir
