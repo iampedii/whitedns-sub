@@ -3,7 +3,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE232|30.2MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE253|33.1MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -21,7 +21,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE243|25.8MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE263|30.7MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -36,53 +36,10 @@ proxies:
     xudp: true
     servername: s3.bamans.uk
   - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE244|25.1MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: 172.67.189.227
-    tls: true
-    type: vless
-    udp: true
-    uuid: 806fa224-44f7-4c1b-b7a3-05bfdfdfbf87
-    ws-opts:
-      headers:
-        Host: iiproxy88.iiproxy.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-    servername: iiproxy88.iiproxy.com
-  - alpn:
-      - h2
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE251|6.4MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: iiproxy88.iiproxy.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 806fa224-44f7-4c1b-b7a3-05bfdfdfbf87
-    ws-opts:
-      headers:
-        Host: iiproxy88.iiproxy.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.84 Safari/537.36
-      path: /
-    xudp: true
-    servername: iiproxy88.iiproxy.com
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE256|5.1MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE273|22.8MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 8443
     server: www.large-files.info
@@ -94,8 +51,8 @@ proxies:
       headers:
         Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
       path: /var/www/html/video/preview/download/i8o0la
     xudp: true
     servername: www.large-files.info
@@ -103,7 +60,7 @@ proxies:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE257|4.7MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE276|17.1MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 8443
     server: www.large-files.info
@@ -116,12 +73,73 @@ proxies:
         Host: ''
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
       path: /var/www/html/video/preview/download/i8o0la
     xudp: true
     servername: www.large-files.info
   - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR139|803KB/s|DNSOK|GPT⁺-FR"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR169|6.2MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 2053
+    server: 104.21.84.30
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+    ws-opts:
+      headers:
+        Host: fr.api-music-fa.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /api/voip/updates/static/fr2035
+    xudp: true
+    servername: fr.api-music-fa.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR170|6.1MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 2053
+    server: 172.67.185.98
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+    ws-opts:
+      headers:
+        Host: fr.api-music-fa.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/46.0.2490.71 Safari/537.36
+      path: /api/voip/updates/static/fr2035
+    xudp: true
+    servername: fr.api-music-fa.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR171|5.9MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 2053
+    server: fr.api-music-fa.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /api/voip/updates/static/fr2035
+    xudp: true
+    servername: fr.api-music-fa.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR172|5.6MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 2053
     server: fr.api-music-fa.com
@@ -134,7 +152,7 @@ proxies:
         Host: fr.api-music-fa.com
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
       path: /api/voip/updates/static/fr2035
     xudp: true
     servername: fr.api-music-fa.com
