@@ -3,7 +3,25 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE292|30.3MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE232|30.2MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 443
+    server: s3.bamans.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+    xhttp-opts:
+      mode: stream-up
+      path: /3a6b3b038ea34622bd1e13ec5798ab03
+      x-padding-bytes: 100-1000
+    xudp: true
+    servername: s3.bamans.uk
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE243|25.8MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -21,7 +39,7 @@ proxies:
       - h2
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE302|22.3MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE244|25.1MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 8443
     server: 172.67.189.227
@@ -33,34 +51,59 @@ proxies:
       headers:
         Host: iiproxy88.iiproxy.com
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /
     xudp: true
     servername: iiproxy88.iiproxy.com
   - alpn:
       - h2
+      - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE305|8.1MB/s|DNSOK|GPT⁺-DE"
-    network: xhttp
-    port: 443
-    server: s3.bamans.uk
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE251|6.4MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: iiproxy88.iiproxy.com
     tls: true
     type: vless
     udp: true
-    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
-    xhttp-opts:
-      mode: stream-up
-      path: /3a6b3b038ea34622bd1e13ec5798ab03
-      x-padding-bytes: 100-1000
+    uuid: 806fa224-44f7-4c1b-b7a3-05bfdfdfbf87
+    ws-opts:
+      headers:
+        Host: iiproxy88.iiproxy.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /
     xudp: true
-    servername: s3.bamans.uk
+    servername: iiproxy88.iiproxy.com
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE307|7.2MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE256|5.1MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: www.large-files.info
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: /var/www/html/video/preview/download/i8o0la
+    xudp: true
+    servername: www.large-files.info
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE257|4.7MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 8443
     server: www.large-files.info
@@ -73,36 +116,12 @@ proxies:
         Host: ''
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
       path: /var/www/html/video/preview/download/i8o0la
     xudp: true
     servername: www.large-files.info
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE309|7.2MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: 188.114.97.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5f2cfa07-db6f-415d-9ad9-d49a3d3466a3
-    ws-opts:
-      headers:
-        Host: ngkje.bluefieldbox-nexolo.sbs
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
-      path: /jar
-    xudp: true
-    servername: ngkje.bluefieldbox-nexolo.sbs
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR133|7.2MB/s|DNSOK|GPT⁺-FR"
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR139|803KB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 2053
     server: fr.api-music-fa.com
@@ -114,111 +133,8 @@ proxies:
       headers:
         Host: fr.api-music-fa.com
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /api/voip/updates/static/fr2035
-    xudp: true
-    servername: fr.api-music-fa.com
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE314|5.9MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: 188.114.97.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: 317ac662-c9da-4a69-ab73-1676c247f31e
-    ws-opts:
-      headers:
-        Host: moonleaflab-jamesbondi.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.116 Safari/537.36
-      path: /other
-    xudp: true
-    servername: moonleaflab-jamesbondi.info
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE316|5.6MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: www.large-files.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
-    xudp: true
-    servername: www.large-files.info
-  - alpn:
-      - h2http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE319|4.9MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: megariverport-nayab.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5f2cfa07-db6f-415d-9ad9-d49a3d3466a3
-    ws-opts:
-      headers:
-        Host: ngkje.bluefieldbox-nexolo.sbs
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: /jar
-    xudp: true
-    servername: ngkje.bluefieldbox-nexolo.sbs
-  - alpn:
-      - h2http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE329|2.4MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: maxfieldbox-nayab.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 317ac662-c9da-4a69-ab73-1676c247f31e
-    ws-opts:
-      headers:
-        Host: moonleaflab-jamesbondi.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /other
-    xudp: true
-    servername: moonleaflab-jamesbondi.info
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR138|1.9MB/s|DNSOK|GPT⁺"
-    network: ws
-    port: 2053
-    server: 104.21.84.30
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-    ws-opts:
-      headers:
-        Host: fr.api-music-fa.com
-        User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
       path: /api/voip/updates/static/fr2035
     xudp: true
     servername: fr.api-music-fa.com
