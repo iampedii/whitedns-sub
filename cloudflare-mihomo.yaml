@@ -1,9 +1,25 @@
 proxies:
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU4|32.0MB/s|DNSOK|GPT⁺-CH"
+    network: ws
+    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+    port: 443
+    server: chatgpt.com
+    skip-cert-verify: false
+    sni: mfyousheng.nl.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /tjwsLhx0SFASG4l9FERJ1g
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE252|22.3MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE220|28.3MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -17,11 +33,27 @@ proxies:
       x-padding-bytes: 100-1000
     xudp: true
     servername: s3.bamans.uk
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU6|7.7MB/s|DNSOK|GPT⁺-CH"
+    network: ws
+    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+    port: 443
+    server: 188.114.97.3
+    skip-cert-verify: false
+    sni: mfyousheng.nl.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /tjwsLhx0SFASG4l9FERJ1g
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE256|7.2MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE233|6.3MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
