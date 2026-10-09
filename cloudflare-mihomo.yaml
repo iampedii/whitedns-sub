@@ -3,7 +3,43 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE171|30.9MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE226|25.0MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 443
+    server: 172.67.195.196
+    tls: true
+    type: vless
+    udp: true
+    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+    xhttp-opts:
+      mode: stream-up
+      path: /3a6b3b038ea34622bd1e13ec5798ab03
+      x-padding-bytes: 100-1000
+    xudp: true
+    servername: s3.bamans.uk
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE229|22.9MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 443
+    server: s3.bamans.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+    xhttp-opts:
+      mode: stream-up
+      path: /3a6b3b038ea34622bd1e13ec5798ab03
+      x-padding-bytes: 100-1000
+    xudp: true
+    servername: s3.bamans.uk
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE231|19.3MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -18,50 +54,90 @@ proxies:
     xudp: true
     servername: s3.bamans.uk
   - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR99|4.3MB/s|DNSOK|GPT⁺-FR"
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE241|6.1MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 443
-    server: eu5.998998.best
+    port: 8443
+    server: www.large-files.info
     tls: true
     type: vless
     udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
     ws-opts:
       headers:
-        Host: nat3.outsidemyheart.space
+        Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
-          Mobile Safari/537.36
-      path: /ew4p98tu34wtghe39
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: /var/www/html/video/preview/download/i8o0la
     xudp: true
-    servername: nat3.outsidemyheart.space
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US489|3.4MB/s|DNSOK|GPT⁺-US"
+    servername: www.large-files.info
+  - client-fingerprint: safari
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE243|5.9MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 443
-    server: us1-1.998998.best
+    server: mfactor.ir
     tls: true
     type: vless
     udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+    uuid: d6e2e36b-177c-4092-b93f-d01b2d20e4cb
     ws-opts:
       headers:
-        Host: server5.9966338.xyz
+        Host: app-owkeny.user-wnv8kr.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /drsukitgreiusweqa9otrh983
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /cmh
     xudp: true
-    servername: server5.9966338.xyz
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE218|1.1MB/s|DNSOK|GPT⁺"
+    servername: app-owkeny.user-wnv8kr.workers.dev
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE255|2.4MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: www.large-files.info
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /var/www/html/video/preview/download/i8o0la
+    xudp: true
+    servername: www.large-files.info
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US576|1.9MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 188.114.97.6
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    ws-opts:
+      headers:
+        Host: ccs2g.pai50288.uk
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /pai50288
+    xudp: true
+    servername: ccs2g.pai50288.uk
+  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ22|1.7MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 2052
-    server: 172.64.229.129
+    server: eu02.123450908.xyz
     type: vless
     udp: true
     uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
@@ -69,9 +145,28 @@ proxies:
       headers:
         Host: eu02.123450908.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/67.0.3396.99 Safari/537.36
+          Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
       path: /rain1226
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB81|1.0MB/s|DNSOK|GPT⁺-GB"
+    network: ws
+    port: 80
+    server: https.http.www.net.com.ramseyv2.ir.
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 10029c03-5d2f-4185-aab2-cbf91eef7361
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: https.http.www.net.com.ramseyv2.ir.
+      max-early-data: 2560
+      path: /d3d3LmlyYW5ob3N0LmNvbQ==
     xudp: true
 dns:
   enable: true
