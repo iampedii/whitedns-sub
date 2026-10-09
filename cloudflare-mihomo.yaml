@@ -3,192 +3,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE435|31.4MB/s|DNSOK|GPT⁺-DE"
-    network: xhttp
-    port: 443
-    server: s3.bamans.uk
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
-    xhttp-opts:
-      mode: stream-up
-      path: /3a6b3b038ea34622bd1e13ec5798ab03
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: s3.bamans.uk
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE442|29.4MB/s|DNSOK|GPT⁺-DE"
-    network: xhttp
-    port: 443
-    server: s3.bamans.uk
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
-    xhttp-opts:
-      mode: stream-up
-      path: /3a6b3b038ea34622bd1e13ec5798ab03
-    xudp: true
-    servername: s3.bamans.uk
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE450|19.7MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: www.large-files.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
-    xudp: true
-    servername: www.large-files.info
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL350|17.7MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: 172.67.155.222
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
-    ws-opts:
-      headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL352|14.4MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: 172.67.155.222
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
-    ws-opts:
-      headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/43.0.2357.65 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE457|6.4MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: www.large-files.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
-    xudp: true
-    servername: www.large-files.info
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR144|6.0MB/s|DNSOK|GPT⁺-FR"
-    network: ws
-    port: 2053
-    server: 172.67.185.98
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-    ws-opts:
-      headers:
-        Host: fr.api-music-fa.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /api/voip/updates/static/fr2035
-    xudp: true
-    servername: fr.api-music-fa.com
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL358|5.8MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: 172.67.184.45
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
-    ws-opts:
-      headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-      path: /
-    xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL359|5.8MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: 172.67.184.45
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
-    ws-opts:
-      headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /
-    xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US666|5.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2095
-    server: www.epicgames.com
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: uwu.femboy67.cc.cd
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36
-      path: /
-    xudp: true
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE465|3.0MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE209|27.9MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: 172.67.195.196
@@ -203,26 +18,113 @@ proxies:
     xudp: true
     servername: s3.bamans.uk
   - alpn:
-      - http/1.1
+      - h2
     client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR154|1.8MB/s|DNSOK|GPT⁺-FR"
-    network: ws
-    port: 2053
-    server: 172.67.118.45
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE213|27.1MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 443
+    server: s3.bamans.uk
     tls: true
     type: vless
     udp: true
-    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+    xhttp-opts:
+      mode: stream-up
+      path: /3a6b3b038ea34622bd1e13ec5798ab03
+      x-padding-bytes: 100-1000
+    xudp: true
+    servername: s3.bamans.uk
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE219|23.0MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 443
+    server: s3.bamans.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+    xhttp-opts:
+      mode: stream-up
+      path: /3a6b3b038ea34622bd1e13ec5798ab03
+    xudp: true
+    servername: s3.bamans.uk
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US480|4.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: us1-1.998998.best
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
     ws-opts:
       headers:
-        Host: fr.api-music-fa.com
+        Host: server5.9966338.xyz
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: /api/voip/updates/static/fr2035
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /drsukitgreiusweqa9otrh983
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
     xudp: true
-    servername: fr.api-music-fa.com
+    servername: server5.9966338.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR91|4.4MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 443
+    server: eu5.998998.best
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+    ws-opts:
+      headers:
+        Host: nat3.outsidemyheart.space
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
+      path: /ew4p98tu34wtghe39
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: nat3.outsidemyheart.space
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US511|2.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.epicgames.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: uwu.femboy67.cc.cd
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: www.epicgames.com
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US524|2.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2095
+    server: www.epicgames.com
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: uwu.femboy67.cc.cd
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.93 Safari/537.36
+      path: /
+    xudp: true
 dns:
   enable: true
   prefer-h3: false
