@@ -2,7 +2,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU6|38.1MB/s|DNSOK|GPT⁺-CH"
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU9|39.0MB/s|DNSOK|GPT⁺-CH"
     network: ws
     password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
     port: 443
@@ -14,14 +14,97 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
+          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
       path: /tjwsLhx0SFASG4l9FERJ1g?ed#Telegram---mehrosaboran
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU10|37.5MB/s|DNSOK|GPT⁺-CH"
+    network: ws
+    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+    port: 443
+    server: 172.67.211.79
+    skip-cert-verify: false
+    sni: mfyousheng.nl.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /tjwsLhx0SFASG4l9FERJ1g
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU11|37.2MB/s|DNSOK|GPT⁺-CH"
+    network: ws
+    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+    port: 443
+    server: mfyousheng.nl.eu.org
+    skip-cert-verify: false
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /tjwsLhx0SFASG4l9FERJ1g
+    sni: mfyousheng.nl.eu.org
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU12|33.8MB/s|DNSOK|GPT⁺-CH"
+    network: ws
+    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+    port: 443
+    server: 188.114.96.3
+    skip-cert-verify: true
+    sni: mfyousheng.nl.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /tjwsLhx0SFASG4l9FERJ1g
   - alpn:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE283|30.4MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE257|31.7MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 443
+    server: s3.bamans.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+    xhttp-opts:
+      host: s3.bamans.uk
+      mode: stream-up
+      path: /3a6b3b038ea34622bd1e13ec5798ab03
+    xudp: true
+    servername: s3.bamans.uk
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU13|28.6MB/s|DNSOK|GPT⁺-CH"
+    network: ws
+    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+    port: 443
+    server: chatgpt.com
+    skip-cert-verify: false
+    sni: mfyousheng.nl.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
+      path: /tjwsLhx0SFASG4l9FERJ1g
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE270|27.1MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: 172.67.195.196
@@ -39,7 +122,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE292|28.1MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE285|20.9MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 443
     server: s3.bamans.uk
@@ -53,104 +136,69 @@ proxies:
       x-padding-bytes: 100-1000
     xudp: true
     servername: s3.bamans.uk
-  - client-fingerprint: random
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL352|24.0MB/s|DNSOK|GPT⁺-NL"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR128|7.4MB/s|DNSOK|GPT⁺-FR"
     network: ws
-    port: 443
-    server: www.visa.com.hk
+    port: 2053
+    server: fr.api-music-fa.com
     tls: true
     type: vless
     udp: true
-    uuid: 084cbecb-54d3-4da0-8c06-61758a147c47
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
     ws-opts:
       headers:
-        Host: nl-ams.862400.xyz
+        Host: fr.api-music-fa.com
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /api/voip/updates/static/fr2035
     xudp: true
-    servername: nl-ams.862400.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FA | @WhiteDNS | LU10|8.0MB/s|DNSOK|GPT⁺-CH"
+    servername: fr.api-music-fa.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR129|6.7MB/s|DNSOK|GPT⁺-FR"
     network: ws
-    password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
-    port: 443
-    server: chatgpt.com
-    skip-cert-verify: false
-    sni: mfyousheng.nl.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.111 Safari/537.36
-      path: /tjwsLhx0SFASG4l9FERJ1g
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE309|5.7MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: 172.67.190.248
+    port: 2053
+    server: 104.21.84.30
     tls: true
     type: vless
     udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+    uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
     ws-opts:
       headers:
-        Host: www.large-files.info
+        Host: fr.api-music-fa.com
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /api/voip/updates/static/fr2035
     xudp: true
-    servername: www.large-files.info
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE310|5.6MB/s|DNSOK|GPT⁺-DE"
-    network: xhttp
-    port: 443
-    server: s3.bamans.uk
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
-    xhttp-opts:
-      mode: stream-up
-      path: /3a6b3b038ea34622bd1e13ec5798ab03
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: s3.bamans.uk
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE316|4.8MB/s|DNSOK|GPT⁺-DE"
+    servername: fr.api-music-fa.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE292|6.4MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 8443
-    server: 104.21.60.29
+    port: 443
+    server: www.speedtest.net
     tls: true
     type: vless
     udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+    uuid: db3cd595-6111-006e-0f74-17ec582dee6f
     ws-opts:
       headers:
-        Host: www.large-files.info
+        Host: pooriared.poorianahanshop7.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/55.0.2883.87 Safari/537.36
+      path: /sync
     xudp: true
-    servername: www.large-files.info
+    servername: pooriared.poorianahanshop7.workers.dev
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG211|3.3MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG181|3.5MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 443
     server: 188.114.97.6
@@ -162,57 +210,56 @@ proxies:
       headers:
         Host: free.nadun.store
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
       path: /
     xudp: true
     servername: free.nadun.store
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US542|3.1MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: ct.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 084cbecb-54d3-4da0-8c06-61758a147c47
-    ws-opts:
-      headers:
-        Host: us-lax.862400.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.106 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: us-lax.862400.xyz
   - alpn:
       - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE319|2.9MB/s|DNSOK|GPT⁺-DE"
+    client-fingerprint: unsafe
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US543|2.8MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 8443
-    server: www.large-files.info
+    port: 443
+    server: 188.114.97.6
     tls: true
     type: vless
     udp: true
-    uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
     ws-opts:
       headers:
-        Host: ''
+        Host: server5.9966338.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36
-      path: /var/www/html/video/preview/download/i8o0la
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.118 Safari/537.36
+      path: /drsukitgreiusweqa9otrh983
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
     xudp: true
-    servername: www.large-files.info
-  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ16|2.2MB/s|DNSOK|GPT⁺-DE"
+    servername: server5.9966338.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US570|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: us1-1.998998.best
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+    ws-opts:
+      headers:
+        Host: server5.9966338.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /drsukitgreiusweqa9otrh983
+    xudp: true
+    servername: server5.9966338.xyz
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE309|1.7MB/s|DNSOK|GPT⁺"
     network: ws
     port: 2052
-    server: 104.18.0.181
+    server: 172.64.229.129
     type: vless
     udp: true
     uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
@@ -220,11 +267,12 @@ proxies:
       headers:
         Host: eu02.123450908.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/68.0.3440.106 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
       path: /rain1226
     xudp: true
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE327|1.4MB/s|DNSOK|GPT⁺-DE"
+  - encryption: none
+    name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ18|1.3MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 2052
     server: eu02.123450908.xyz
@@ -236,10 +284,26 @@ proxies:
         Host: eu02.123450908.xyz
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/37.0.2062.120 Safari/537.36
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
       path: /rain1226
     xudp: true
-  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ17|1.2MB/s|DNSOK|GPT⁺-DE"
+  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ19|1.0MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2052
+    server: 104.18.0.181
+    type: vless
+    udp: true
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+    ws-opts:
+      headers:
+        Host: eu02.123450908.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /rain1226
+    xudp: true
+    servername: eu02.123450908.xyz
+  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ20|829KB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 2052
     server: 172.64.150.43
@@ -250,48 +314,11 @@ proxies:
       headers:
         Host: eu02.123450908.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.143 Safari/537.36
       path: /rain1226
     xudp: true
     servername: eu02.123450908.xyz
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB70|1.1MB/s|DNSOK|GPT⁺-GB"
-    network: ws
-    port: 80
-    server: https.http.www.net.com.ramseyv2.ir.
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 10029c03-5d2f-4185-aab2-cbf91eef7361
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: https.http.www.net.com.ramseyv2.ir.
-      max-early-data: 2560
-      path: /d3d3LmlyYW5ob3N0LmNvbQ==
-    xudp: true
-  - client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP315|774KB/s|DNSOK|GPT⁺-JP"
-    network: ws
-    port: 443
-    server: 104.17.50.53
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    ws-opts:
-      headers:
-        Host: jp3.yohototo.top
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: /tyxyws
-    xudp: true
-    servername: jp3.yohototo.top
 dns:
   enable: true
   prefer-h3: false
