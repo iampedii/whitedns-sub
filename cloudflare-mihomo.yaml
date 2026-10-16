@@ -2,7 +2,7 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR164|6.1MB/s|DNSOK|GPT⁺-FR"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR110|6.8MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 443
     server: skycitybox-bidarbash.sbs
@@ -14,12 +14,12 @@ proxies:
       headers:
         Host: skycitybox-bidarbash.sbs
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
       path: /zoodi
     xudp: true
     servername: skycitybox-bidarbash.sbs
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US516|4.5MB/s|DNSOK|GPT⁺-US"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US457|3.1MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
     server: www.epicgames.com
@@ -30,76 +30,13 @@ proxies:
       headers:
         Host: openapi.next-ai.us.ci
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/42.0.2311.90 Safari/537.36
       path: /
     xudp: true
   - client-fingerprint: random
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US517|4.3MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: ct.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: efb58f99-af9e-48da-ac0d-cbac9c1f9200
-    ws-opts:
-      headers:
-        Host: us-lax.862400.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: us-lax.862400.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US518|4.2MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: us1-1.998998.best
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-    ws-opts:
-      headers:
-        Host: server5.9966338.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /drsukitgreiusweqa9otrh983
-    xudp: true
-    servername: server5.9966338.xyz
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US524|3.1MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: 188.114.97.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-    ws-opts:
-      headers:
-        Host: server5.9966338.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
-      path: /drsukitgreiusweqa9otrh983
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: server5.9966338.xyz
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG181|2.4MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG151|2.2MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 443
     server: www.visa.com.hk
@@ -111,14 +48,51 @@ proxies:
       headers:
         Host: ap-south.862400.xyz
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/59.0.3071.125 Mobile Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
     servername: ap-south.862400.xyz
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US505|1.1MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 188.114.98.0
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+    ws-opts:
+      headers:
+        Host: server5.9966338.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /drsukitgreiusweqa9otrh983
+    xudp: true
+    servername: server5.9966338.xyz
+  - encryption: none
+    name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ8|591KB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2052
+    server: 172.64.150.43
+    type: vless
+    udp: true
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+    ws-opts:
+      headers:
+        Host: eu02.123450908.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /rain1226
+    xudp: true
+    servername: eu02.123450908.xyz
 dns:
   enable: true
   prefer-h3: false
