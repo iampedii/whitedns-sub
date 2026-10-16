@@ -1,27 +1,8 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL538|18.1MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: 172.67.184.45
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
-    ws-opts:
-      headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
   - alpn:
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR194|6.8MB/s|DNSOK|GPT⁺-FR"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR164|6.1MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 443
     server: skycitybox-bidarbash.sbs
@@ -33,32 +14,12 @@ proxies:
       headers:
         Host: skycitybox-bidarbash.sbs
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /zoodi
     xudp: true
     servername: skycitybox-bidarbash.sbs
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL549|6.1MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: 172.67.155.222
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
-    ws-opts:
-      headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /sync
-    xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US540|5.3MB/s|DNSOK|GPT⁺-US"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US516|4.5MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2095
     server: www.epicgames.com
@@ -69,13 +30,35 @@ proxies:
       headers:
         Host: openapi.next-ai.us.ci
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
+          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
       path: /
     xudp: true
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US517|4.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ct.877774.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: efb58f99-af9e-48da-ac0d-cbac9c1f9200
+    ws-opts:
+      headers:
+        Host: us-lax.862400.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: us-lax.862400.xyz
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US543|3.1MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US518|4.2MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: us1-1.998998.best
@@ -87,19 +70,18 @@ proxies:
       headers:
         Host: server5.9966338.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /drsukitgreiusweqa9otrh983
     xudp: true
     servername: server5.9966338.xyz
   - alpn:
       - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US567|2.6MB/s|DNSOK|GPT⁺-US"
+    client-fingerprint: unsafe
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US524|3.1MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: 188.114.98.0
+    server: 188.114.97.6
     tls: true
     type: vless
     udp: true
@@ -108,65 +90,35 @@ proxies:
       headers:
         Host: server5.9966338.xyz
         User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/34.0.1847.131 Safari/537.36
       path: /drsukitgreiusweqa9otrh983
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
     xudp: true
     servername: server5.9966338.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK8|2.2MB/s|DNSOK|GPT⁺-SG"
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG181|2.4MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 8443
-    server: centurylink.es
+    port: 443
+    server: www.visa.com.hk
     tls: true
     type: vless
     udp: true
-    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    uuid: efb58f99-af9e-48da-ac0d-cbac9c1f9200
     ws-opts:
       headers:
-        Host: free.sahanwickramasinghe.me
+        Host: ap-south.862400.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
-      path: /
+          Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/59.0.3071.125 Mobile Safari/537.36
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
     xudp: true
-    servername: free.sahanwickramasinghe.me
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US628|606KB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 8443
-    server: chatgpt.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-    ws-opts:
-      headers:
-        Host: v2ray1.dozapp.xyz
-      path: /lMnsZUN4/
-    xudp: true
-    servername: v2ray1.dozapp.xyz
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US629|566KB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 8443
-    server: 172.67.167.78
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-    ws-opts:
-      headers:
-        Host: v2ray1.dozapp.xyz
-      path: /lMnsZUN4/
-    xudp: true
-    servername: v2ray1.dozapp.xyz
+    servername: ap-south.862400.xyz
 dns:
   enable: true
   prefer-h3: false
