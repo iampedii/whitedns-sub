@@ -1,109 +1,67 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL535|18.4MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: 172.67.184.45
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
-    ws-opts:
-      headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.167 Safari/537.36
-      path: /
-    xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
   - alpn:
-      - h2
       - http/1.1
     client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE336|7.2MB/s|DNSOK|GPT⁺-DE"
-    network: xhttp
-    port: 443
-    server: www.kgo.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: fc925934-fe0f-4d5d-bde4-ad37ae90682d
-    xhttp-opts:
-      mode: auto
-      path: /Download/Server/Route-32001/Germany/Windows.Server.2025.Datacenter.iso
-    xudp: true
-    servername: www.kgo.info
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL547|6.2MB/s|DNSOK|GPT⁺-NL"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR129|15.5MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 443
-    server: 172.67.155.222
+    server: redcloudport-bidarbash.sbs
     tls: true
     type: vless
     udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
+    uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
     ws-opts:
       headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+        Host: redcloudport-bidarbash.sbs
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.111 Safari/537.36
-      path: /sync
+          Gecko) Chrome/45.0.2454.85 Safari/537.36
+      path: /zoodi
     xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+    servername: redcloudport-bidarbash.sbs
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL548|6.1MB/s|DNSOK|GPT⁺-NL"
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE8|7.8MB/s|DNSOK|GPT⁺-BE"
     network: ws
     port: 443
-    server: 172.67.184.45
+    server: 172.67.134.136
     tls: true
     type: vless
     udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
+    uuid: fa45096d-bed0-ad80-c773-23c300000003
     ws-opts:
       headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/63.0.3239.111 Mobile Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /
     xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EA\U0001F1EC | @WhiteDNS | EG14|2.8MB/s|DNSOK|GPT⁺-US"
+    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  - client-fingerprint: chrome
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE9|6.1MB/s|DNSOK|GPT⁺-BE"
     network: ws
     port: 443
-    server: 188.114.97.6
+    server: 172.67.134.136
     tls: true
     type: vless
     udp: true
-    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    uuid: fa45096d-bed0-ad80-c773-23c300000003
     ws-opts:
       headers:
-        Host: ccs2g.pai50288.uk
+        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /pai50288
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /
     xudp: true
-    servername: ccs2g.pai50288.uk
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
+    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US643|2.7MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US568|2.5MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: 188.114.98.0
+    server: 104.18.5.82
     tls: true
     type: vless
     udp: true
@@ -113,86 +71,12 @@ proxies:
         Host: server5.9966338.xyz
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.87 Safari/537.36
-      path: /drsukitgreiusweqa9otrh983
-    xudp: true
-    servername: server5.9966338.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US658|2.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: 104.18.4.82
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-    ws-opts:
-      headers:
-        Host: server5.9966338.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
       path: /drsukitgreiusweqa9otrh983
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
     servername: server5.9966338.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1EA\U0001F1EC | @WhiteDNS | EG15|2.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: ccs2g.pai50288.uk
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /pai50288
-    xudp: true
-    servername: ccs2g.pai50288.uk
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US686|2.5MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: us1-1.998998.best
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-    ws-opts:
-      headers:
-        Host: server5.9966338.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /drsukitgreiusweqa9otrh983
-    xudp: true
-    servername: server5.9966338.xyz
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US741|676KB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 8443
-    server: 172.64.80.1
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-    ws-opts:
-      headers:
-        Host: v2ray1.dozapp.xyz
-      path: /lMnsZUN4/
-    xudp: true
-    servername: v2ray1.dozapp.xyz
 dns:
   enable: true
   prefer-h3: false
