@@ -1,63 +1,84 @@
 proxies:
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR183|5.0MB/s|DNSOK|GPT⁺-FR"
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL535|18.4MB/s|DNSOK|GPT⁺-NL"
     network: ws
     port: 443
-    server: 188.114.98.0
+    server: 172.67.184.45
     tls: true
     type: vless
     udp: true
-    uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
+    uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
     ws-opts:
       headers:
-        Host: redcloudport-bidarbash.sbs
+        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /zoodi
-    xudp: true
-    servername: redcloudport-bidarbash.sbs
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US586|4.0MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2095
-    server: www.epicgames.com
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: openapi.pure-ai.us.ci
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
       path: /
     xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK13|3.8MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8443
-    server: 104.17.74.206
+    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE336|7.2MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 443
+    server: www.kgo.info
     tls: true
     type: vless
     udp: true
-    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    uuid: fc925934-fe0f-4d5d-bde4-ad37ae90682d
+    xhttp-opts:
+      mode: auto
+      path: /Download/Server/Route-32001/Germany/Windows.Server.2025.Datacenter.iso
+    xudp: true
+    servername: www.kgo.info
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL547|6.2MB/s|DNSOK|GPT⁺-NL"
+    network: ws
+    port: 443
+    server: 172.67.155.222
+    tls: true
+    type: vless
+    udp: true
+    uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
     ws-opts:
       headers:
-        Host: free.sahanwickramasinghe.me
+        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
+      path: /sync
+    xudp: true
+    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL548|6.1MB/s|DNSOK|GPT⁺-NL"
+    network: ws
+    port: 443
+    server: 172.67.184.45
+    tls: true
+    type: vless
+    udp: true
+    uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
+    ws-opts:
+      headers:
+        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
       path: /
     xudp: true
-    servername: free.sahanwickramasinghe.me
+    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US592|3.3MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1EA\U0001F1EC | @WhiteDNS | EG14|2.8MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: 188.114.97.6
@@ -69,32 +90,55 @@ proxies:
       headers:
         Host: ccs2g.pai50288.uk
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.115 Safari/537.36
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /pai50288
     xudp: true
     servername: ccs2g.pai50288.uk
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK14|3.2MB/s|DNSOK|GPT⁺-SG"
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US643|2.7MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 8443
-    server: centurylink.es
+    port: 443
+    server: 188.114.98.0
     tls: true
     type: vless
     udp: true
-    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
     ws-opts:
       headers:
-        Host: free.sahanwickramasinghe.me
+        Host: server5.9966338.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-          Gecko) Chrome/26.0.1410.64 Safari/537.31
-      path: /
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /drsukitgreiusweqa9otrh983
     xudp: true
-    servername: free.sahanwickramasinghe.me
+    servername: server5.9966338.xyz
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EA\U0001F1EC | @WhiteDNS | EG9|2.8MB/s|DNSOK|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US658|2.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 104.18.4.82
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+    ws-opts:
+      headers:
+        Host: server5.9966338.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /drsukitgreiusweqa9otrh983
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: server5.9966338.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1EA\U0001F1EC | @WhiteDNS | EG15|2.6MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: ccs2g.pai50288.uk
@@ -106,65 +150,14 @@ proxies:
       headers:
         Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /pai50288
     xudp: true
     servername: ccs2g.pai50288.uk
   - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK16|2.7MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8443
-    server: 104.17.73.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
-    ws-opts:
-      headers:
-        Host: free.sahanwickramasinghe.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-      path: /
-    xudp: true
-    servername: free.sahanwickramasinghe.me
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US608|2.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2095
-    server: www.wto.org
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: openapi.pure-ai.us.ci
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK19|2.6MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8443
-    server: 104.17.71.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
-    ws-opts:
-      headers:
-        Host: free.sahanwickramasinghe.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /
-    xudp: true
-    servername: free.sahanwickramasinghe.me
-  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US632|2.5MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US686|2.5MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: us1-1.998998.best
@@ -176,68 +169,30 @@ proxies:
       headers:
         Host: server5.9966338.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /drsukitgreiusweqa9otrh983
     xudp: true
     servername: server5.9966338.xyz
   - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US633|2.5MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: 188.114.98.0
-    tls: true
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: openapi.pure-ai.us.ci
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.181 Safari/537.36
-      path: /
-    xudp: true
-    servername: openapi.pure-ai.us.ci
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK23|1.9MB/s|DNSOK|GPT⁺-SG"
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US741|676KB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 8443
-    server: 104.17.70.206
+    server: 172.64.80.1
+    skip-cert-verify: false
     tls: true
-    type: vless
+    type: vmess
     udp: true
-    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
     ws-opts:
       headers:
-        Host: free.sahanwickramasinghe.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /
+        Host: v2ray1.dozapp.xyz
+      path: /lMnsZUN4/
     xudp: true
-    servername: free.sahanwickramasinghe.me
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK24|1.8MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8443
-    server: 104.17.72.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
-    ws-opts:
-      headers:
-        Host: free.sahanwickramasinghe.me
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/63.0.3239.111 Mobile Safari/537.36
-      path: /
-    xudp: true
-    servername: free.sahanwickramasinghe.me
+    servername: v2ray1.dozapp.xyz
 dns:
   enable: true
   prefer-h3: false
