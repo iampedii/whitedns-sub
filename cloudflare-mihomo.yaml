@@ -1,330 +1,173 @@
 proxies:
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR169|27.8MB/s|DNSOK|GPT⁺-FR"
-    network: ws
-    port: 8443
-    server: speedtest.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: c3571d81-38bd-44a8-9b75-5af8a125fc42
-    ws-opts:
-      headers:
-        Host: pbsjv.megalionzone-vexina.sbs
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36
-      path: /bala
-    xudp: true
-    servername: pbsjv.megalionzone-vexina.sbs
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG231|4.9MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE7|23.3MB/s|DNSOK|GPT⁺-BE"
     network: ws
     port: 443
-    server: 104.16.10.189
+    server: 172.67.134.136
     tls: true
     type: vless
     udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+    uuid: fa45096d-bed0-ad80-c773-23c300000003
     ws-opts:
       headers:
-        Host: u.srilankangrill.online
+        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
       path: /
     xudp: true
-    servername: u.srilankangrill.online
+    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG232|4.7MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE8|22.7MB/s|DNSOK|GPT⁺-BE"
     network: ws
     port: 443
-    server: 104.17.117.137
+    server: 172.67.134.136
     tls: true
     type: vless
     udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+    uuid: fa45096d-bed0-ad80-c773-23c300000003
     ws-opts:
       headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US548|4.7MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: 188.114.97.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-    ws-opts:
-      headers:
-        Host: server5.9966338.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /drsukitgreiusweqa9otrh983
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: server5.9966338.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG234|4.7MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.16.10.104
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG235|4.7MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.16.10.198
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG236|4.7MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.16.10.100
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/42.0.2311.90 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG237|4.7MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.16.3.98
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG238|4.5MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.16.10.117
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
-  - client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG239|4.4MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.16.10.233
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
+        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
         User-Agent: >-
           Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
           AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
           Safari/537.36
       path: /
     xudp: true
-    servername: u.srilankangrill.online
+    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG240|4.2MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE9|21.0MB/s|DNSOK|GPT⁺-BE"
     network: ws
     port: 443
-    server: 104.16.10.2
+    server: 172.67.209.13
     tls: true
     type: vless
     udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+    uuid: fa45096d-bed0-ad80-c773-23c30000001b
     ws-opts:
       headers:
-        Host: u.srilankangrill.online
+        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/46.0.2490.71 Safari/537.36
+          Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195
+          Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5
+          Chrome/28.0.1500.94 Mobile Safari/537.36
       path: /
     xudp: true
-    servername: u.srilankangrill.online
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG241|4.2MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.21.70.228
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/36.0.1985.143 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US560|3.0MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: 104.18.5.82
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-    ws-opts:
-      headers:
-        Host: server5.9966338.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /drsukitgreiusweqa9otrh983
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: server5.9966338.xyz
+    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US566|2.7MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR165|13.2MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 443
+    server: 172.67.171.33
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
+    ws-opts:
+      headers:
+        Host: redcloudport-bidarbash.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /zoodi
+    xudp: true
+    servername: redcloudport-bidarbash.sbs
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR169|6.7MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 443
+    server: redcloudport-bidarbash.sbs
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
+    ws-opts:
+      headers:
+        Host: redcloudport-bidarbash.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /zoodi
+    xudp: true
+    servername: redcloudport-bidarbash.sbs
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR173|5.5MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 443
     server: 188.114.98.0
     tls: true
     type: vless
     udp: true
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+    uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
     ws-opts:
       headers:
-        Host: server5.9966338.xyz
+        Host: redcloudport-bidarbash.sbs
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /drsukitgreiusweqa9otrh983
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /zoodi
     xudp: true
-    servername: server5.9966338.xyz
-  - client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG275|1.2MB/s|DNSOK|GPT⁺-SG"
+    servername: redcloudport-bidarbash.sbs
+  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ18|2.3MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 443
-    server: 104.16.10.199
-    tls: true
+    port: 2052
+    server: 172.64.150.43
     type: vless
     udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
     ws-opts:
       headers:
-        Host: u.srilankangrill.online
+        Host: eu02.123450908.xyz
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K)
           AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
           Safari/537.36
-      path: /
+      path: /rain1226
     xudp: true
-    servername: u.srilankangrill.online
-  - client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US640|1.0MB/s|DNSOK|GPT⁺-US"
+  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ19|1.7MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2052
+    server: eu02.123450908.xyz
+    type: vless
+    udp: true
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+    ws-opts:
+      headers:
+        Host: eu02.123450908.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
+      path: /rain1226
+    xudp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US652|1008KB/s|DNSOK|GPT⁺"
     network: ws
     port: 443
-    server: 104.16.10.185
+    server: 188.114.98.0
     tls: true
     type: vless
     udp: true
-    uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
     ws-opts:
       headers:
-        Host: a.cwvps.eu.org
+        Host: ccs2g.pai50288.uk
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
-          Mobile Safari/537.36
-      path: /ws
+          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: /pai50288
     xudp: true
-    servername: a.cwvps.eu.org
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG278|1019KB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.21.60.109
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
+    servername: ccs2g.pai50288.uk
 dns:
   enable: true
   prefer-h3: false
