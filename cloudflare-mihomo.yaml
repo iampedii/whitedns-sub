@@ -1,39 +1,30 @@
 proxies:
-  - name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB76|70.3MB/s|DNSOK|GPT⁺-US"
-    password: ''
-    port: 443
-    server: 172.64.68.89
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - client-fingerprint: random
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US509|4.5MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US569|3.2MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: ct.877774.xyz
+    server: 188.114.98.0
     tls: true
     type: vless
     udp: true
-    uuid: e0ccda9e-08ba-4da3-8844-73d586c7fff7
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
     ws-opts:
       headers:
-        Host: us-lax.862400.xyz
+        Host: ccs2g.pai50288.uk
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /pai50288
     xudp: true
-    servername: us-lax.862400.xyz
+    servername: ccs2g.pai50288.uk
   - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK9|1.4MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK14|2.6MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 8443
-    server: centurylink.es
+    server: 104.17.74.206
     tls: true
     type: vless
     udp: true
@@ -42,14 +33,13 @@ proxies:
       headers:
         Host: free.sahanwickramasinghe.me
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
       path: /
     xudp: true
     servername: free.sahanwickramasinghe.me
   - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK13|677KB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK16|2.6MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 8443
     server: 104.17.73.206
@@ -61,8 +51,64 @@ proxies:
       headers:
         Host: free.sahanwickramasinghe.me
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK17|2.5MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 8443
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK20|1.7MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 8443
+    server: 104.17.71.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - client-fingerprint: chrome
+    name: "\U0001F1F1\U0001F1F0 | @WhiteDNS | LK22|1.4MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 8443
+    server: centurylink.es
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /
     xudp: true
     servername: free.sahanwickramasinghe.me
