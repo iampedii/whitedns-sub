@@ -1,41 +1,200 @@
 proxies:
-  - encryption: none
-    name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ11|1.3MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2052
-    server: eu02.123450908.xyz
-    type: vless
-    udp: true
-    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-    ws-opts:
-      headers:
-        Host: eu02.123450908.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /rain1226
-    xudp: true
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL472|533KB/s|DNSOK|GPT⁺-NL"
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR137|6.4MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 443
-    server: freev2.cloudflare.182682.xyz
+    server: www.windowssearchtools.com
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+    ws-opts:
+      headers:
+        Host: www.windowssearchtools.com
+      path: /truth
+    xudp: true
+    servername: www.windowssearchtools.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE201|6.2MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.74.206
     tls: true
     type: vless
     udp: true
-    uuid: d9352199-381a-4a7c-ab22-9c32d873ec0c
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
     ws-opts:
       headers:
-        Host: nl-ams.862400.xyz
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB114|6.2MB/s|DNSOK|GPT⁺-GB"
+    network: ws
+    port: 443
+    server: www.ubuntuupdates.com
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+    ws-opts:
+      headers:
+        Host: www.ubuntuupdates.com
+      path: /truth
+    xudp: true
+    servername: www.ubuntuupdates.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE202|6.1MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: centurylink.es
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE203|6.0MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.72.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
     xudp: true
-    servername: nl-ams.862400.xyz
+    servername: free.sahanwickramasinghe.me
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE204|5.8MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: www.gptcloudai.com
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+    ws-opts:
+      headers:
+        Host: www.gptcloudai.com
+      path: /truth
+    xudp: true
+    servername: www.gptcloudai.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE206|5.5MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.73.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.94 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE208|5.2MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1E8\U0001F1E6 | @WhiteDNS | CA76|4.9MB/s|DNSOK|GPT⁺-CA"
+    network: ws
+    port: 443
+    server: www.windowsmsidownloads.com
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
+    ws-opts:
+      headers:
+        Host: www.windowsmsidownloads.com
+      path: /truth
+    xudp: true
+    servername: www.windowsmsidownloads.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US497|4.8MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 104.17.182.41
+    tls: true
+    type: vless
+    udp: true
+    uuid: f6a015b4-4783-4f2a-a01b-39f281ba5d07
+    ws-opts:
+      headers:
+        Host: cf.5208877.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /
+    xudp: true
+    servername: cf.5208877.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE212|3.1MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.71.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.102 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
 dns:
   enable: true
   prefer-h3: false
