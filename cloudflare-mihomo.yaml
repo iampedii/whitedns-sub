@@ -1,28 +1,7 @@
 proxies:
   - client-fingerprint: random
     encryption: none
-    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT101|42.9MB/s|DNSOK|GPT⁺-IT"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: ded83071-f858-448c-b832-135db1c9056f
-    ws-opts:
-      headers:
-        Host: it-mil.862400.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: it-mil.862400.xyz
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE214|41.7MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE242|29.6MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 443
     server: freev2.cloudflare.182682.xyz
@@ -34,8 +13,9 @@ proxies:
       headers:
         Host: eu-central.862400.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
+          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
@@ -43,24 +23,7 @@ proxies:
     servername: eu-central.862400.xyz
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB153|6.4MB/s|DNSOK|GPT⁺-GB"
-    network: ws
-    port: 443
-    server: www.ubuntuupdates.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
-    ws-opts:
-      headers:
-        Host: www.ubuntuupdates.com
-      path: /truth
-    xudp: true
-    servername: www.ubuntuupdates.com
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR175|5.2MB/s|DNSOK|GPT⁺-FR"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR172|18.9MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 443
     server: www.windowssearchtools.com
@@ -77,7 +40,131 @@ proxies:
     servername: www.windowssearchtools.com
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1E8\U0001F1E6 | @WhiteDNS | CA84|4.4MB/s|DNSOK|GPT⁺-CA"
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB133|17.2MB/s|DNSOK|GPT⁺-GB"
+    network: ws
+    port: 443
+    server: www.ubuntuupdates.com
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+    ws-opts:
+      headers:
+        Host: www.ubuntuupdates.com
+      path: /truth
+    xudp: true
+    servername: www.ubuntuupdates.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE256|15.9MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.72.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+          like Gecko) Chrome/5.0.342.1 Safari/533.2
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1ED\U0001F1FA | @WhiteDNS | HU2|7.1MB/s|DNSOK|GPT⁺-HU"
+    network: ws
+    port: 2083
+    server: 172.67.131.125
+    tls: true
+    type: vless
+    udp: true
+    uuid: f418674e-f518-4318-8ff9-e10000000046
+    ws-opts:
+      headers:
+        Host: smart-edge-424.arti98399-1905.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /sync
+    xudp: true
+    servername: smart-edge-424.arti98399-1905.workers.dev
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE264|6.7MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: www.gptcloudai.com
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+    ws-opts:
+      headers:
+        Host: www.gptcloudai.com
+      path: /truth
+    xudp: true
+    servername: www.gptcloudai.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE265|6.6MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: www.gptcloudai.com
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+    ws-opts:
+      headers:
+        Host: www.gptcloudai.com
+      path: /truth
+    xudp: true
+    servername: www.gptcloudai.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB140|6.4MB/s|DNSOK|GPT⁺-GB"
+    network: ws
+    port: 443
+    server: www.ubuntuupdates.com
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+    ws-opts:
+      headers:
+        Host: www.ubuntuupdates.com
+      path: /truth
+    xudp: true
+    servername: www.ubuntuupdates.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE266|6.1MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.74.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1E8\U0001F1E6 | @WhiteDNS | CA84|4.9MB/s|DNSOK|GPT⁺-CA"
     network: ws
     port: 443
     server: www.windowsmsidownloads.com
@@ -92,6 +179,85 @@ proxies:
       path: /truth
     xudp: true
     servername: www.windowsmsidownloads.com
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US547|4.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ct.877774.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: ded83071-f858-448c-b832-135db1c9056f
+    ws-opts:
+      headers:
+        Host: us-lax.862400.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: us-lax.862400.xyz
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US548|4.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 188.114.98.0
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    ws-opts:
+      headers:
+        Host: ccs2g.pai50288.uk
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.81 Safari/537.36
+      path: /pai50288
+    xudp: true
+    servername: ccs2g.pai50288.uk
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE269|3.3MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.me
+  - client-fingerprint: chrome
+    name: ❓ | @WhiteDNS | OT545|1.6MB/s|DNSOK|GPT⁺-US
+    network: ws
+    port: 443
+    server: 188.114.97.6
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+    ws-opts:
+      headers:
+        Host: ccs2g.pai50288.uk
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/35.0.1916.153 Safari/537.36
+      path: /pai50288
+    xudp: true
+    servername: ccs2g.pai50288.uk
 dns:
   enable: true
   prefer-h3: false
