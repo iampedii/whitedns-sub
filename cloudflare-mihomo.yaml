@@ -1,104 +1,43 @@
 proxies:
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EE\U0001F1F1 | @WhiteDNS | IL13|4.7MB/s|DNSOK|GPT⁺-IL"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US613|3.1MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 443
-    server: 104.26.11.140
+    port: 2053
+    server: fast.145779.xyz
     tls: true
     type: vless
     udp: true
-    uuid: 600b90fe-6ff5-4b17-8dac-5be55835d0af
+    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
     ws-opts:
       headers:
-        Host: ylsl.abcai.online
+        Host: fast.145779.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.101 Safari/537.36
-      path: /
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      path: /ws-tesla
     xudp: true
-    servername: ylsl.abcai.online
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG166|3.2MB/s|DNSOK|GPT⁺-SG"
+    servername: fast.145779.xyz
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG181|2.4MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 443
-    server: ct.877774.xyz
+    server: 188.114.98.0
     tls: true
     type: vless
     udp: true
-    uuid: 58efc02a-c619-491c-94d9-21a205da7de6
+    uuid: aa05efe5-c34f-4880-b6e5-6b437ccffec5
     ws-opts:
       headers:
-        Host: ap-south.862400.xyz
+        Host: asia.csmaster.store
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /cs
     xudp: true
-    servername: ap-south.862400.xyz
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US575|2.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: 58efc02a-c619-491c-94d9-21a205da7de6
-    ws-opts:
-      headers:
-        Host: us-lax.862400.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: us-lax.862400.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EE\U0001F1F1 | @WhiteDNS | IL15|1.6MB/s|DNSOK|GPT⁺-IL"
-    network: ws
-    port: 443
-    server: 104.17.187.57
-    tls: true
-    type: vless
-    udp: true
-    uuid: 600b90fe-6ff5-4b17-8dac-5be55835d0af
-    ws-opts:
-      headers:
-        Host: ylsl.abcai.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /
-    xudp: true
-    servername: ylsl.abcai.online
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EE\U0001F1F1 | @WhiteDNS | IL16|1.2MB/s|DNSOK|GPT⁺-IL"
-    network: ws
-    port: 443
-    server: 172.64.149.171
-    tls: true
-    type: vless
-    udp: true
-    uuid: 600b90fe-6ff5-4b17-8dac-5be55835d0af
-    ws-opts:
-      headers:
-        Host: ylsl.abcai.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /
-    xudp: true
-    servername: ylsl.abcai.online
+    servername: asia.csmaster.store
 dns:
   enable: true
   prefer-h3: false
