@@ -1,99 +1,9 @@
 proxies:
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE223|32.7MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: www.gptcloudai.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
-    ws-opts:
-      headers:
-        Host: www.gptcloudai.com
-      path: /truth
-    xudp: true
-    servername: www.gptcloudai.com
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL568|22.6MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: freev2.cloudflare.182682.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4f735420-0179-45d7-ba4e-ed66d1bf3a89
-    ws-opts:
-      headers:
-        Host: nl-ams.862400.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /announcement?ed=2048fp=random
-    xudp: true
-    servername: nl-ams.862400.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US603|10.2MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 172.67.199.126
-    tls: true
-    type: vless
-    udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE244|7.3MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: 172.67.156.121
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
-    ws-opts:
-      headers:
-        Host: www.gptcloudai.com
-      path: /truth
-    xudp: true
-    servername: www.gptcloudai.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US604|6.4MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: fast.145779.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE255|3.4MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE208|7.2MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 8443
     server: 104.17.70.206
@@ -105,13 +15,13 @@ proxies:
       headers:
         Host: free.sahanwickramasinghe.com
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /
     xudp: true
     servername: free.sahanwickramasinghe.com
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US693|625KB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US657|5.2MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2053
     server: fast.145779.xyz
@@ -123,28 +33,29 @@ proxies:
       headers:
         Host: fast.145779.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.110 Safari/537.36
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
       path: /ws-tesla
     xudp: true
     servername: fast.145779.xyz
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US696|533KB/s|DNSOK|GPT⁺"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US658|4.3MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 8443
-    server: 104.21.57.84
-    skip-cert-verify: false
+    port: 2053
+    server: fast.145779.xyz
     tls: true
-    type: vmess
+    type: vless
     udp: true
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
     ws-opts:
       headers:
-        Host: v2ray1.dozapp.xyz
-      path: /lMnsZUN4/
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /ws-tesla
     xudp: true
-    servername: v2ray1.dozapp.xyz
+    servername: fast.145779.xyz
 dns:
   enable: true
   prefer-h3: false
