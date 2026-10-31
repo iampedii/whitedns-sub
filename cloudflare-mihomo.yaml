@@ -1,28 +1,61 @@
 proxies:
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT218|49.8MB/s|DNSOK|GPT⁺-IT"
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE223|32.7MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 443
-    server: www.visa.com.hk
+    server: www.gptcloudai.com
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+    ws-opts:
+      headers:
+        Host: www.gptcloudai.com
+      path: /truth
+    xudp: true
+    servername: www.gptcloudai.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL568|22.6MB/s|DNSOK|GPT⁺-NL"
+    network: ws
+    port: 443
+    server: freev2.cloudflare.182682.xyz
     tls: true
     type: vless
     udp: true
     uuid: 4f735420-0179-45d7-ba4e-ed66d1bf3a89
     ws-opts:
       headers:
-        Host: it-mil.862400.xyz
+        Host: nl-ams.862400.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.81 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /announcement?ed=2048fp=random
     xudp: true
-    servername: it-mil.862400.xyz
+    servername: nl-ams.862400.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US603|10.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2053
+    server: 172.67.199.126
+    tls: true
+    type: vless
+    udp: true
+    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+    ws-opts:
+      headers:
+        Host: fast.145779.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /ws-tesla
+    xudp: true
+    servername: fast.145779.xyz
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE233|35.3MB/s|DNSOK|GPT⁺"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE244|7.3MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 443
     server: 172.67.156.121
@@ -37,26 +70,9 @@ proxies:
       path: /truth
     xudp: true
     servername: www.gptcloudai.com
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE240|32.1MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: www.gptcloudai.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
-    ws-opts:
-      headers:
-        Host: www.gptcloudai.com
-      path: /truth
-    xudp: true
-    servername: www.gptcloudai.com
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US726|19.2MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US604|6.4MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2053
     server: fast.145779.xyz
@@ -64,91 +80,20 @@ proxies:
     type: vless
     udp: true
     uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US727|15.4MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 172.67.199.126
-    tls: true
-    type: vless
-    udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.139 Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE270|7.1MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: www.gptcloudai.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
-    ws-opts:
-      headers:
-        Host: www.gptcloudai.com
-      path: /truth
-    xudp: true
-    servername: www.gptcloudai.com
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US728|5.2MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: fast.145779.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
     ws-opts:
       headers:
         Host: fast.145779.xyz
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /ws-tesla
     xudp: true
     servername: fast.145779.xyz
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1E8\U0001F1E6 | @WhiteDNS | CA92|5.2MB/s|DNSOK|GPT⁺-CA"
-    network: ws
-    port: 443
-    server: www.windowsmsidownloads.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
-    ws-opts:
-      headers: {}
-      path: /truth
-    xudp: true
-    servername: www.windowsmsidownloads.com
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE272|4.9MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE255|3.4MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 8443
     server: 104.17.70.206
@@ -161,62 +106,34 @@ proxies:
         Host: free.sahanwickramasinghe.com
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/39.0.2171.95 Safari/537.36
+          Chrome/69.0.3497.100 Safari/537.36
       path: /
     xudp: true
     servername: free.sahanwickramasinghe.com
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1E8\U0001F1E6 | @WhiteDNS | CA100|3.0MB/s|DNSOK|GPT⁺-CA"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US693|625KB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 443
-    server: www.windowsmsidownloads.com
-    skip-cert-verify: false
+    port: 2053
+    server: fast.145779.xyz
     tls: true
-    type: vmess
-    udp: true
-    uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
-    ws-opts:
-      headers: {}
-      path: /truth
-    xudp: true
-    servername: www.windowsmsidownloads.com
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG157|2.5MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: nomino.11hi8itbaf.workers.dev
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-    ws-opts:
-      headers:
-        Host: nomino.11hi8itbaf.workers.dev
-      path: /wjofHsQtEuEywxEq.v.3dns.vip/ws-vmess
-    xudp: true
-    servername: nomino.11hi8itbaf.workers.dev
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE277|1.4MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2052
-    server: 104.26.0.1
     type: vless
     udp: true
-    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
     ws-opts:
       headers:
-        Host: eu02.123450908.xyz
-      path: /rain1226
-  - alpn:
-      - ''
-    alterId: '0'
+        Host: fast.145779.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
+      path: /ws-tesla
+    xudp: true
+    servername: fast.145779.xyz
+  - alterId: '0'
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US809|1.3MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US696|533KB/s|DNSOK|GPT⁺"
     network: ws
     port: 8443
-    server: 172.64.80.1
+    server: 104.21.57.84
     skip-cert-verify: false
     tls: true
     type: vmess
