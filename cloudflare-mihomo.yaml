@@ -1,43 +1,63 @@
 proxies:
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB77|20.3MB/s|DNSOK|GPT⁺"
-    network: ws
-    port: 443
-    server: www.ubuntuupdates.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
-    ws-opts:
-      headers:
-        Host: www.ubuntuupdates.com
-      path: /truth
-    xudp: true
-    servername: www.ubuntuupdates.com
-  - alterId: 0
-    cipher: auto
-    client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG144|2.8MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: nomino.11hi8itbaf.workers.dev
-    tls: true
-    type: vmess
-    udp: true
-    uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-    ws-opts:
-      headers:
-        Host: nomino.11hi8itbaf.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /wjofHsQtEuEywxEq.v.3dns.vip/ws-vmess
-    xudp: true
-    servername: nomino.11hi8itbaf.workers.dev
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US843|2.2MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US661|6.8MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2053
+    server: fast.145779.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /ws-tesla
+    xudp: true
+    servername: fast.145779.xyz
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE190|6.5MB/s|DNSOK|GPT⁺-DE"
+    network: xhttp
+    port: 2096
+    server: 172.64.154.211
+    tls: true
+    type: vless
+    udp: true
+    uuid: 507774a6-58dd-436f-97aa-3ba35ab98085
+    xhttp-opts:
+      host: s2p.open-ml.ir
+      mode: auto
+      path: /xhttp
+      x-padding-bytes: 100-1000
+    xudp: true
+    servername: s2p.open-ml.ir
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US662|5.3MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2053
+    server: fast.145779.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+    ws-opts:
+      headers:
+        Host: fast.145779.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      path: /ws-tesla
+    xudp: true
+    servername: fast.145779.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US663|5.1MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2053
     server: 172.67.199.126
@@ -49,66 +69,11 @@ proxies:
       headers:
         Host: fast.145779.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: /ws-tesla
     xudp: true
     servername: fast.145779.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US873|1.4MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: fast.145779.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1ED\U0001F1FA | @WhiteDNS | HU4|1.2MB/s|DNSOK|GPT⁺-HU"
-    network: ws
-    port: 2083
-    server: 172.67.131.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: f418674e-f518-4318-8ff9-e10000000046
-    ws-opts:
-      headers:
-        Host: smart-edge-424.arti98399-1905.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: smart-edge-424.arti98399-1905.workers.dev
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US891|574KB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 8443
-    server: 104.21.91.53
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-    ws-opts:
-      headers:
-        Host: v2ray1.dozapp.xyz
-      path: /lMnsZUN4/
-    xudp: true
-    servername: v2ray1.dozapp.xyz
 dns:
   enable: true
   prefer-h3: false
