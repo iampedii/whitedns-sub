@@ -1,79 +1,25 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US661|6.8MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: fast.145779.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
   - alpn:
-      - h3
-      - h2
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE190|6.5MB/s|DNSOK|GPT⁺-DE"
-    network: xhttp
-    port: 2096
-    server: 172.64.154.211
-    tls: true
-    type: vless
-    udp: true
-    uuid: 507774a6-58dd-436f-97aa-3ba35ab98085
-    xhttp-opts:
-      host: s2p.open-ml.ir
-      mode: auto
-      path: /xhttp
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: s2p.open-ml.ir
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US662|5.3MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE228|4.7MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 2053
-    server: fast.145779.xyz
+    port: 8443
+    server: 104.17.70.206
     tls: true
     type: vless
     udp: true
-    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+    uuid: 5f704d93-7e7f-45b5-81f5-08db4a946220
     ws-opts:
       headers:
-        Host: fast.145779.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US663|5.1MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 172.67.199.126
-    tls: true
-    type: vless
-    udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
+        Host: free.sahanwickramasinghe.com
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /ws-tesla
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
     xudp: true
-    servername: fast.145779.xyz
+    servername: free.sahanwickramasinghe.com
 dns:
   enable: true
   prefer-h3: false
