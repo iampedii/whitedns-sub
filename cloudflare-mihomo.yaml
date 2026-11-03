@@ -1,7 +1,26 @@
 proxies:
   - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE247|6.1MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: 104.21.2.166
+    tls: true
+    type: vless
+    udp: true
+    uuid: c6438331-a79b-4471-fd5e-42c2eeac29fa
+    ws-opts:
+      headers:
+        Host: 903.rtgpu.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /nmd2
+    xudp: true
+    servername: 903.rtgpu.com
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE243|19.7MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE248|6.0MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 443
     server: 903.rtgpu.com
@@ -13,66 +32,32 @@ proxies:
       headers:
         Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
       path: /nmd2
     xudp: true
     servername: 903.rtgpu.com
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE248|7.1MB/s|DNSOK|GPT⁺-DE"
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE249|5.8MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 443
-    server: 172.67.156.121
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
-    ws-opts:
-      headers:
-        Host: www.gptcloudai.com
-      path: /truth
-    xudp: true
-    servername: www.gptcloudai.com
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US666|5.2MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 172.67.199.126
+    port: 8443
+    server: chatgpt.com
     tls: true
     type: vless
     udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+    uuid: 7eb360e0-3bf4-4e9b-9192-ca25a2f54b73
     ws-opts:
       headers:
-        Host: fast.145779.xyz
+        Host: de9.ahsvip.eu.org
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
-      path: /ws-tesla
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /sg-melbi
     xudp: true
-    servername: fast.145779.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US709|2.5MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: fast.145779.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195
-          Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5
-          Chrome/28.0.1500.94 Mobile Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
+    servername: de9.ahsvip.eu.org
 dns:
   enable: true
   prefer-h3: false
