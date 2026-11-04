@@ -4,7 +4,7 @@ proxies:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE223|25.9MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE227|25.8MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 2087
     server: cdn.privatevip.ir
@@ -19,6 +19,66 @@ proxies:
       x-padding-bytes: 100-1000
     xudp: true
     servername: cdn.privatevip.ir
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE234|16.6MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: chatgpt.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7eb360e0-3bf4-4e9b-9192-ca25a2f54b73
+    ws-opts:
+      headers:
+        Host: de9.ahsvip.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+      path: /sg-melbi
+    xudp: true
+    servername: de9.ahsvip.eu.org
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE240|6.7MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5f704d93-7e7f-45b5-81f5-08db4a946220
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US659|4.1MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2053
+    server: 104.21.58.37
+    tls: true
+    type: vless
+    udp: true
+    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+    ws-opts:
+      headers:
+        Host: fast.145779.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /ws-tesla
+    xudp: true
+    servername: fast.145779.xyz
 dns:
   enable: true
   prefer-h3: false
