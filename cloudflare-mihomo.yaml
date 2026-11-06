@@ -1,46 +1,24 @@
 proxies:
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE209|35.3MB/s|DNSOK|GPT⁺-DE"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR91|23.5MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 443
-    server: freev2.cloudflare.182682.xyz
+    server: www.windowssearchtools.com
+    skip-cert-verify: false
     tls: true
-    type: vless
+    type: vmess
     udp: true
-    uuid: 557b8df0-16d9-43d0-b7ca-d08cbea06ead
+    uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
     ws-opts:
       headers:
-        Host: eu-central.862400.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.71 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+        Host: www.windowssearchtools.com
+      path: /truth
     xudp: true
-    servername: eu-central.862400.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG219|4.5MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: 104.16.10.104
-    tls: true
-    type: vless
-    udp: true
-    uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
+    servername: www.windowssearchtools.com
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR131|2.0MB/s|DNSOK|GPT⁺-FR"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR96|7.0MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 443
     server: www.windowssearchtools.com
