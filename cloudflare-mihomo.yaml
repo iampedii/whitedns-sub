@@ -1,27 +1,6 @@
 proxies:
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG137|17.7MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: f1f7b063-621c-48fb-9091-81ad5f3a2213
-    ws-opts:
-      headers:
-        Host: ap-south.862400.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: ap-south.862400.xyz
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP115|2.4MB/s|DNSOK|GPT⁺-JP"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP75|2.3MB/s|DNSOK|GPT⁺-JP"
     network: ws
     port: 2096
     server: jp01.cf.sh-cloudflare.sbs
@@ -33,29 +12,11 @@ proxies:
       headers:
         Host: jp01.cdn00.top
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/32.0.1700.107 Safari/537.36
       path: /shanhai/jp01
     xudp: true
     servername: jp01.cdn00.top
-  - client-fingerprint: edge
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US767|2.3MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 172.67.199.126
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-          Chrome/v1.0.0 Safari/538.1
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
 dns:
   enable: true
   prefer-h3: false
