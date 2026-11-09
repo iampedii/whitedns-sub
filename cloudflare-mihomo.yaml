@@ -1,6 +1,65 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US747|2.8MB/s|DNSOK|GPT⁺-US"
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE204|4.9MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1beed393-7c4d-4432-beee-f1026b72d0cf
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.com
+  - client-fingerprint: firefox
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE207|1.7MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.24.21.163
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+    ws-opts:
+      headers:
+        Host: moz.ar-marz.fun
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /man
+    xudp: true
+    servername: moz.ar-marz.fun
+  - client-fingerprint: firefox
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE208|1.3MB/s|DNSOK|GPT⁺"
+    network: ws
+    port: 8443
+    server: 162.159.236.61
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+    ws-opts:
+      headers:
+        Host: moz.ar-marz.fun
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /man
+    xudp: true
+    servername: moz.ar-marz.fun
+  - client-fingerprint: ios
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US698|880KB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 2053
     server: 172.67.199.126
@@ -12,8 +71,8 @@ proxies:
       headers:
         Host: fast.145779.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /ws-tesla
     xudp: true
     servername: fast.145779.xyz
