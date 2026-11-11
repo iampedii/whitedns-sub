@@ -2,101 +2,42 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.ifXtO6jdes2zj0mjjWtRvKNgJzFbGwrdS-8OZcVgazw
+    encryption: mlkem768x25519plus.native.0rtt.HDdkWDIEmiotDl-mSbZd2FBVV60XytdySgLSy-vR4nE
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE30|5.2MB/s|DNSOK|GPT⁺-SE"
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE22|5.7MB/s|DNSOK|GPT⁺-SE"
     network: ws
     port: 443
     server: chatgpt.com
     tls: true
     type: vless
     udp: true
-    uuid: 883df7e1-1b2b-46c7-acd3-eb8ac2ac8e0d
+    uuid: c0dd2b42-41b1-4e9e-9876-e708b4204a6f
     ws-opts:
       headers:
-        Host: googoosh.subgift.cyou
+        Host: sk.subgift.cyou
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /t.me-SubGift
     xudp: true
-    servername: googoosh.subgift.cyou
-  - alpn:
-      - h2
-    client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.DV0FWDqzb19HvIDWTD9wuLm0vKssz-U-4P9j7aP9PmU
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI45|5.1MB/s|DNSOK|GPT⁺-DE"
-    network: xhttp
-    port: 443
-    server: 188.114.98.0
-    tls: true
-    type: vless
-    udp: true
-    uuid: c56cfec1-156f-44b5-bec5-dbd296400253
-    xhttp-opts:
-      host: ir.vnexjet.ir
-      mode: auto
-      path: /videofjrj
-    xudp: true
-    servername: ir.vnexjet.ir
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.L0PYWYsIvs5LTqYpjk3nauq1x0u2wUW9JmWQHmKxyD4
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US743|2.7MB/s|DNSOK|GPT⁺-US"
+    servername: sk.subgift.cyou
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US666|3.1MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: chatgpt.com
+    server: 162.159.128.17
+    skip-cert-verify: false
     tls: true
-    type: vless
+    type: vmess
     udp: true
-    uuid: bed0f9f1-3f7f-4014-aaa1-f997fc5ce6bf
+    uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
     ws-opts:
       headers:
-        Host: hdd.subgift.cyou
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-      path: /t.me-SubGift
+        Host: ny-v2ray.ryin.vip
+      path: /ryinsocksv2board
     xudp: true
-    servername: hdd.subgift.cyou
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US748|2.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 104.18.28.234
-    tls: true
-    type: vless
-    udp: true
-    uuid: c7653db5-1fa9-9a64-331a-d80c00000050
-    ws-opts:
-      headers:
-        Host: turbo-smart-628.pokfjfjfdjj.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/32.0.1700.107 Safari/537.36
-      path: /
-    xudp: true
-    servername: turbo-smart-628.pokfjfjfdjj.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US770|2.1MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 104.18.28.234
-    tls: true
-    type: vless
-    udp: true
-    uuid: c7653db5-1fa9-9a64-331a-d80c00000050
-    ws-opts:
-      headers:
-        Host: turbo-smart-628.pokfjfjfdjj.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /
-    xudp: true
-    servername: turbo-smart-628.pokfjfjfdjj.workers.dev
+    servername: ny-v2ray.ryin.vip
 dns:
   enable: true
   prefer-h3: false
