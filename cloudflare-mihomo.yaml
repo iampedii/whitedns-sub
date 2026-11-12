@@ -1,84 +1,49 @@
 proxies:
   - alpn:
       - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE164|12.4MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2053
-    server: 104.24.68.75
-    tls: true
-    type: vless
-    udp: true
-    uuid: 65e7fa8d-180a-4819-8f77-28e93f58f0ce
-    ws-opts:
-      headers:
-        Host: tunc.rupfem.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.115 Safari/537.36
-      path: /98b08ea93e
-    xudp: true
-    servername: tunc.rupfem.ir
-  - alpn:
-      - http/1.1
     client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.HDdkWDIEmiotDl-mSbZd2FBVV60XytdySgLSy-vR4nE
+    encryption: mlkem768x25519plus.native.0rtt.ifXtO6jdes2zj0mjjWtRvKNgJzFbGwrdS-8OZcVgazw
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE19|6.0MB/s|DNSOK|GPT⁺-SE"
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE15|6.0MB/s|DNSOK|GPT⁺-SE"
     network: ws
     port: 443
     server: perplexity.ai
     tls: true
     type: vless
     udp: true
-    uuid: 6a13eb28-40dd-44ca-86b9-f716dfc5bb71
+    uuid: 43b3a63f-bd96-4f38-a532-ba7739c4cce0
     ws-opts:
       headers:
-        Host: vector.subgift24.bond
+        Host: googoosh.subgift.cyou
         User-Agent: >-
-          Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like
-          Gecko) Chrome/5.0.342.1 Safari/533.2
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
+          Mobile Safari/537.36
       path: /t.me-SubGift
     xudp: true
-    servername: vector.subgift24.bond
+    servername: googoosh.subgift.cyou
   - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US668|4.9MB/s|DNSOK|GPT⁺-US"
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: mlkem768x25519plus.native.0rtt.Een5WWMdw83jtJ2dAofnkEvKQ8ZptY2fnIxkntwpShc
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE16|5.9MB/s|DNSOK|GPT⁺-SE"
     network: ws
     port: 443
-    server: 162.159.128.17
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
-    ws-opts:
-      headers:
-        Host: ny-v2ray.ryin.vip
-      path: /ryinsocksv2board
-    xudp: true
-    servername: ny-v2ray.ryin.vip
-  - client-fingerprint: ios
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US672|3.4MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 104.21.58.37
+    server: perplexity.ai
     tls: true
     type: vless
     udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+    uuid: 77447ca5-0c86-4826-856a-316c59450082
     ws-opts:
       headers:
-        Host: fast.145779.xyz
+        Host: moon.subgift24.bond
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /ws-tesla
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: /t.me-SubGift
     xudp: true
-    servername: fast.145779.xyz
+    servername: moon.subgift24.bond
 dns:
   enable: true
   prefer-h3: false
