@@ -2,31 +2,9 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.vRXNL_XhxPdlqRnLXcf5tKBaB5t33oqSXWOtaK1mAAY
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE17|6.5MB/s|DNSOK|GPT⁺-SE"
-    network: ws
-    port: 443
-    server: perplexity.ai
-    tls: true
-    type: vless
-    udp: true
-    uuid: 240db31e-077c-4ec2-a907-d3237fa06478
-    ws-opts:
-      headers:
-        Host: googoosh.subgift.cyou
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /t.me-SubGift
-    xudp: true
-    servername: googoosh.subgift.cyou
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.DnzFjeBiVd9hsdJLa3doeSXL6TXTWhAs02TzQZdLDXw
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE19|4.8MB/s|DNSOK|GPT⁺-SE"
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE22|9.6MB/s|DNSOK|GPT⁺-SE"
     network: ws
     port: 443
     server: perplexity.ai
@@ -38,18 +16,105 @@ proxies:
       headers:
         Host: moon.subgift24.bond
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: moon.subgift24.bond
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
+    encryption: mlkem768x25519plus.native.0rtt.DnzFjeBiVd9hsdJLa3doeSXL6TXTWhAs02TzQZdLDXw
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE24|6.0MB/s|DNSOK|GPT⁺-SE"
+    network: ws
+    port: 443
+    server: perplexity.ai
+    tls: true
+    type: vless
+    udp: true
+    uuid: a524f83d-803d-410d-adbe-298c01b13675
+    ws-opts:
+      headers:
+        Host: moon.subgift24.bond
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /t.me-SubGift
+    xudp: true
+    servername: moon.subgift24.bond
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: mlkem768x25519plus.native.0rtt.vRXNL_XhxPdlqRnLXcf5tKBaB5t33oqSXWOtaK1mAAY
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE25|3.3MB/s|DNSOK|GPT⁺-SE"
+    network: ws
+    port: 443
+    server: perplexity.ai
+    tls: true
+    type: vless
+    udp: true
+    uuid: 240db31e-077c-4ec2-a907-d3237fa06478
+    ws-opts:
+      headers:
+        Host: googoosh.subgift.cyou
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
+      path: /t.me-SubGift
+    xudp: true
+    servername: googoosh.subgift.cyou
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: mlkem768x25519plus.native.0rtt.vRXNL_XhxPdlqRnLXcf5tKBaB5t33oqSXWOtaK1mAAY
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE26|3.0MB/s|DNSOK|GPT⁺-SE"
+    network: ws
+    port: 443
+    server: perplexity.ai
+    tls: true
+    type: vless
+    udp: true
+    uuid: d728ab68-e0a4-4db9-9148-d70b738b2217
+    ws-opts:
+      headers:
+        Host: googoosh.subgift.cyou
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: /t.me-SubGift
+    xudp: true
+    servername: googoosh.subgift.cyou
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.xdQ4PhZeiXM_IM7_8cnVy_Pa9qYy8WHEE0rGMjkGrjc
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US566|3.0MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US593|2.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: perplexity.ai
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7518f4d6-8ecd-4f7e-94e0-71b447a7920b
+    ws-opts:
+      headers:
+        Host: sec.subgift24.bond
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /t.me-SubGift
+    xudp: true
+    servername: sec.subgift24.bond
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: mlkem768x25519plus.native.0rtt.xdQ4PhZeiXM_IM7_8cnVy_Pa9qYy8WHEE0rGMjkGrjc
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US596|2.6MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: perplexity.ai
@@ -61,8 +126,8 @@ proxies:
       headers:
         Host: sec.subgift24.bond
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: sec.subgift24.bond
