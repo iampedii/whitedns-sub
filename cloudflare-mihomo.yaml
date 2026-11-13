@@ -1,76 +1,23 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1FA | @WhiteDNS | HU4|19.7MB/s|DNSOK|GPT⁺-HU"
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US615|5.0MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 2083
-    server: 172.67.131.125
+    port: 443
+    server: 162.159.128.17
+    skip-cert-verify: false
     tls: true
-    type: vless
+    type: vmess
     udp: true
-    uuid: f418674e-f518-4318-8ff9-e10000000046
+    uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
     ws-opts:
       headers:
-        Host: smart-edge-424.arti98399-1905.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-          Slackware/Chrome/12.0.742.100 Safari/534.30
-      path: /
+        Host: ny-v2ray.ryin.vip
+      path: /ryinsocksv2board
     xudp: true
-    servername: smart-edge-424.arti98399-1905.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1FA | @WhiteDNS | HU5|18.5MB/s|DNSOK|GPT⁺-HU"
-    network: ws
-    port: 2083
-    server: 172.67.131.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: f418674e-f518-4318-8ff9-e10000000046
-    ws-opts:
-      headers:
-        Host: smart-edge-424.arti98399-1905.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: smart-edge-424.arti98399-1905.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US644|3.9MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 104.18.28.234
-    tls: true
-    type: vless
-    udp: true
-    uuid: c7653db5-1fa9-9a64-331a-d80c00000050
-    ws-opts:
-      headers:
-        Host: turbo-smart-628.pokfjfjfdjj.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /
-    xudp: true
-    servername: turbo-smart-628.pokfjfjfdjj.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US656|2.7MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 104.18.28.234
-    tls: true
-    type: vless
-    udp: true
-    uuid: c7653db5-1fa9-9a64-331a-d80c00000050
-    ws-opts:
-      headers:
-        Host: turbo-smart-628.pokfjfjfdjj.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /
-    xudp: true
-    servername: turbo-smart-628.pokfjfjfdjj.workers.dev
+    servername: ny-v2ray.ryin.vip
 dns:
   enable: true
   prefer-h3: false
