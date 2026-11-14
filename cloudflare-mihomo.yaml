@@ -1,22 +1,40 @@
 proxies:
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US620|2.7MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE169|5.1MB/s|DNSOK|GPT⁺-GB"
     network: ws
-    port: 2053
-    server: 104.18.28.234
+    port: 443
+    server: wandering-river-cd33.mramezanian1375.workers.dev
     tls: true
     type: vless
     udp: true
-    uuid: c7653db5-1fa9-9a64-331a-d80c00000050
+    uuid: 443b1e88-41fa-43bb-ff6c-982544254b74
     ws-opts:
       headers:
-        Host: turbo-smart-628.pokfjfjfdjj.workers.dev
+        Host: wandering-river-cd33.mramezanian1375.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/57.0.2987.133 Safari/537.36
+      path: /87fab74555d6e093
     xudp: true
-    servername: turbo-smart-628.pokfjfjfdjj.workers.dev
+    servername: wandering-river-cd33.mramezanian1375.workers.dev
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG118|3.3MB/s|DNSOK|GPT⁺-IN"
+    network: ws
+    port: 443
+    server: small-forest-d3e9.sarahds.workers.dev
+    tls: true
+    type: vless
+    udp: true
+    uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
+    ws-opts:
+      headers:
+        Host: small-forest-d3e9.sarahds.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
+      path: /0175469f14317d82
+    xudp: true
+    servername: small-forest-d3e9.sarahds.workers.dev
 dns:
   enable: true
   prefer-h3: false
