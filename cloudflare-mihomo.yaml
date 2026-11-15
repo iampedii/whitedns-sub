@@ -4,7 +4,7 @@ proxies:
     client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.vRXNL_XhxPdlqRnLXcf5tKBaB5t33oqSXWOtaK1mAAY
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE39|5.9MB/s|DNSOK|GPT⁺-SE"
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE22|6.0MB/s|DNSOK|GPT⁺-SE"
     network: ws
     port: 443
     server: perplexity.ai
@@ -16,8 +16,8 @@ proxies:
       headers:
         Host: subgift.googoosh.bond
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.102 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: subgift.googoosh.bond
@@ -26,7 +26,7 @@ proxies:
     client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.k5Oogr-_LcOahxpKCnEZxyBMecIUnKXRFDqtcxrIXAg
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE40|5.9MB/s|DNSOK|GPT⁺-SE"
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE24|4.7MB/s|DNSOK|GPT⁺-SE"
     network: ws
     port: 443
     server: perplexity.ai
@@ -38,36 +38,13 @@ proxies:
       headers:
         Host: hamseda.googoosh.bond
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: hamseda.googoosh.bond
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.WBSEgscc5M2QEKa8j8NlF3N49KFVXZVjy-O-NgANpHQ
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US645|3.2MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: perplexity.ai
-    tls: true
-    type: vless
-    udp: true
-    uuid: f7a9b27c-fd3c-4177-9f66-8be4dd726d0b
-    ws-opts:
-      headers:
-        Host: dexter.googoosh.bond
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/60.0.3112.116 Mobile Safari/537.36
-      path: /t.me-SubGift
-    xudp: true
-    servername: dexter.googoosh.bond
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US646|3.2MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US535|3.4MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: ws137.mydosss.ccwu.cc
@@ -80,66 +57,12 @@ proxies:
         Host: ws137.mydosss.ccwu.cc
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
       path: /3b575ddc8596
     xudp: true
     servername: ws137.mydosss.ccwu.cc
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US647|3.2MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: ws137.mydosss.ccwu.cc
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
-    ws-opts:
-      headers:
-        Host: ws137.mydosss.ccwu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /3b575ddc8596
-    xudp: true
-    servername: ws137.mydosss.ccwu.cc
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US651|2.8MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: ws137.mydosss.ccwu.cc
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
-    ws-opts:
-      headers:
-        Host: ws137.mydosss.ccwu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.115 Safari/537.36
-      path: /3b575ddc8596
-    xudp: true
-    servername: ws137.mydosss.ccwu.cc
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US664|2.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: ws137.mydosss.ccwu.cc
-    tls: true
-    type: vless
-    udp: true
-    uuid: 44be961e-c60d-463c-86d6-50ce6d8866c5
-    ws-opts:
-      headers:
-        Host: ws137.mydosss.ccwu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /3b575ddc8596
-    xudp: true
-    servername: ws137.mydosss.ccwu.cc
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US668|2.5MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US542|2.6MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: ws137.mydosss.ccwu.cc
@@ -151,28 +74,129 @@ proxies:
       headers:
         Host: ws137.mydosss.ccwu.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
+          Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
       path: /3b575ddc8596
     xudp: true
     servername: ws137.mydosss.ccwu.cc
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE214|1.2MB/s|DNSOK|GPT⁺-DE"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US544|2.6MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 2052
-    server: 172.64.150.43
+    port: 443
+    server: ws137.mydosss.ccwu.cc
+    tls: true
     type: vless
     udp: true
-    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+    uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
     ws-opts:
       headers:
-        Host: eu02.123450908.xyz
+        Host: ws137.mydosss.ccwu.cc
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /rain1226
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /3b575ddc8596
     xudp: true
-    servername: eu02.123450908.xyz
+    servername: ws137.mydosss.ccwu.cc
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US545|2.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ws137.mydosss.ccwu.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE193|2.6MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+          Gecko) Chrome/26.0.1410.64 Safari/537.31
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US546|2.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ws137.mydosss.ccwu.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 44be961e-c60d-463c-86d6-50ce6d8866c5
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: mlkem768x25519plus.native.0rtt.WBSEgscc5M2QEKa8j8NlF3N49KFVXZVjy-O-NgANpHQ
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US549|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: perplexity.ai
+    tls: true
+    type: vless
+    udp: true
+    uuid: f7a9b27c-fd3c-4177-9f66-8be4dd726d0b
+    ws-opts:
+      headers:
+        Host: dexter.googoosh.bond
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
+          Mobile Safari/537.36
+      path: /t.me-SubGift
+    xudp: true
+    servername: dexter.googoosh.bond
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US565|1.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 2053
+    server: fast.145779.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: /ws-tesla
+    xudp: true
+    servername: fast.145779.xyz
 dns:
   enable: true
   prefer-h3: false
