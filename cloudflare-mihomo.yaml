@@ -1,28 +1,31 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR94|5.0MB/s|DNSOK|GPT⁺-FR"
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US689|5.1MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 443
-    server: fr-free.fastestrelay.com
+    port: 2053
+    server: 104.21.58.37
     tls: true
     type: vless
     udp: true
-    uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
     ws-opts:
       headers:
-        Host: fr-free.fastestrelay.com
+        Host: fast.145779.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36
-      path: /700gvl
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /ws-tesla
     xudp: true
-    servername: fr-free.fastestrelay.com
+    servername: fast.145779.xyz
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.mLmHDPUnU0D6bnHJIDCDZ5RlsZC9LI3QaHSVlL8F0Fs
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US529|3.5MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US695|3.5MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: perplexity.com
@@ -34,33 +37,109 @@ proxies:
       headers:
         Host: rainman.exploring.cyou
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: rainman.exploring.cyou
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.vRXNL_XhxPdlqRnLXcf5tKBaB5t33oqSXWOtaK1mAAY
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE31|1.3MB/s|DNSOK|GPT⁺-SE"
+  - client-fingerprint: android
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US697|3.0MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: perplexity.com
+    server: 104.21.23.29
     tls: true
     type: vless
     udp: true
-    uuid: 628347a0-6582-4202-9aa8-2eaa8140dc25
+    uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
     ws-opts:
       headers:
-        Host: new.exploring.cyou
+        Host: ws137.mydosss.ccwu.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /t.me-SubGift
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: /3b575ddc8596
     xudp: true
-    servername: new.exploring.cyou
+    servername: ws137.mydosss.ccwu.cc
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US700|2.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 188.114.98.0
+    tls: true
+    type: vless
+    udp: true
+    uuid: 56066a03-d283-48cf-8120-eb8d810025cb
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US709|2.4MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 188.114.98.0
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE258|2.4MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US717|1.8MB/s|DNSOK|GPT⁺"
+    network: ws
+    port: 443
+    server: ws137.mydosss.ccwu.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
 dns:
   enable: true
   prefer-h3: false
