@@ -1,267 +1,9 @@
 proxies:
-  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE13|23.1MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2086
-    server: 104.21.64.198
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000007
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE14|23.0MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2086
-    server: 104.21.64.198
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000007
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE15|22.2MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2086
-    server: 172.67.155.136
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000007
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/68.0.3440.106 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE16|20.8MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2095
-    server: 104.21.64.198
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000008
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/46.0.2490.71 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE17|20.7MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 443
-    server: 172.67.134.136
-    tls: true
-    type: vless
-    udp: true
-    uuid: fa45096d-bed0-ad80-c773-23c300000003
-    ws-opts:
-      headers:
-        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-  - encryption: none
-    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE18|20.6MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2086
-    server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000007
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
-      path: /sync
-    xudp: true
-    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE19|20.6MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 443
-    server: 172.67.209.13
-    tls: true
-    type: vless
-    udp: true
-    uuid: fa45096d-bed0-ad80-c773-23c30000001b
-    ws-opts:
-      headers:
-        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile
-          Safari/537.36
-      path: /sync
-    xudp: true
-    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL474|19.4MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: 172.67.184.45
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000045
-    ws-opts:
-      headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: /
-    xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE20|18.8MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2086
-    server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000007
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE21|17.8MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2095
-    server: 104.21.64.198
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000008
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE22|6.8MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2095
-    server: 172.67.155.136
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000008
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1FA | @WhiteDNS | HU4|6.6MB/s|DNSOK|GPT⁺-HU"
-    network: ws
-    port: 2083
-    server: 172.67.131.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: f418674e-f518-4318-8ff9-e10000000046
-    ws-opts:
-      headers:
-        Host: smart-edge-424.arti98399-1905.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /sync
-    xudp: true
-    servername: smart-edge-424.arti98399-1905.workers.dev
   - alpn:
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI76|6.5MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: ip3.ipspanel.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 03cc39b9-0b75-4297-b284-8158cfbb959a
-    ws-opts:
-      headers:
-        Host: T.panel001.ir
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /@TurboVpn10
-    xudp: true
-    servername: T.panel001.ir
-  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE23|6.3MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2095
-    server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000008
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL499|6.2MB/s|DNSOK|GPT⁺-NL"
-    network: ws
-    port: 443
-    server: 172.67.155.222
-    tls: true
-    type: vless
-    udp: true
-    uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
-    ws-opts:
-      headers:
-        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-          Mobile Safari/537.36
-      path: /sync
-    xudp: true
-    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI80|5.8MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI39|6.9MB/s|DNSOK|GPT⁺-DE"
     network: ws
     port: 8443
     server: Ip3.ipspanel.ir
@@ -273,38 +15,17 @@ proxies:
       headers:
         Host: T.panel001.ir
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
       path: /@TurboVpn10
     xudp: true
     servername: T.panel001.ir
   - alpn:
       - http/1.1
-    client-fingerprint: edge
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE410|5.8MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: 104.17.70.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
-    ws-opts:
-      headers:
-        Host: free.sahanwickramasinghe.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-    xudp: true
-    servername: free.sahanwickramasinghe.com
-  - alpn:
-      - http/1.1
     client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.vRXNL_XhxPdlqRnLXcf5tKBaB5t33oqSXWOtaK1mAAY
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE39|5.5MB/s|DNSOK|GPT⁺-SE"
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE30|5.5MB/s|DNSOK|GPT⁺-SE"
     network: ws
     port: 443
     server: perplexity.com
@@ -316,181 +37,76 @@ proxies:
       headers:
         Host: new.exploring.cyou
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/56.0.2924.87 Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: new.exploring.cyou
   - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US780|5.5MB/s|DNSOK|GPT⁺-US"
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI44|5.5MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 80
-    server: www.speedtest.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 6fa9def2-edcb-4348-b012-6622c959a620
-    ws-opts:
-      headers:
-        Host: prairie-formats-holland-bundle.trycloudflare.com
-      path: /@ferdolans7
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US781|4.8MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: fast.145779.xyz
+    port: 8443
+    server: ip3.ipspanel.ir
     tls: true
     type: vless
     udp: true
-    uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+    uuid: 03cc39b9-0b75-4297-b284-8158cfbb959a
+    ws-opts:
+      headers:
+        Host: T.panel001.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /@TurboVpn10
+    xudp: true
+    servername: T.panel001.ir
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US698|2.8MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 188.114.98.0
+    tls: true
+    type: vless
+    udp: true
+    uuid: 56066a03-d283-48cf-8120-eb8d810025cb
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US700|2.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ws137.mydosss.ccwu.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
     ws-opts:
       headers:
         Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /ws-tesla
+          Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /3b575ddc8596
     xudp: true
-    servername: fast.145779.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E6\U0001F1EA | @WhiteDNS | AE25|4.7MB/s|DNSOK|GPT⁺-AE"
-    network: ws
-    port: 443
-    server: 104.21.108.4
-    tls: true
-    type: vless
-    udp: true
-    uuid: fa45096d-bed0-ad80-c773-23c300000018
-    ws-opts:
-      headers:
-        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-    xudp: true
-    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-  - client-fingerprint: ios
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US782|4.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: fast.145779.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-    ws-opts:
-      headers:
-        Host: fast.145779.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /ws-tesla
-    xudp: true
-    servername: fast.145779.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1F2\U0001F1FE | @WhiteDNS | MY10|3.3MB/s|DNSOK|GPT⁺-MY"
-    network: ws
-    port: 443
-    server: 382218.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: d801d4d9-111a-46e8-91fc-e2fb39ef2d22
-    ws-opts:
-      headers:
-        Host: 382218.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /ws
-    xudp: true
-    servername: 382218.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US792|2.7MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: a2c.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc591bd5-3fc9-9f3e-b194-939100000004
-    ws-opts:
-      headers:
-        Host: flow-turbo-727.deloy10120.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: flow-turbo-727.deloy10120.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US794|2.7MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 104.18.28.234
-    tls: true
-    type: vless
-    udp: true
-    uuid: c7653db5-1fa9-9a64-331a-d80c00000050
-    ws-opts:
-      headers:
-        Host: turbo-smart-628.pokfjfjfdjj.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    servername: turbo-smart-628.pokfjfjfdjj.workers.dev
-  - encryption: none
-    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE24|2.4MB/s|DNSOK|GPT⁺-BE"
-    network: ws
-    port: 2095
-    server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-    type: vless
-    udp: true
-    uuid: 73796e63-0000-4000-8000-000000000008
-    ws-opts:
-      headers:
-        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE414|1.8MB/s|DNSOK|GPT⁺-GB"
-    network: ws
-    port: 443
-    server: wandering-river-cd33.mramezanian1375.workers.dev
-    tls: true
-    type: vless
-    udp: true
-    uuid: 443b1e88-41fa-43bb-ff6c-982544254b74
-    ws-opts:
-      headers:
-        Host: wandering-river-cd33.mramezanian1375.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /87fab74555d6e093
-    xudp: true
-    servername: wandering-river-cd33.mramezanian1375.workers.dev
+    servername: ws137.mydosss.ccwu.cc
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.mLmHDPUnU0D6bnHJIDCDZ5RlsZC9LI3QaHSVlL8F0Fs
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US845|880KB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US714|2.5MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: perplexity.com
@@ -502,11 +118,43 @@ proxies:
       headers:
         Host: rainman.exploring.cyou
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
+          Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+          Chrome/v1.0.0 Safari/538.1
       path: /t.me-SubGift
     xudp: true
     servername: rainman.exploring.cyou
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE294|1.3MB/s|DNSOK|GPT⁺"
+    network: ws
+    port: 2052
+    server: 172.64.150.43
+    type: vless
+    udp: true
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+    ws-opts:
+      headers:
+        Host: eu02.123450908.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+      path: /rain1226
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US749|1.2MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ws137.mydosss.ccwu.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 369360e9-ff90-43c3-b81b-ebac420fce73
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
 dns:
   enable: true
   prefer-h3: false
