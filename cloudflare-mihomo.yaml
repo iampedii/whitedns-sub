@@ -1,10 +1,28 @@
 proxies:
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR94|5.0MB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 443
+    server: fr-free.fastestrelay.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+    ws-opts:
+      headers:
+        Host: fr-free.fastestrelay.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.111 Safari/537.36
+      path: /700gvl
+    xudp: true
+    servername: fr-free.fastestrelay.com
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.mLmHDPUnU0D6bnHJIDCDZ5RlsZC9LI3QaHSVlL8F0Fs
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US617|3.3MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US529|3.5MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: perplexity.com
@@ -16,12 +34,33 @@ proxies:
       headers:
         Host: rainman.exploring.cyou
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: rainman.exploring.cyou
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: mlkem768x25519plus.native.0rtt.vRXNL_XhxPdlqRnLXcf5tKBaB5t33oqSXWOtaK1mAAY
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE31|1.3MB/s|DNSOK|GPT⁺-SE"
+    network: ws
+    port: 443
+    server: perplexity.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 628347a0-6582-4202-9aa8-2eaa8140dc25
+    ws-opts:
+      headers:
+        Host: new.exploring.cyou
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /t.me-SubGift
+    xudp: true
+    servername: new.exploring.cyou
 dns:
   enable: true
   prefer-h3: false
