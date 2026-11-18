@@ -1,45 +1,133 @@
 proxies:
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT32|31.2MB/s|DNSOK|GPT⁺-IT"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US529|2.8MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: freev2.cloudflare.182682.xyz
+    server: ws137.mydosss.ccwu.cc
     tls: true
     type: vless
     udp: true
-    uuid: e347aeea-6bfc-4d39-8536-ead65b93ddde
+    uuid: 56066a03-d283-48cf-8120-eb8d810025cb
     ws-opts:
       headers:
-        Host: it-mil.862400.xyz
+        Host: ws137.mydosss.ccwu.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: /3b575ddc8596
     xudp: true
-    servername: it-mil.862400.xyz
+    servername: ws137.mydosss.ccwu.cc
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR107|2.7MB/s|DNSOK|GPT⁺-FR"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US531|2.7MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: 188.114.98.0
     tls: true
     type: vless
     udp: true
-    uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+    uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
     ws-opts:
       headers:
-        Host: fr-free.fastestrelay.com
+        Host: ws137.mydosss.ccwu.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
-      path: /700gvl
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /3b575ddc8596
     xudp: true
-    servername: fr-free.fastestrelay.com
+    servername: ws137.mydosss.ccwu.cc
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US534|2.6MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ws137.mydosss.ccwu.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US535|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 172.67.208.118
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
+  - client-fingerprint: firefox
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US536|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ws137.mydosss.ccwu.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 44be961e-c60d-463c-86d6-50ce6d8866c5
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US537|2.5MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 172.67.208.118
+    tls: true
+    type: vless
+    udp: true
+    uuid: 369360e9-ff90-43c3-b81b-ebac420fce73
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US543|1.9MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 172.67.208.118
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
+    ws-opts:
+      headers:
+        Host: ws137.mydosss.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.162 Safari/537.36
+      path: /3b575ddc8596
+    xudp: true
+    servername: ws137.mydosss.ccwu.cc
 dns:
   enable: true
   prefer-h3: false
