@@ -1,7 +1,7 @@
 proxies:
-  - client-fingerprint: chrome
+  - client-fingerprint: random
     encryption: none
-    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT36|18.5MB/s|DNSOK|GPT⁺-IT"
+    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT32|31.2MB/s|DNSOK|GPT⁺-IT"
     network: ws
     port: 443
     server: freev2.cloudflare.182682.xyz
@@ -13,8 +13,8 @@ proxies:
       headers:
         Host: it-mil.862400.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
@@ -23,45 +23,23 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.mLmHDPUnU0D6bnHJIDCDZ5RlsZC9LI3QaHSVlL8F0Fs
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US632|2.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: perplexity.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: f7a9b27c-fd3c-4177-9f66-8be4dd726d0b
-    ws-opts:
-      headers:
-        Host: rainman.exploring.cyou
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /t.me-SubGift
-    xudp: true
-    servername: rainman.exploring.cyou
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US634|2.5MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR107|2.7MB/s|DNSOK|GPT⁺-FR"
     network: ws
     port: 443
     server: 188.114.98.0
     tls: true
     type: vless
     udp: true
-    uuid: 44be961e-c60d-463c-86d6-50ce6d8866c5
+    uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
     ws-opts:
       headers:
-        Host: ws137.mydosss.ccwu.cc
+        Host: fr-free.fastestrelay.com
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /3b575ddc8596
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /700gvl
     xudp: true
-    servername: ws137.mydosss.ccwu.cc
+    servername: fr-free.fastestrelay.com
 dns:
   enable: true
   prefer-h3: false
