@@ -1,182 +1,25 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE280|18.3MB/s|DNSOK|GPT⁺-DE"
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US507|4.5MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: tether.dev
+    server: ct.877774.xyz
     tls: true
     type: vless
     udp: true
-    uuid: dd2525ab-e5b7-58c4-a9b4-511100000000
+    uuid: d38b03c3-ff14-4ee0-80de-cd089f84ee38
     ws-opts:
       headers:
-        Host: xtdp.akaram-5624-cba.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: xtdp.akaram-5624-cba.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE281|16.9MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 443
-    server: cloudflare.dev
-    tls: true
-    type: vless
-    udp: true
-    uuid: dd2525ab-e5b7-58c4-a9b4-511100000001
-    ws-opts:
-      headers:
-        Host: xtdp.akaram-5624-cba.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-      path: /sync
-    xudp: true
-    servername: xtdp.akaram-5624-cba.workers.dev
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE282|8.2MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2052
-    server: 104.18.0.181
-    type: vless
-    udp: true
-    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-    ws-opts:
-      headers:
-        Host: eu02.123450908.xyz
+        Host: us-lax.862400.xyz
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36
-      path: /rain1226
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
     xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US684|2.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: a2c.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc591bd5-3fc9-9f3e-b194-939100000004
-    ws-opts:
-      headers:
-        Host: flow-turbo-727.deloy10120.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    servername: flow-turbo-727.deloy10120.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US686|2.4MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 104.18.28.234
-    tls: true
-    type: vless
-    udp: true
-    uuid: c7653db5-1fa9-9a64-331a-d80c00000050
-    ws-opts:
-      headers:
-        Host: turbo-smart-628.pokfjfjfdjj.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /
-    xudp: true
-    servername: turbo-smart-628.pokfjfjfdjj.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US687|2.4MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: a2c.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc591bd5-3fc9-9f3e-b194-939100000004
-    ws-opts:
-      headers:
-        Host: flow-turbo-727.deloy10120.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: /sync
-    xudp: true
-    servername: flow-turbo-727.deloy10120.workers.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US688|2.4MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 2053
-    server: 104.18.28.234
-    tls: true
-    type: vless
-    udp: true
-    uuid: c7653db5-1fa9-9a64-331a-d80c00000050
-    ws-opts:
-      headers:
-        Host: turbo-smart-628.pokfjfjfdjj.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
-      path: /
-    xudp: true
-    servername: turbo-smart-628.pokfjfjfdjj.workers.dev
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI69|2.3MB/s|DNSOK|GPT⁺-FI"
-    network: ws
-    port: 2083
-    server: 172.67.67.89
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-    ws-opts:
-      headers:
-        Host: vipfree.dr-ping.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /
-    xudp: true
-    servername: vipfree.dr-ping.ir
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE290|1.8MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2052
-    server: 104.26.0.1
-    type: vless
-    udp: true
-    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-    ws-opts:
-      headers:
-        Host: eu02.123450908.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /rain1226
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI72|591KB/s|DNSOK|GPT⁺-FI"
-    network: ws
-    port: 2083
-    server: 172.64.79.163
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-    ws-opts:
-      headers:
-        Host: vipfree.dr-ping.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /
-    xudp: true
-    servername: vipfree.dr-ping.ir
+    servername: us-lax.862400.xyz
 dns:
   enable: true
   prefer-h3: false
