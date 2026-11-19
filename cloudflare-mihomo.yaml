@@ -1,25 +1,26 @@
 proxies:
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US507|4.5MB/s|DNSOK|GPT⁺-US"
+  - alpn:
+      - http/1.1
+    client-fingerprint: unsafe
+    encryption: mlkem768x25519plus.native.0rtt.mLmHDPUnU0D6bnHJIDCDZ5RlsZC9LI3QaHSVlL8F0Fs
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US566|2.8MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
-    server: ct.877774.xyz
+    server: perplexity.ai
     tls: true
     type: vless
     udp: true
-    uuid: d38b03c3-ff14-4ee0-80de-cd089f84ee38
+    uuid: f7a9b27c-fd3c-4177-9f66-8be4dd726d0b
     ws-opts:
       headers:
-        Host: us-lax.862400.xyz
+        Host: 2.moltafet.bond
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /t.me-SubGift
     xudp: true
-    servername: us-lax.862400.xyz
+    servername: 2.moltafet.bond
 dns:
   enable: true
   prefer-h3: false
