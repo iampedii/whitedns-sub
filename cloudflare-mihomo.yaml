@@ -1,24 +1,35 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI51|1.7MB/s|DNSOK|GPT⁺"
+  - encryption: none
+    name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ6|1.4MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 2083
-    server: 162.159.237.118
-    tls: true
+    port: 2052
+    server: eu02.123450908.xyz
     type: vless
     udp: true
-    uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
     ws-opts:
       headers:
-        Host: vipfree.dr-ping.ir
+        Host: eu02.123450908.xyz
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
-          Safari/537.36
-      path: /
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /rain1226
     xudp: true
-    servername: vipfree.dr-ping.ir
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE283|1.4MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2052
+    server: 104.16.0.1
+    type: vless
+    udp: true
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+    ws-opts:
+      headers:
+        Host: eu02.123450908.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /rain1226
 dns:
   enable: true
   prefer-h3: false
