@@ -1,44 +1,52 @@
 proxies:
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.mLmHDPUnU0D6bnHJIDCDZ5RlsZC9LI3QaHSVlL8F0Fs
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US647|3.1MB/s|DNSOK|GPT⁺-US"
+  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ5|1.8MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 443
-    server: perplexity.ai
-    tls: true
+    port: 2052
+    server: 104.16.0.1
     type: vless
     udp: true
-    uuid: f7a9b27c-fd3c-4177-9f66-8be4dd726d0b
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
     ws-opts:
       headers:
-        Host: 2.moltafet.bond
+        Host: eu02.123450908.xyz
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /t.me-SubGift
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /rain1226
     xudp: true
-    servername: 2.moltafet.bond
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG137|2.5MB/s|DNSOK|GPT⁺-IN"
+    servername: eu02.123450908.xyz
+  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ6|1.5MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 443
-    server: 104.21.13.108
-    tls: true
+    port: 2052
+    server: 172.64.229.129
     type: vless
     udp: true
-    uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
     ws-opts:
       headers:
-        Host: small-forest-d3e9.sarahds.workers.dev
+        Host: eu02.123450908.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /0175469f14317d82
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: /rain1226
     xudp: true
-    servername: small-forest-d3e9.sarahds.workers.dev
+  - encryption: none
+    name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ7|1.3MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2052
+    server: 104.18.0.181
+    type: vless
+    udp: true
+    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+    ws-opts:
+      headers:
+        Host: eu02.123450908.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.102 Safari/537.36
+      path: /rain1226
+    xudp: true
+    servername: eu02.123450908.xyz
 dns:
   enable: true
   prefer-h3: false
