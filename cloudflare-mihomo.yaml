@@ -1,52 +1,24 @@
 proxies:
-  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ5|1.8MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2052
-    server: 104.16.0.1
+  - alpn:
+      - http/1.1
+      - h2
+      - h3
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB72|3.4MB/s|DNSOK|GPT⁺-GB"
+    network: xhttp
+    port: 8443
+    server: chatgpt.com
+    tls: true
     type: vless
     udp: true
-    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-    ws-opts:
-      headers:
-        Host: eu02.123450908.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /rain1226
+    uuid: e88c423d-9f23-4d25-aef0-940571858d58
+    xhttp-opts:
+      mode: auto
+      path: /
+      x-padding-bytes: 100-1000
     xudp: true
-    servername: eu02.123450908.xyz
-  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ6|1.5MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2052
-    server: 172.64.229.129
-    type: vless
-    udp: true
-    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-    ws-opts:
-      headers:
-        Host: eu02.123450908.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-      path: /rain1226
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ7|1.3MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2052
-    server: 104.18.0.181
-    type: vless
-    udp: true
-    uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-    ws-opts:
-      headers:
-        Host: eu02.123450908.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
-      path: /rain1226
-    xudp: true
-    servername: eu02.123450908.xyz
+    servername: sinavm2.soft10.ir
 dns:
   enable: true
   prefer-h3: false
