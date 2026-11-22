@@ -2,30 +2,9 @@ proxies:
   - alpn:
       - http/1.1
     client-fingerprint: unsafe
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE204|6.5MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 8443
-    server: chatgpt.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7eb360e0-3bf4-4e9b-9192-ca25a2f54b73
-    ws-opts:
-      headers:
-        Host: de9.ahsvip.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /sg-melbi
-    xudp: true
-    servername: de9.ahsvip.eu.org
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.X9-4gwVzZ7FvRTt7StLvPErFueO4ES_hSlXtloPrkmA
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE20|5.1MB/s|DNSOK|GPT⁺-SE"
+    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE26|4.8MB/s|DNSOK|GPT⁺-SE"
     network: ws
     port: 443
     server: perplexity.ai
@@ -37,17 +16,43 @@ proxies:
       headers:
         Host: test.subgift.cyou
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+          Mobile Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: test.subgift.cyou
-  - client-fingerprint: chrome
+  - alpn:
+      - http/1.1
+    client-fingerprint: safari
     encryption: none
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB75|1.9MB/s|DNSOK|GPT⁺-GB"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE281|4.7MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 8443
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+    servername: free.sahanwickramasinghe.com
+  - alpn:
+      - http/1.1
+      - h2
+      - h3
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB74|1.1MB/s|DNSOK|GPT⁺-GB"
     network: xhttp
     port: 8443
-    server: chatgpt.com
+    server: 172.64.155.209
     tls: true
     type: vless
     udp: true
@@ -58,24 +63,6 @@ proxies:
       x-padding-bytes: 100-1000
     xudp: true
     servername: sinavm2.soft10.ir
-  - client-fingerprint: firefox
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP93|556KB/s|DNSOK|GPT⁺"
-    network: ws
-    port: 443
-    server: 104.21.34.106
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    ws-opts:
-      headers:
-        Host: jp3.yohototo.top
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-          (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-      path: /tyxyws
-    xudp: true
-    servername: jp3.yohototo.top
 dns:
   enable: true
   prefer-h3: false
