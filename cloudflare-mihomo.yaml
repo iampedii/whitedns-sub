@@ -5,7 +5,7 @@ proxies:
       - h3
     client-fingerprint: chrome
     encryption: none
-    name: ❓ | @WhiteDNS | OT515|767KB/s|DNSOK|GPT⁺-GB
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB55|5.0MB/s|DNSOK|GPT⁺-GB"
     network: xhttp
     port: 8443
     server: 172.64.155.209
@@ -17,29 +17,6 @@ proxies:
       mode: auto
       path: /
       x-padding-bytes: 100-1000
-    xudp: true
-    servername: sinavm2.soft10.ir
-  - alpn:
-      - http/1.1
-      - h2
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB69|580KB/s|DNSOK|GPT⁺"
-    network: ws
-    port: 443
-    server: 172.64.155.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
-    ws-opts:
-      headers:
-        Host: sinavm2.soft10.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.75 Safari/537.36
-      path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
     xudp: true
     servername: sinavm2.soft10.ir
 dns:
