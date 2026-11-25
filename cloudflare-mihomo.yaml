@@ -1,52 +1,10 @@
 proxies:
   - alpn:
       - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI31|13.3MB/s|DNSOK|GPT⁺-DE"
-    network: ws
-    port: 2053
-    server: Ip4.ipspanel.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 37df2d23-a4d0-40ca-9dd0-c791d1ff94be
-    ws-opts:
-      headers:
-        Host: T.panel001.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /@TurboVpn10
-    xudp: true
-    servername: T.panel001.ir
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    encryption: mlkem768x25519plus.native.0rtt.3aEl4THf4qftWfkycK9gYGyYtXHeJtW814YR4P7E-mE
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE32|5.0MB/s|DNSOK|GPT⁺-SE"
-    network: ws
-    port: 443
-    server: perplexity.ai
-    tls: true
-    type: vless
-    udp: true
-    uuid: cce61038-6099-4c50-a149-e5263a218f12
-    ws-opts:
-      headers:
-        Host: rock.davidbowie.cyou
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /t.me-SubGift
-    xudp: true
-    servername: rock.davidbowie.cyou
-  - alpn:
-      - http/1.1
     client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.f1l2fwqTCc7B0iOHb3rNWVT6Js-L_1h1wWcSu4HkRyI
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US403|3.2MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US386|4.5MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: perplexity.ai
@@ -58,8 +16,8 @@ proxies:
       headers:
         Host: hiphop.moltafet.bond
         User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: hiphop.moltafet.bond
