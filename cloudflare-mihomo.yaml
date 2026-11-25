@@ -1,23 +1,44 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB58|527KB/s|DNSOK|GPT⁺-GB"
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI33|6.8MB/s|DNSOK|GPT⁺-DE"
     network: ws
-    port: 443
-    server: chatgpt.com
+    port: 8443
+    server: Ip3.ipspanel.ir
     tls: true
     type: vless
     udp: true
-    uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+    uuid: 37df2d23-a4d0-40ca-9dd0-c791d1ff94be
     ws-opts:
       headers:
-        Host: sinavm2.soft10.ir
+        Host: T.panel001.ir
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
-      path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: /@TurboVpn10
     xudp: true
-    servername: sinavm2.soft10.ir
+    servername: T.panel001.ir
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI34|5.7MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 2053
+    server: Ip4.ipspanel.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 37df2d23-a4d0-40ca-9dd0-c791d1ff94be
+    ws-opts:
+      headers:
+        Host: T.panel001.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.104 Safari/537.36
+      path: /@TurboVpn10
+    xudp: true
+    servername: T.panel001.ir
 dns:
   enable: true
   prefer-h3: false
