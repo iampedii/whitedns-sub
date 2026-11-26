@@ -1,25 +1,28 @@
 proxies:
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1F2\U0001F1E9 | @WhiteDNS | MD4|5.6MB/s|DNSOK|GPT⁺-MD"
-    network: ws
-    password: 963A4918-A630-29DA-A873-093CDF8AD784
-    port: 443
-    server: dry-snowflake-b29f.vpnetwork3567.workers.dev
-    skip-cert-verify: false
-    sni: dry-snowflake-b29f.vpnetwork3567.workers.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/65.0.3325.181 Safari/537.36
-      path: /
   - client-fingerprint: random
     encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG84|3.3MB/s|DNSOK|GPT⁺-SG"
+    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT28|38.8MB/s|DNSOK|GPT⁺-IT"
+    network: ws
+    port: 443
+    server: freev2.cloudflare.182682.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 201d6c87-5de6-4bda-973c-024129b228fb
+    ws-opts:
+      headers:
+        Host: it-mil.862400.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: it-mil.862400.xyz
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG83|3.2MB/s|DNSOK|GPT⁺-SG"
     network: ws
     port: 443
     server: ct.877774.xyz
@@ -31,13 +34,32 @@ proxies:
       headers:
         Host: ap-south.862400.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
       path: /announcement
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
     servername: ap-south.862400.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR63|1.7MB/s|DNSOK|GPT⁺-KR"
+    network: ws
+    port: 443
+    server: 104.20.28.74
+    tls: true
+    type: vless
+    udp: true
+    uuid: db906786-8c49-4b17-9182-cea680ef954d
+    ws-opts:
+      headers:
+        Host: krc.80782636.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /kw7x2mq9
+    xudp: true
+    servername: krc.80782636.xyz
 dns:
   enable: true
   prefer-h3: false
