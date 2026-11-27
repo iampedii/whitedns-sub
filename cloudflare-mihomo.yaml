@@ -1,103 +1,6 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT54|31.2MB/s|DNSOK|GPT⁺-IT"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    tls: true
-    type: vless
-    udp: true
-    uuid: 937bc631-4022-41d2-ae15-d8247ba5e32d
-    ws-opts:
-      headers:
-        Host: it-mil.862400.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: it-mil.862400.xyz
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1F2\U0001F1E9 | @WhiteDNS | MD6|5.5MB/s|DNSOK|GPT⁺-MD"
-    network: ws
-    password: 963A4918-A630-29DA-A873-093CDF8AD784
-    port: 443
-    server: md.stealthtunnel.com
-    skip-cert-verify: false
-    sni: md.stealthtunnel.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/67.0.3396.99 Safari/537.36
-      path: /
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EA | @WhiteDNS | SE12|5.4MB/s|DNSOK|GPT⁺-SE"
-    network: ws
-    port: 2053
-    server: ws.dhafhdtjdti.site
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9f749472-c636-4c5a-af51-7f8feefaac81
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.85 Safari/537.36
-      path: /
-    xudp: true
-    servername: ws.dhafhdtjdti.site
-  - client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US582|4.7MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: ct.877774.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 937bc631-4022-41d2-ae15-d8247ba5e32d
-    ws-opts:
-      headers:
-        Host: us-lax.862400.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: us-lax.862400.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US594|2.6MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 443
-    server: a2c.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: bc591bd5-3fc9-9f3e-b194-939100000004
-    ws-opts:
-      headers:
-        Host: flow-turbo-727.deloy10120.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /sync
-    xudp: true
-    servername: flow-turbo-727.deloy10120.workers.dev
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EE\U0001F1F3 | @WhiteDNS | IN45|2.6MB/s|DNSOK|GPT⁺-IN"
+    name: "\U0001F1EE\U0001F1F3 | @WhiteDNS | IN26|4.3MB/s|DNSOK|GPT⁺-IN"
     password: 806a291d6fa98489025802ae1285df63811ed499011dcf35
     plugin: v2ray-plugin
     plugin-opts:
@@ -110,55 +13,11 @@ proxies:
     type: ss
     udp: true
   - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG100|2.6MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8443
-    server: 172.66.40.229
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1acec266-04ee-4769-b96b-402358531dcb
-    ws-opts:
-      headers:
-        Host: highspeed.sahanwickramasinghe.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
-      path: /
-    xudp: true
-    servername: highspeed.sahanwickramasinghe.com
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG102|2.4MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8443
-    server: 104.17.70.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1acec266-04ee-4769-b96b-402358531dcb
-    ws-opts:
-      headers:
-        Host: highspeed.sahanwickramasinghe.com
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/44.0.2403.157 Safari/537.36
-      path: /
-    xudp: true
-    servername: highspeed.sahanwickramasinghe.com
-  - alpn:
       - http/1.1
     client-fingerprint: unsafe
     encryption: mlkem768x25519plus.native.0rtt.f1l2fwqTCc7B0iOHb3rNWVT6Js-L_1h1wWcSu4HkRyI
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US609|1.7MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US369|3.2MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: perplexity.ai
@@ -170,12 +29,33 @@ proxies:
       headers:
         Host: hiphop.moltafet.bond
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
       path: /t.me-SubGift
     xudp: true
     servername: hiphop.moltafet.bond
+  - client-fingerprint: random
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US370|3.1MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: ct.877774.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 937bc631-4022-41d2-ae15-d8247ba5e32d
+    ws-opts:
+      headers:
+        Host: us-lax.862400.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /announcement
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: us-lax.862400.xyz
 dns:
   enable: true
   prefer-h3: false
