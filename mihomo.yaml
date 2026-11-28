@@ -1,34 +1,12 @@
 proxies:
-  - name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT27|39.7MB/s|DNSOK|GPT⁺-IT"
-    password: ''
-    port: 443
-    server: 185.183.105.130
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE130|31.2MB/s|DNSOK|GPT⁺-DE"
-    password: ''
-    port: 9002
-    server: 158.173.154.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL290|30.3MB/s|DNSOK|GPT⁺-NL"
-    network: tcp
-    port: 1270
-    server: 209.38.42.238
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE131|29.4MB/s|DNSOK|GPT⁺-DE"
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT274|50.6MB/s|DNSOK|GPT⁺-IT"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.54
+    type: ss
+    udp: true
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE285|34.3MB/s|DNSOK|GPT⁺-DE"
     password: None
     port: 9002
     server: 158.173.154.4
@@ -36,35 +14,14 @@ proxies:
     tls: true
     type: http
     username: ''
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL291|27.5MB/s|DNSOK|GPT⁺-NL"
-    network: tcp
-    port: 1270
-    server: 209.38.42.238
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-    xudp: true
-    servername: xmfhlpy.com
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT28|27.4MB/s|DNSOK|GPT⁺-IT"
-    password: itzvpn@321
-    port: 8388
-    server: leviko-it8672.shopingggg.ir
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE286|33.4MB/s|DNSOK|GPT⁺-DE"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 57.129.76.233
     type: ss
     udp: true
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE132|27.1MB/s|DNSOK|GPT⁺-DE"
-    password: ''
-    port: 9002
-    server: 158.173.154.2
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE133|26.5MB/s|DNSOK|GPT⁺-DE"
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE287|31.9MB/s|DNSOK|GPT⁺-DE"
     password: None
     port: 443
     server: 149.36.50.1
@@ -72,17 +29,55 @@ proxies:
     tls: true
     type: http
     username: ''
-  - cipher: aes-256-gcm
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR76|26.3MB/s|DNSOK|GPT⁺-FR"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 79.137.99.183
-    type: ss
-    udp: true
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE288|31.2MB/s|DNSOK|GPT⁺-DE"
+    password: ''
+    port: 9002
+    server: 158.173.154.3
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL292|26.1MB/s|DNSOK|GPT⁺-NL"
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL318|31.2MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.34
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE289|30.8MB/s|DNSOK|GPT⁺-DE"
+    password: ''
+    port: 9002
+    server: 158.173.154.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL319|30.8MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 1270
+    server: 188.166.81.135
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+    xudp: true
+    servername: xmfhlpy.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL320|29.5MB/s|DNSOK|GPT⁺-NL"
     network: tcp
     port: 23576
     reality-opts:
@@ -95,55 +90,155 @@ proxies:
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     xudp: true
     servername: fuck.rkn
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE134|25.9MB/s|DNSOK|GPT⁺-DE"
-    network: tcp
-    port: 8443
-    server: 167.233.217.107
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6c022fe4-9838-42fd-a702-1938c5d2ca33
-    xudp: true
-    servername: static.80.222.99.91.clients.your-server.de
-  - client-fingerprint: random
-    grpc-opts:
-      grpc-service-name: grpc-common3
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR77|25.3MB/s|DNSOK|GPT⁺-FR"
-    network: grpc
-    port: 35108
-    reality-opts:
-      public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
-      short-id: "52add08b86a5ccea"
-    server: 152.228.139.33
-    tls: true
-    type: vless
-    udp: true
-    uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
-    xudp: true
-    servername: www.nvidia.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR78|25.3MB/s|DNSOK|GPT⁺-FR"
-    network: xhttp
-    port: 32202
-    reality-opts:
-      public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
-      short-id: "f57d8f26"
-    server: 62.210.24.143
-    tls: true
-    type: vless
-    udp: true
-    uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
-    xhttp-opts:
-      mode: auto
-      path: /G3EEoH63
-    xudp: true
-    servername: www.amazon.com
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR79|24.6MB/s|DNSOK|GPT⁺-FR"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR76|27.7MB/s|DNSOK|GPT⁺-FR"
+    network: tcp
+    port: 1270
+    server: 46.105.222.157
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+    xudp: true
+    servername: xmfhlpy.com
+  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL321|27.6MB/s|DNSOK|GPT⁺-NL"
+    password: ''
+    port: 19362
+    server: 51.159.225.197
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - cipher: aes-256-gcm
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR77|27.5MB/s|DNSOK|GPT⁺-FR"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 79.137.99.183
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE290|27.3MB/s|DNSOK|GPT⁺-DE"
+    network: tcp
+    port: 16893
+    reality-opts:
+      public-key: dpmXAfLC6-Sf6cPjkQKGx_NliRQRFZ_oUiiPA5ALW0I
+      short-id: "849711f2b99d1176"
+    server: 91.107.185.86
+    tls: true
+    type: vless
+    udp: true
+    uuid: 80256d6f-7cd3-4a3a-8df6-2981e52551dc
+    xudp: true
+    servername: play.google.com
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR78|26.9MB/s|DNSOK|GPT⁺-FR"
+    network: tcp
+    port: 1270
+    server: 91.134.35.72
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+    xudp: true
+    servername: xmfhlpy.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL322|26.8MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.8
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR79|26.8MB/s|DNSOK|GPT⁺-FR"
+    network: tcp
+    port: 1270
+    server: 46.105.222.156
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+    xudp: true
+    servername: xmfhlpy.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL323|26.7MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.86
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL324|26.5MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 1270
+    server: 209.38.42.238
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+    xudp: true
+    servername: xmfhlpy.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL325|26.5MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.19
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL326|26.5MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.97
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR80|26.4MB/s|DNSOK|GPT⁺-FR"
     network: tcp
     port: 1270
     server: 79.137.99.183
@@ -154,40 +249,146 @@ proxies:
     uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
     xudp: true
     servername: xmfhlpy.com
-  - client-fingerprint: random
+  - client-fingerprint: chrome
+    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL293|24.3MB/s|DNSOK|GPT⁺-NL"
-    network: tcp
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL327|26.4MB/s|DNSOK|GPT⁺-NL"
+    network: raw
     port: 23576
     reality-opts:
       public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: ''
-    server: 51.158.206.25
+      short-id: '01'
+    server: 51.158.206.19
     tls: true
     type: vless
     udp: true
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     xudp: true
     servername: fuck.rkn
-  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE135|24.2MB/s|DNSOK|GPT⁺-DE"
-    password: ''
-    port: 9002
-    server: 158.173.154.5
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL328|26.4MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 1270
+    server: 209.38.42.238
     skip-cert-verify: true
     tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL294|23.9MB/s|DNSOK|GPT⁺-NL"
-    password: None
-    port: 9002
-    server: 84.17.47.149
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
+    type: vmess
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR80|23.9MB/s|DNSOK|GPT⁺-FR"
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL329|26.2MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.86
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL330|25.9MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.12
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE291|25.7MB/s|DNSOK|GPT⁺-DE"
+    network: raw
+    port: 16893
+    reality-opts:
+      public-key: dpmXAfLC6-Sf6cPjkQKGx_NliRQRFZ_oUiiPA5ALW0I
+      short-id: "849711f2b99d1176"
+    server: 91.107.185.86
+    tls: true
+    type: vless
+    udp: true
+    uuid: 80256d6f-7cd3-4a3a-8df6-2981e52551dc
+    xudp: true
+    servername: play.google.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL331|25.6MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.98
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR81|25.1MB/s|DNSOK|GPT⁺-FR"
+    network: tcp
+    port: 1270
+    server: 162.19.82.57
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+    xudp: true
+    servername: xmfhlpy.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL332|25.1MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.20
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL333|25.0MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.12
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR82|24.9MB/s|DNSOK|GPT⁺-FR"
     network: xhttp
     port: 443
     server: 45.67.215.204
@@ -208,23 +409,60 @@ proxies:
         max-connections: '4'
     xudp: true
     servername: mama1472.baklajann.ru
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR81|23.8MB/s|DNSOK|GPT⁺-FR"
-    network: tcp
-    port: 1270
-    server: 46.105.222.157
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-    xudp: true
-    servername: xmfhlpy.com
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL295|23.2MB/s|DNSOK|GPT⁺-NL"
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL334|24.9MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.97
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR83|24.8MB/s|DNSOK|GPT⁺-FR"
+    network: xhttp
+    port: 32202
+    reality-opts:
+      public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
+      short-id: "f57d8f26"
+    server: 62.210.24.143
+    tls: true
+    type: vless
+    udp: true
+    uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
+    xhttp-opts:
+      mode: auto
+      path: /G3EEoH63
+    xudp: true
+    servername: www.amazon.com
+  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ5|24.7MB/s|DNSOK|GPT⁺-CZ"
+    password: None
+    port: 9443
+    server: 152.233.16.174
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL335|24.6MB/s|DNSOK|GPT⁺-NL"
+    password: None
+    port: 9002
+    server: 84.17.47.123
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL336|24.4MB/s|DNSOK|GPT⁺-NL"
     network: raw
     port: 23576
     reality-opts:
@@ -237,74 +475,49 @@ proxies:
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     xudp: true
     servername: fuck.rkn
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR82|22.9MB/s|DNSOK|GPT⁺-FR"
-    network: tcp
-    port: 1270
-    server: 46.105.222.156
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-    xudp: true
-    servername: xmfhlpy.com
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR83|22.3MB/s|DNSOK|GPT⁺-FR"
-    network: tcp
-    port: 1270
-    server: 91.134.35.72
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-    xudp: true
-    servername: xmfhlpy.com
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR84|22.3MB/s|DNSOK|GPT⁺-FR"
-    network: tcp
-    port: 1270
-    server: 162.19.82.57
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-    xudp: true
-    servername: xmfhlpy.com
-  - client-fingerprint: firefox
-    encryption: >-
-      mlkem768x25519plus.native.0rtt.I5ge5qOTUhKE8xpufKI84yktvqqG9qkViwYe20uFZUyGwbnK7QMv6Tih0subInSmZTyem1QFG1CDFvGfgMBu3Yw1ryNJfGjMnALAqZawBoukaROcTzxXmFAzuejDalyhxxfNJkeUefW3biOHIzcu_AairYSvJ8l_iHJpKVEKXZWPQWiq-tm_nPJz_oDDhFElaCHKnCslodSen2M6afQQ0HYKc6nKZmZwc1cHG1GKW9xHx6CBfLhFVOhT62tCvbxShul1NJgL-shELnovAtS1aHBFQKDOIiJYC7Ww0awUfsyGIFhnJIhdnqFHnkG7sOcdiWiH-ZkQ11p065zAWEQ14HTOi-aqCAsnWNwdRxwj1_qlArYd3nNF1dXKARRikbMFutC5GyyvSJxk7XwHRGWoK_q6_zK2amtIrsin6tov5kKs3UqywFJMJ2rMtgYZXpvK_TdXumLGUimIq9vFW7idpbMlv9F84NY8UbtrkyB87IQwdKqbtnuOMzxkYik-i9N5vaKcXLSdOGRpMgAKSMt5NbSyllcEh6qUTZoVb_h8ZmYij8csvbGWxodCj1WvOGoRtGGnTSpWMdG3X3ZxXlhNQ6tpIPGTfxkzjPtRjHQDcqm0fgrLjWONnkGxMQRO-Wi50vzNPzW9Vuy5BlZszdGqpjLNRLGw24JTAYKXpxiUkTxUxhO3LRC8kMvGVBgxjImwmwev1IqfPiVIMSwhV0FAMNw27nALh0qyPnNLbFpbTFuTL6V83YypFDl1yahns_AE86ufKnSAaSs_0PwMM_ZDfkhE7nRKCygaD9UjWWygRWq6fZarZahcTAqrZUYPXWxqDsrE7VRYO3ch70AHi6ZXTyKR1YcyM0Kiw3S0kxpjbtWReOJ3lXwry-BjcusDKhRsAxErDIBD6IFuY5ucRTtpfPoNgiq7rSFG8SFNvTe-_wh39Bwjj3JeRnw6kzujiKgxGiAH9GYm6LVvG2ljdWacJjSyoDE6mbFwgRCGdDh4h6eMCPs7hjQmNByx76lb0PYt-BuD9xCfiEFMoKJzTjWUvOy1gbmOrjY5xtkkByo8PCS40YRqXiYQ0Me9U5t_lsdxrvO6f7ajFHBNp_IiQOAstWu9UKC2hiABnVWbHaTFeQSp0tAx9rm5vehC0_a3EAHByGzGFUQ-QWpUO5mvGzZKpPVQrgovg2GsgepxgOMymOgv2CbLNKiwAJJyjDe5d5yXiueH3ZdppJqepXrOGuGOn3e-8RKVu3I-nCp-aMS769Yl5mmS8BYOpxW3HseSzZZMIta4hjsa7hqSgmycflvLV5x-8bM9iBFZ7iOey9oYyEkEbFN-6-Alh2dQfopjE2QNFqW6KatBKHXKHNVoayoc4ZegDKPNAEnAo9wIHkBpDFC-fVoCkGMDcRSeNbF67keruuE0xfMA8ltaklEyRwMcxVQwMhILq6vKlzpJF9OJMGVg5amP_-i4NAsKEfC8Ayp61gByykoWKTWkuLAEAYtXXNIfQ9BPvZca1BITgpC69lapO4SH1UAZ4KRxOTVtbHES_GsjM_lkTv940p3IDkG7jfvxIfY_Q9C3QVbkilRpPvg
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR85|22.2MB/s|DNSOK|GPT⁺-FR"
-    network: xhttp
-    port: 37783
-    reality-opts:
-      public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
-      short-id: "21569dd6"
-    server: 62.210.70.194
-    tls: true
-    type: vless
-    udp: true
-    uuid: a289c660-1b12-432b-a06c-c2ae469272b0
-    xhttp-opts:
-      path: /OCrp5Ajs
-    xudp: true
-    servername: www.yahoo.com
-  - cipher: aes-256-gcm
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE136|21.6MB/s|DNSOK|GPT⁺-DE"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 57.129.76.233
-    type: ss
-    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL296|21.1MB/s|DNSOK|GPT⁺-NL"
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL337|23.9MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.98
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL338|23.9MB/s|DNSOK|GPT⁺-NL"
+    password: None
+    port: 9002
+    server: 84.17.47.149
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - client-fingerprint: random
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL339|23.7MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: ''
+    server: 51.158.206.25
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL340|23.6MB/s|DNSOK|GPT⁺-NL"
     network: tcp
     port: 23576
     reality-opts:
@@ -317,48 +530,176 @@ proxies:
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     xudp: true
     servername: fuck.rkn
-  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL297|21.0MB/s|DNSOK|GPT⁺-NL"
-    password: ''
-    port: 443
-    server: 149.36.51.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
+  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE21|23.5MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2086
+    server: 104.21.64.198
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000007
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /
+    xudp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL298|20.9MB/s|DNSOK|GPT⁺-NL"
-    network: raw
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL341|23.5MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
     port: 23576
     reality-opts:
       public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
       short-id: '01'
-    server: 51.158.206.20
+    server: 51.158.206.103
     tls: true
     type: vless
     udp: true
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     xudp: true
     servername: fuck.rkn
-  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL299|20.8MB/s|DNSOK|GPT⁺-NL"
-    password: 'null'
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
+  - client-fingerprint: chrome
+    encryption: mlkem768x25519plus.native.0rtt.7uOyrccvTH3o41kiN6Rqh7gb3jyvBhcLGhaXL2e1K3o
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE292|22.8MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 42138
+    server: dl.zanjanphone.ir
     tls: true
-    type: http
-    username: 'null'
+    type: vless
+    udp: true
+    uuid: 4fdf9cd1-b7cf-4989-9d3a-63e4efb2b4b3
+    ws-opts:
+      headers:
+        Host: login.zanjanphone.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: /
+    xudp: true
+    servername: login.zanjanphone.ir
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL300|20.8MB/s|DNSOK|GPT⁺-NL"
-    network: raw
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL342|21.5MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
     port: 23576
     reality-opts:
       public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
       short-id: '01'
-    server: 51.158.206.25
+    server: 51.158.206.8
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE293|21.4MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: 141.11.202.123
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: notls.lukongtou.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      max-early-data: 2560
+      path: /Telegram-WangCai2
+    xudp: true
+    servername: notls.lukongtou.eu.org
+  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE22|21.2MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2086
+    server: 172.67.155.136
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000007
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /sync
+    xudp: true
+    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL343|21.2MB/s|DNSOK|GPT⁺-NL"
+    obfs: salamander
+    obfs-password: HysteriaHowdy
+    password: HowdyHysteria2023w0W
+    port: 8443
+    server: 51.15.19.206
+    skip-cert-verify: true
+    sni: hysteria.udpgw.com
+    type: hysteria2
+    up: ''
+  - encryption: none
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE23|21.0MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2086
+    server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000007
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /sync
+    xudp: true
+    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+  - name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB86|20.9MB/s|DNSOK|GPT⁺-GB"
+    password: ''
+    port: 443
+    server: 212.102.63.31
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE294|20.8MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: 45.131.6.123
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+    ws-opts:
+      headers:
+        Host: notls.lukongtou.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: /Telegram-WangCai2
+    xudp: true
+    servername: notls.lukongtou.eu.org
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL344|20.7MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: ''
+    server: 51.158.206.93
     tls: true
     type: vless
     udp: true
@@ -367,10 +708,10 @@ proxies:
     servername: fuck.rkn
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL301|20.4MB/s|DNSOK|GPT⁺-NL"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR84|20.6MB/s|DNSOK|GPT⁺-FR"
     network: tcp
     port: 1270
-    server: 188.166.81.135
+    server: 46.105.222.153
     skip-cert-verify: false
     tls: true
     type: vmess
@@ -378,125 +719,102 @@ proxies:
     uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
     xudp: true
     servername: xmfhlpy.com
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL302|20.3MB/s|DNSOK|GPT⁺-NL"
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 51.158.206.80
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    servername: fuck.rkn
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR86|19.5MB/s|DNSOK|GPT⁺-FR"
-    network: xhttp
-    port: 443
-    server: 45.67.215.178
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
-    xhttp-opts:
-      host: mama544.baklajann.ru
-      mode: auto
-      path: /
-      reuse-settings:
-        c-max-reuse-times: '0'
-        h-keep-alive-period: 0
-        h-max-request-times: 600-900
-        h-max-reusable-secs: 1800-3000
-        max-concurrency: '0'
-        max-connections: '4'
-    xudp: true
-    servername: mama544.baklajann.ru
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT29|19.5MB/s|DNSOK|GPT⁺-IT"
-    password: itzvpn@321
-    port: 8388
-    server: 57.131.27.21
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB87|20.6MB/s|DNSOK|GPT⁺-GB"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 198.244.202.215
     type: ss
     udp: true
+  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE24|20.4MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2095
+    server: 104.21.64.198
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000008
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /sync
+    xudp: true
+    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
   - client-fingerprint: chrome
-    encryption: none
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE25|20.0MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 443
+    server: 172.67.134.136
+    tls: true
+    type: vless
+    udp: true
+    uuid: fa45096d-bed0-ad80-c773-23c300000003
+    ws-opts:
+      headers:
+        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /
+    xudp: true
+    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL345|19.6MB/s|DNSOK|GPT⁺-NL"
+    obfs: salamander
+    obfs-password: HysteriaHowdy
+    password: HowdyHysteria2023w0W
+    port: 8443
+    server: 51.15.19.206
+    skip-cert-verify: true
+    sni: t.me
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE26|19.5MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2086
+    server: 104.21.64.198
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000007
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /sync
+    xudp: true
+    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+  - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL303|19.2MB/s|DNSOK|GPT⁺-NL"
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL346|19.3MB/s|DNSOK|GPT⁺-NL"
     network: raw
     port: 23576
     reality-opts:
       public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
       short-id: '01'
-    server: 51.158.206.26
+    server: 51.158.206.103
     tls: true
     type: vless
     udp: true
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     xudp: true
     servername: fuck.rkn
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR87|19.1MB/s|DNSOK|GPT⁺-FR"
-    network: xhttp
-    port: 443
-    server: 45.67.215.178
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
-    xhttp-opts:
-      host: 19.baklajann.ru
-      mode: auto
-      path: /
-      reuse-settings:
-        c-max-reuse-times: '0'
-        h-keep-alive-period: 0
-        h-max-request-times: 600-900
-        h-max-reusable-secs: 1800-3000
-        max-concurrency: '0'
-        max-connections: '4'
-    xudp: true
-    servername: 19.baklajann.ru
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F5\U0001F1F1 | @WhiteDNS | PL33|18.3MB/s|DNSOK|GPT⁺-PL"
-    network: xhttp
-    port: 443
-    server: 193.42.109.29
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
-    xhttp-opts:
-      host: mama542.baklajann.ru
-      mode: auto
-      path: /
-      reuse-settings:
-        c-max-reuse-times: '0'
-        h-keep-alive-period: 0
-        h-max-request-times: 600-900
-        h-max-reusable-secs: 1800-3000
-        max-concurrency: '0'
-        max-connections: '4'
-    xudp: true
-    servername: mama542.baklajann.ru
-  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL304|18.0MB/s|DNSOK|GPT⁺-NL"
+  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE27|19.1MB/s|DNSOK|GPT⁺-BE"
     password: ''
-    port: 9002
-    server: 84.17.47.124
+    port: 443
+    server: 146.70.123.98
     skip-cert-verify: true
     tls: true
     type: http
     username: ''
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR88|16.6MB/s|DNSOK|GPT⁺-FR"
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR85|19.0MB/s|DNSOK|GPT⁺-FR"
     network: xhttp
     port: 443
     server: 87.120.126.127
@@ -519,16 +837,381 @@ proxies:
     servername: newmama2.baklajann.ru
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR89|15.4MB/s|DNSOK|GPT⁺-FR"
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL347|19.0MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.29
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL348|18.7MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.80
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    http-opts:
+      headers:
+        Host:
+          - leviko-ie6364.shopingggg.ir
+      path:
+        - /
+    name: "\U0001F1EE\U0001F1EA | @WhiteDNS | IE41|18.6MB/s|DNSOK|GPT⁺-IE"
+    network: http
+    port: 59236
+    server: leviko-ie6364.shopingggg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 2387bfbc-10a6-4bd7-dc55-7cba954ce6e8
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL349|18.5MB/s|DNSOK|GPT⁺-NL"
+    network: ws
+    port: 443
+    server: 172.67.155.222
+    tls: true
+    type: vless
+    udp: true
+    uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
+    ws-opts:
+      headers:
+        Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.81 Safari/537.36
+      path: /
+    xudp: true
+    servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE28|18.2MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2095
+    server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000008
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL350|18.1MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.87
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE29|17.2MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2086
+    server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000007
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT275|15.4MB/s|DNSOK|GPT⁺-IT"
+    password: itzvpn@321
+    port: 8388
+    server: leviko-it8672.shopingggg.ir
+    type: ss
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR86|15.3MB/s|DNSOK|GPT⁺-FR"
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 22000
+    server: 62.210.124.146
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US449|14.5MB/s|DNSOK|GPT⁺-NL"
+    password: test123
+    port: 1080
+    server: 185.145.99.41
+    skip-cert-verify: true
+    type: socks5
+    username: test123
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO25|13.7MB/s|DNSOK|GPT⁺-RO"
+    password: ''
+    port: 9002
+    server: 193.176.84.38
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    fingerprint: 67fa1e374feaeb232157317d6ace682475cb1a826e0cf8657151a254681aed62
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL351|11.3MB/s|DNSOK|GPT⁺-NL"
     network: xhttp
     port: 443
-    server: 87.120.126.127
+    server: 94.241.172.107
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+    xhttp-opts:
+      mode: packet-up
+      path: /assets/nl02/
+    xudp: true
+    servername: 94.241.172.107
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT276|8.3MB/s|DNSOK|GPT⁺-IT"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.63
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE295|7.8MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: 172.67.128.201
+    tls: true
+    type: vless
+    udp: true
+    uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
+    ws-opts:
+      headers:
+        Host: ld.235231.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: ld.235231.xyz
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE296|7.5MB/s|DNSOK|GPT⁺-DE"
+    password: ''
+    port: 9002
+    server: 158.173.154.2
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE297|7.4MB/s|DNSOK|GPT⁺-DE"
+    password: ''
+    port: 9002
+    server: 158.173.154.5
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL352|7.4MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.25
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL353|7.4MB/s|DNSOK|GPT⁺-NL"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: ''
+    server: 51.158.206.87
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - name: "\U0001F1EE\U0001F1F9 | @WhiteDNS | IT277|7.2MB/s|DNSOK|GPT⁺-IT"
+    password: ''
+    port: 443
+    server: 185.183.105.130
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL354|7.1MB/s|DNSOK|GPT⁺-NL"
+    password: ''
+    port: 443
+    server: 149.36.51.129
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL355|7.1MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.26
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL356|7.1MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.34
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR87|7.1MB/s|DNSOK|GPT⁺-FR"
+    network: tcp
+    port: 1270
+    server: 46.105.222.155
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+    xudp: true
+    servername: xmfhlpy.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL357|7.0MB/s|DNSOK|GPT⁺-NL"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 51.158.206.93
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE298|7.0MB/s|DNSOK|GPT⁺-GB"
+    network: ws
+    port: 443
+    server: 104.21.14.228
+    tls: true
+    type: vless
+    udp: true
+    uuid: 443b1e88-41fa-43bb-ff6c-982544254b74
+    ws-opts:
+      headers:
+        Host: wandering-river-cd33.mramezanian1375.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /87fab74555d6e093
+    xudp: true
+    servername: wandering-river-cd33.mramezanian1375.workers.dev
+  - encryption: none
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE30|6.8MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2095
+    server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000008
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: /sync
+    xudp: true
+    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL358|6.8MB/s|DNSOK|GPT⁺-NL"
+    password: ''
+    port: 9002
+    server: 84.17.47.124
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR88|6.7MB/s|DNSOK|GPT⁺-FR"
+    network: xhttp
+    port: 443
+    server: 45.67.215.204
     tls: true
     type: vless
     udp: true
     uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
     xhttp-opts:
-      host: mama147.baklajann.ru
+      host: mamafrance.baklajann.ru
       mode: auto
       path: /
       reuse-settings:
@@ -539,26 +1222,49 @@ proxies:
         max-concurrency: '0'
         max-connections: '4'
     xudp: true
-    servername: mama147.baklajann.ru
-  - name: "\U0001F1F1\U0001F1F9 | @WhiteDNS | LT12|15.3MB/s|DNSOK|GPT⁺-LT"
+    servername: mamafrance.baklajann.ru
+  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL359|6.6MB/s|DNSOK|GPT⁺-NL"
     password: 'null'
-    port: 443
-    server: 89.124.11.9
+    port: 9002
+    server: 84.17.47.147
     skip-cert-verify: true
     tls: true
     type: http
     username: 'null'
-  - name: "\U0001F1F2\U0001F1F0 | @WhiteDNS | MK2|15.2MB/s|DNSOK|GPT⁺-MK"
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR89|6.6MB/s|DNSOK|GPT⁺-FR"
+    network: xhttp
+    port: 443
+    server: 89.44.80.204
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
+    xhttp-opts:
+      host: newmama.baklajann.ru
+      mode: auto
+      path: /
+      reuse-settings:
+        c-max-reuse-times: '0'
+        h-keep-alive-period: 0
+        h-max-request-times: 600-900
+        h-max-reusable-secs: 1800-3000
+        max-concurrency: '0'
+        max-connections: '4'
+    xudp: true
+    servername: newmama.baklajann.ru
+  - name: "\U0001F1E6\U0001F1F1 | @WhiteDNS | AL8|6.6MB/s|DNSOK|GPT⁺-AL"
     password: ''
     port: 443
-    server: 185.225.28.50
+    server: 87.120.103.242
     skip-cert-verify: true
     tls: true
     type: http
     username: ''
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F5\U0001F1F1 | @WhiteDNS | PL34|7.6MB/s|DNSOK|GPT⁺-PL"
+    name: "\U0001F1F5\U0001F1F1 | @WhiteDNS | PL40|6.6MB/s|DNSOK|GPT⁺-PL"
     network: xhttp
     port: 443
     server: 45.67.215.204
@@ -581,216 +1287,94 @@ proxies:
     servername: 51.baklajann.ru
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR90|7.1MB/s|DNSOK|GPT⁺-FR"
-    network: xhttp
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE299|6.5MB/s|DNSOK|GPT⁺-DE"
+    network: ws
     port: 443
-    server: 45.67.215.204
+    server: 185.193.29.123
     tls: true
     type: vless
     udp: true
-    uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
-    xhttp-opts:
-      host: mamafrance.baklajann.ru
-      mode: auto
-      path: /
-      reuse-settings:
-        c-max-reuse-times: '0'
-        h-keep-alive-period: 0
-        h-max-request-times: 600-900
-        h-max-reusable-secs: 1800-3000
-        max-concurrency: '0'
-        max-connections: '4'
-    xudp: true
-    servername: mamafrance.baklajann.ru
-  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL305|7.0MB/s|DNSOK|GPT⁺-NL"
-    password: 'null'
-    port: 9002
-    server: 84.17.47.146
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR91|6.9MB/s|DNSOK|GPT⁺-FR"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 22000
-    server: 62.210.124.146
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1E6\U0001F1F1 | @WhiteDNS | AL8|6.7MB/s|DNSOK|GPT⁺-AL"
-    password: ''
-    port: 443
-    server: 87.120.103.242
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR92|6.7MB/s|DNSOK|GPT⁺-FR"
-    network: tcp
-    port: 1270
-    server: 46.105.222.153
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-    xudp: true
-    servername: xmfhlpy.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR93|6.7MB/s|DNSOK|GPT⁺-FR"
-    network: xhttp
-    port: 443
-    server: 89.44.80.204
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
-    xhttp-opts:
-      host: newmama.baklajann.ru
-      mode: auto
-      path: /
-      reuse-settings:
-        c-max-reuse-times: '0'
-        h-keep-alive-period: 0
-        h-max-request-times: 600-900
-        h-max-reusable-secs: 1800-3000
-        max-concurrency: '0'
-        max-connections: '4'
-    xudp: true
-    servername: newmama.baklajann.ru
-  - cipher: aes-256-gcm
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB68|6.6MB/s|DNSOK|GPT⁺-GB"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 198.244.202.215
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR94|6.6MB/s|DNSOK|GPT⁺-FR"
-    network: xhttp
-    port: 443
-    server: 193.42.109.29
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
-    xhttp-opts:
-      host: mama1455.baklajann.ru
-      mode: auto
-      path: /
-      reuse-settings:
-        c-max-reuse-times: '0'
-        h-keep-alive-period: 0
-        h-max-request-times: 600-900
-        h-max-reusable-secs: 1800-3000
-        max-concurrency: '0'
-        max-connections: '4'
-    xudp: true
-    servername: mama1455.baklajann.ru
-  - name: "\U0001F1EC\U0001F1F7 | @WhiteDNS | GR3|6.5MB/s|DNSOK|GPT⁺-GR"
-    password: ''
-    port: 443
-    server: 149.22.85.65
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB69|6.5MB/s|DNSOK|GPT⁺-GB"
-    password: ''
-    port: 443
-    server: 212.102.63.31
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL306|6.4MB/s|DNSOK|GPT⁺-NL"
-    password: None
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - cipher: aes-256-gcm
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB70|6.3MB/s|DNSOK|GPT⁺-GB"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 198.244.201.129
-    type: ss
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL307|6.2MB/s|DNSOK|GPT⁺-NL"
-    obfs: salamander
-    obfs-password: SalamanderNL2026
-    password: NL2026hy
-    port: 8443
-    server: 147.45.149.88
-    skip-cert-verify: false
-    sni: nl.nobelchat.ru
-    type: hysteria2
-    up: ''
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR95|6.2MB/s|DNSOK|GPT⁺-FR"
-    network: tcp
-    port: 1270
-    server: 46.105.222.155
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-    xudp: true
-    servername: xmfhlpy.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL308|6.1MB/s|DNSOK|GPT⁺-NL"
-    obfs: salamander
-    obfs-password: HysteriaHowdy
-    password: HowdyHysteria2023w0W
-    port: 8443
-    server: 51.15.19.206
-    skip-cert-verify: true
-    sni: sni-here.com
-    type: hysteria2
-    up: ''
-  - cipher: aes-256-gcm
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE137|6.0MB/s|DNSOK|GPT⁺-DE"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 185.176.204.18
-    type: ss
-    udp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    http-opts:
+    uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+    ws-opts:
       headers:
-        Host:
-          - leviko-ie6364.shopingggg.ir
-      path:
-        - /
-    name: "\U0001F1EE\U0001F1EA | @WhiteDNS | IE6|5.9MB/s|DNSOK|GPT⁺-IE"
-    network: http
-    port: 59236
-    server: leviko-ie6364.shopingggg.ir
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 2387bfbc-10a6-4bd7-dc55-7cba954ce6e8
+        Host: notls.lukongtou.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /
     xudp: true
+    servername: notls.lukongtou.eu.org
+  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE31|6.5MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2095
+    server: 172.67.155.136
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000008
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /sync
+    xudp: true
+    servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE300|6.2MB/s|DNSOK|GPT⁺-DE"
+    network: ws
+    port: 443
+    server: cloudflare.dev
+    tls: true
+    type: vless
+    udp: true
+    uuid: dd2525ab-e5b7-58c4-a9b4-511100000001
+    ws-opts:
+      headers:
+        Host: xtdp.akaram-5624-cba.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /
+    xudp: true
+    servername: xtdp.akaram-5624-cba.workers.dev
+  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE32|6.1MB/s|DNSOK|GPT⁺-BE"
+    network: ws
+    port: 2095
+    server: 172.67.155.136
+    type: vless
+    udp: true
+    uuid: 73796e63-0000-4000-8000-000000000008
+    ws-opts:
+      headers:
+        Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI36|6.1MB/s|DNSOK|GPT⁺-FI"
+    network: ws
+    port: 993
+    server: ifi1.modemjibi.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 17ead557-8407-42ae-b9a1-f11a869f99c6
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+    servername: ifi1.modemjibi.com.
   - alpn:
       - ''
     alterId: '0'
@@ -801,7 +1385,7 @@ proxies:
           - tms.dingtalk.com
       path:
         - /
-    name: "\U0001F1EE\U0001F1EA | @WhiteDNS | IE7|5.7MB/s|DNSOK|GPT⁺-IE"
+    name: "\U0001F1EE\U0001F1EA | @WhiteDNS | IE42|6.0MB/s|DNSOK|GPT⁺-IE"
     network: http
     port: 59236
     server: 54.229.151.97
@@ -811,687 +1395,121 @@ proxies:
     udp: true
     uuid: 2387bfbc-10a6-4bd7-dc55-7cba954ce6e8
     xudp: true
-  - name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE3|5.6MB/s|DNSOK|GPT⁺-BE"
-    password: ''
-    port: 443
-    server: 146.70.123.98
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO22|5.6MB/s|DNSOK|GPT⁺-RO"
-    password: 'null'
-    port: 9002
-    server: 193.176.84.27
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL309|5.3MB/s|DNSOK|GPT⁺-NL"
-    obfs: salamander
-    obfs-password: HysteriaHowdy
-    password: HowdyHysteria2023w0W
-    port: 8443
-    server: 51.15.19.206
-    skip-cert-verify: true
-    sni: hysteria.udpgw.co
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO23|5.2MB/s|DNSOK|GPT⁺-RO"
-    password: 'null'
-    port: 9002
-    server: 193.176.84.26
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO24|5.2MB/s|DNSOK|GPT⁺-RO"
-    password: None
-    port: 9002
-    server: 193.176.84.24
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO25|5.1MB/s|DNSOK|GPT⁺-RO"
-    password: ''
-    port: 9002
-    server: 193.176.84.36
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO26|5.0MB/s|DNSOK|GPT⁺-RO"
-    password: ''
-    port: 9002
-    server: 193.176.84.39
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO27|4.9MB/s|DNSOK|GPT⁺-RO"
-    password: ''
-    port: 9002
-    server: 193.176.84.32
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL310|4.5MB/s|DNSOK|GPT⁺-NL"
-    obfs: salamander
-    obfs-password: HysteriaHowdy
-    password: HowdyHysteria2023w0W
-    port: 8443
-    server: 51.15.19.206
-    skip-cert-verify: true
-    sni: t.me
-    type: hysteria2
-    up: ''
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US435|4.4MB/s|DNSOK|GPT⁺-US"
-    password: itzvpn@321
-    port: 8388
-    server: 135.148.42.13
-    type: ss
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL311|4.3MB/s|DNSOK|GPT⁺-NL"
-    obfs: salamander
-    obfs-password: HysteriaHowdy
-    password: HowdyHysteria2023w0W
-    port: 8443
-    server: 51.15.19.206
-    skip-cert-verify: true
-    sni: vk.com
-    type: hysteria2
-    up: ''
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US436|4.2MB/s|DNSOK|GPT⁺-US"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 185.230.230.18
-    type: ss
-    udp: true
-  - name: "\U0001F1E8\U0001F1FF | @WhiteDNS | CZ7|4.2MB/s|DNSOK|GPT⁺-CZ"
-    password: None
-    port: 9443
-    server: 152.233.16.174
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - cipher: aes-256-gcm
-    name: "\U0001F1E8\U0001F1E6 | @WhiteDNS | CA34|4.1MB/s|DNSOK|GPT⁺-CA"
-    password: itzvpn@321
-    port: 8388
-    server: 184.107.106.77
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US437|3.3MB/s|DNSOK|GPT⁺-US"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
-      short-id: ''
-    server: 47.253.226.114
-    tls: true
-    type: vless
-    udp: true
-    uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
-    xudp: true
-    servername: www.cloudflare.com
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US438|3.2MB/s|DNSOK|GPT⁺-US"
-    password: ''
-    port: 38182
-    server: 69.55.49.177
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL312|2.9MB/s|DNSOK|GPT⁺-NL"
-    password: 'null'
-    port: 443
-    server: 103.97.88.154
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US439|2.9MB/s|DNSOK|GPT⁺-US"
-    password: ''
-    port: 9443
-    server: 198.44.138.27
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
   - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1E6 | @WhiteDNS | CA35|2.9MB/s|DNSOK|GPT⁺-CA"
-    network: tcp
-    port: 8443
+    encryption: >-
+      mlkem768x25519plus.native.0rtt.I5ge5qOTUhKE8xpufKI84yktvqqG9qkViwYe20uFZUyGwbnK7QMv6Tih0subInSmZTyem1QFG1CDFvGfgMBu3Yw1ryNJfGjMnALAqZawBoukaROcTzxXmFAzuejDalyhxxfNJkeUefW3biOHIzcu_AairYSvJ8l_iHJpKVEKXZWPQWiq-tm_nPJz_oDDhFElaCHKnCslodSen2M6afQQ0HYKc6nKZmZwc1cHG1GKW9xHx6CBfLhFVOhT62tCvbxShul1NJgL-shELnovAtS1aHBFQKDOIiJYC7Ww0awUfsyGIFhnJIhdnqFHnkG7sOcdiWiH-ZkQ11p065zAWEQ14HTOi-aqCAsnWNwdRxwj1_qlArYd3nNF1dXKARRikbMFutC5GyyvSJxk7XwHRGWoK_q6_zK2amtIrsin6tov5kKs3UqywFJMJ2rMtgYZXpvK_TdXumLGUimIq9vFW7idpbMlv9F84NY8UbtrkyB87IQwdKqbtnuOMzxkYik-i9N5vaKcXLSdOGRpMgAKSMt5NbSyllcEh6qUTZoVb_h8ZmYij8csvbGWxodCj1WvOGoRtGGnTSpWMdG3X3ZxXlhNQ6tpIPGTfxkzjPtRjHQDcqm0fgrLjWONnkGxMQRO-Wi50vzNPzW9Vuy5BlZszdGqpjLNRLGw24JTAYKXpxiUkTxUxhO3LRC8kMvGVBgxjImwmwev1IqfPiVIMSwhV0FAMNw27nALh0qyPnNLbFpbTFuTL6V83YypFDl1yahns_AE86ufKnSAaSs_0PwMM_ZDfkhE7nRKCygaD9UjWWygRWq6fZarZahcTAqrZUYPXWxqDsrE7VRYO3ch70AHi6ZXTyKR1YcyM0Kiw3S0kxpjbtWReOJ3lXwry-BjcusDKhRsAxErDIBD6IFuY5ucRTtpfPoNgiq7rSFG8SFNvTe-_wh39Bwjj3JeRnw6kzujiKgxGiAH9GYm6LVvG2ljdWacJjSyoDE6mbFwgRCGdDh4h6eMCPs7hjQmNByx76lb0PYt-BuD9xCfiEFMoKJzTjWUvOy1gbmOrjY5xtkkByo8PCS40YRqXiYQ0Me9U5t_lsdxrvO6f7ajFHBNp_IiQOAstWu9UKC2hiABnVWbHaTFeQSp0tAx9rm5vehC0_a3EAHByGzGFUQ-QWpUO5mvGzZKpPVQrgovg2GsgepxgOMymOgv2CbLNKiwAJJyjDe5d5yXiueH3ZdppJqepXrOGuGOn3e-8RKVu3I-nCp-aMS769Yl5mmS8BYOpxW3HseSzZZMIta4hjsa7hqSgmycflvLV5x-8bM9iBFZ7iOey9oYyEkEbFN-6-Alh2dQfopjE2QNFqW6KatBKHXKHNVoayoc4ZegDKPNAEnAo9wIHkBpDFC-fVoCkGMDcRSeNbF67keruuE0xfMA8ltaklEyRwMcxVQwMhILq6vKlzpJF9OJMGVg5amP_-i4NAsKEfC8Ayp61gByykoWKTWkuLAEAYtXXNIfQ9BPvZca1BITgpC69lapO4SH1UAZ4KRxOTVtbHES_GsjM_lkTv940p3IDkG7jfvxIfY_Q9C3QVbkilRpPvg
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR90|5.9MB/s|DNSOK|GPT⁺-FR"
+    network: xhttp
+    port: 37783
     reality-opts:
-      public-key: FZvOenkKu_0DspnZA7Nc7xgWhR0_Z0MvqhntPqPchV4
-      short-id: "40a4615253b8f75d"
-    server: 184.107.179.150
+      public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
+      short-id: "21569dd6"
+    server: 62.210.70.194
     tls: true
     type: vless
     udp: true
-    uuid: d3895603-3164-4003-b85c-70f171ab30b5
+    uuid: a289c660-1b12-432b-a06c-c2ae469272b0
+    xhttp-opts:
+      path: /OCrp5Ajs
     xudp: true
-    servername: www.kpn.com
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US440|2.9MB/s|DNSOK|GPT⁺-US"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 193.151.160.18
-    type: ss
-    udp: true
-  - name: "\U0001F1EA\U0001F1EA | @WhiteDNS | EE5|2.9MB/s|DNSOK|GPT⁺-EE"
+    servername: www.yahoo.com
+  - name: "\U0001F1EC\U0001F1F7 | @WhiteDNS | GR4|5.8MB/s|DNSOK|GPT⁺-GR"
     password: ''
-    port: 9443
-    server: 95.153.31.66
+    port: 443
+    server: 149.22.85.65
     skip-cert-verify: true
     tls: true
     type: http
     username: ''
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US441|2.9MB/s|DNSOK|GPT⁺-US"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 193.151.160.9
-    type: ss
-    udp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FF\U0001F1E6 | @WhiteDNS | ZA4|2.8MB/s|DNSOK|GPT⁺-ZA"
-    network: ws
-    port: 443
-    server: 16.28.28.15
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 8ce18eab-fcc0-4757-b552-dbda5047ea11
-    ws-opts:
-      headers: {}
-      path: /7788/about
-    xudp: true
-    servername: za-a-zzy.glnyhlgc.com
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US442|2.8MB/s|DNSOK|GPT⁺-US"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 185.215.132.9
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE138|2.8MB/s|DNSOK|GPT⁺"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
-      short-id: "e6"
-    server: 161.97.160.224
-    tls: true
-    type: vless
-    udp: true
-    uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-    xudp: true
-    servername: passport.yandex.ru
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US443|2.7MB/s|DNSOK|GPT⁺-US"
-    password: 'null'
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO26|5.8MB/s|DNSOK|GPT⁺-RO"
+    password: ''
     port: 9002
-    server: 138.199.35.219
+    server: 193.176.84.34
     skip-cert-verify: true
     tls: true
     type: http
-    username: 'null'
-  - name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG97|2.7MB/s|DNSOK|GPT⁺-IN"
-    network: ws
-    port: 14430
-    server: 13.140.56.100
-    type: vless
-    udp: true
-    uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-    ws-opts:
-      headers:
-        Host: 13.140.56.100
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-      path: /vless
-    xudp: true
-    servername: 13.140.56.100
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US444|2.7MB/s|DNSOK|GPT⁺-US"
-    password: None
-    port: 38182
-    server: 69.55.49.177
-    skip-cert-verify: true
-    type: socks5
     username: ''
-  - encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG98|2.6MB/s|DNSOK|GPT⁺-SG"
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1FA | @WhiteDNS | HU2|5.8MB/s|DNSOK|GPT⁺-HU"
     network: ws
-    port: 80
-    server: 170.114.45.6
+    port: 2083
+    server: 172.67.131.125
+    tls: true
     type: vless
     udp: true
-    uuid: 9ce32242-557a-4d18-864d-c9c385b3dfa4
+    uuid: f418674e-f518-4318-8ff9-e10000000046
     ws-opts:
       headers:
-        Host: matrix.learnpodedu.com
+        Host: smart-edge-424.arti98399-1905.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/39.0.2171.95 Safari/537.36
+          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
       path: /
     xudp: true
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US445|2.6MB/s|DNSOK|GPT⁺-US"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 02Yg4to3gnD2VkzaE9qBZlhsMqzE_oL5tZETE-8yx1Q
-      short-id: "53050dd29221b30f"
-    server: 66.94.113.190
-    tls: true
-    type: vless
-    udp: true
-    uuid: 31ce0fbd-130b-4188-82ac-5db19bc9debd
-    xudp: true
-    servername: www.tesla.com
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US446|2.6MB/s|DNSOK|GPT⁺-US"
-    password: ''
-    port: 9002
-    server: 138.199.35.200
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US447|2.6MB/s|DNSOK|GPT⁺-US"
-    password: 'null'
-    port: 9002
-    server: 138.199.35.220
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO28|2.6MB/s|DNSOK|GPT⁺-RO"
-    password: ''
-    port: 9002
-    server: 193.176.84.19
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US448|2.6MB/s|DNSOK|GPT⁺-US"
-    password: 'null'
-    port: 9002
-    server: 138.199.35.198
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US449|2.6MB/s|DNSOK|GPT⁺-US"
-    password: 'null'
-    port: 9002
-    server: 138.199.35.206
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: "\U0001F1E6\U0001F1EA | @WhiteDNS | AE6|2.6MB/s|DNSOK|GPT⁺-AE"
+    servername: smart-edge-424.arti98399-1905.workers.dev
+  - client-fingerprint: chrome
+    name: "\U0001F1E7\U0001F1EA | @WhiteDNS | BE33|5.8MB/s|DNSOK|GPT⁺-BE"
     network: ws
-    port: 22573
-    server: uae.unixzone.us
+    port: 443
+    server: 172.67.134.136
+    tls: true
     type: vless
     udp: true
-    uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+    uuid: fa45096d-bed0-ad80-c773-23c300000003
     ws-opts:
       headers:
-        Host: uae.unixzone.us
+        Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /
+    xudp: true
+    servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE301|5.7MB/s|DNSOK|GPT⁺-GB"
+    network: ws
+    port: 443
+    server: 172.67.160.188
+    tls: true
+    type: vless
+    udp: true
+    uuid: 443b1e88-41fa-43bb-ff6c-982544254b74
+    ws-opts:
+      headers:
+        Host: wandering-river-cd33.mramezanian1375.workers.dev
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /
+          like Gecko) Chrome/68.0.3440.75 Safari/537.36
+      path: /87fab74555d6e093
     xudp: true
-    servername: uae.unixzone.us
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US450|2.5MB/s|DNSOK|GPT⁺-US"
-    obfs: ''
-    obfs-password: ''
-    password: 4afd4e1b1b0edd429b10d800a1cf64a7
-    port: 8443
-    server: 47.89.232.46
-    skip-cert-verify: true
-    sni: hysteria2.local
-    type: hysteria2
-    up: ''
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FF\U0001F1E6 | @WhiteDNS | ZA5|2.5MB/s|DNSOK|GPT⁺-ZA"
-    password: aduB9HGxQHjA2SBMRjkHX6
-    port: 443
-    server: 102.37.156.224
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US451|2.5MB/s|DNSOK|GPT⁺-US"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 95.215.201.18
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG99|2.5MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 8443
-    server: news.zoom.us
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4d8d9640-7cc7-4c55-ba54-6ce0d1709541
-    ws-opts:
-      headers:
-        Host: matrix.learnpodedu.com
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-      path: /
-    xudp: true
-    servername: matrix.learnpodedu.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR96|2.5MB/s|DNSOK|GPT⁺-IN"
-    network: ws
-    port: 443
-    server: xray-ikmqcro3-rapid-river-6.cloady.io
-    tls: true
-    type: vless
-    udp: true
-    uuid: 213224a4-6cd1-b7f4-8bbc-4f50e5ed847b
-    ws-opts:
-      headers:
-        Host: xray-ikmqcro3-rapid-river-6.cloady.io
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/57.0.2987.133 Safari/537.36
-      path: /c54a815e676d9acc
-    xudp: true
-    servername: xray-ikmqcro3-rapid-river-6.cloady.io
+    servername: wandering-river-cd33.mramezanian1375.workers.dev
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US452|2.5MB/s|DNSOK|GPT⁺-US"
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 15.204.97.197
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    servername: fuck.rkn
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US453|2.5MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL360|5.6MB/s|DNSOK|GPT⁺-NL"
     network: raw
     port: 23576
     reality-opts:
       public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
       short-id: '01'
-    server: 15.204.97.197
+    server: 51.158.206.29
     tls: true
     type: vless
     udp: true
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     xudp: true
     servername: fuck.rkn
-  - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP151|2.5MB/s|DNSOK|GPT⁺-JP"
-    password: '123456'
-    port: 5555
-    server: 8.216.18.167
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US454|2.5MB/s|DNSOK|GPT⁺-US"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 193.151.163.18
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US455|2.4MB/s|DNSOK|GPT⁺-US"
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 15.204.97.198
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    servername: fuck.rkn
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US456|2.4MB/s|DNSOK|GPT⁺"
-    network: ws
-    port: 80
-    server: 3h-unitedstates1.09vpn.com
-    type: vless
-    udp: true
-    uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
-    ws-opts:
-      headers:
-        Host: 3h-unitedstates1.09vpn.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /vless/
-    xudp: true
-    servername: 3h-unitedstates1.09vpn.com
-  - encryption: none
-    name: "\U0001F1E6\U0001F1EA | @WhiteDNS | AE7|2.4MB/s|DNSOK|GPT⁺-AE"
-    network: ws
-    port: 22573
-    server: 84.235.244.108
-    type: vless
-    udp: true
-    uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-    ws-opts:
-      headers:
-        Host: uae.unixzone.us
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FF\U0001F1E6 | @WhiteDNS | ZA6|2.4MB/s|DNSOK|GPT⁺-ZA"
-    password: Xsy8Ox4yOV3xLlpxtjzs3X
-    port: 16233
-    server: 102.133.165.160
-    type: ss
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO29|2.3MB/s|DNSOK|GPT⁺-RO"
-    password: ''
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO27|5.6MB/s|DNSOK|GPT⁺-RO"
+    password: 'null'
     port: 9002
-    server: 193.176.84.38
+    server: 193.176.84.23
     skip-cert-verify: true
     tls: true
     type: http
-    username: ''
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US457|2.3MB/s|DNSOK|GPT⁺-US"
-    network: raw
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 15.204.97.214
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    servername: fuck.rkn
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR57|2.2MB/s|DNSOK|GPT⁺-KR"
-    obfs: ''
-    obfs-password: ''
-    password: c8aa4ba6a243ddfdeb67515aa849624b
-    port: 7788
-    server: 8.220.244.33
-    skip-cert-verify: false
-    sni: www.ddsos.cc
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR58|2.2MB/s|DNSOK|GPT⁺-KR"
-    obfs: ''
-    obfs-password: ''
-    password: c8aa4ba6a243ddfdeb67515aa849624b
-    port: 7788
-    server: www.ddsos.cc
-    skip-cert-verify: true
-    sni: www.ddsos.cc
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US458|2.2MB/s|DNSOK|GPT⁺-US"
-    network: ws
-    port: 30016
-    server: uspanel.unixzone.us
-    type: vless
-    udp: true
-    uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-    ws-opts:
-      headers:
-        Host: uspanel.unixzone.us
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /usserver
-    xudp: true
-    servername: uspanel.unixzone.us
+    username: 'null'
   - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US459|2.1MB/s|DNSOK|GPT⁺-US"
-    network: tcp
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 15.204.97.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    servername: fuck.rkn
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EE\U0001F1F3 | @WhiteDNS | IN41|2.1MB/s|DNSOK|GPT⁺"
-    network: ws
-    port: 80
-    server: 152.67.8.205
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-    servername: "\U0001F1EE\U0001F1F3in-152.67.8.205-0265 | 0.048mb"
-  - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP152|2.1MB/s|DNSOK|GPT⁺-JP"
-    password: '123456'
-    port: 5555
-    server: 8.216.15.55
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP153|2.0MB/s|DNSOK|GPT⁺-JP"
-    password: '123456'
-    port: 5555
-    server: 47.245.42.226
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP154|2.0MB/s|DNSOK|GPT⁺-JP"
-    network: tcp
-    password: F3NzMNuYnG7akU2mSlBY
-    port: 8443
-    server: 193.123.160.109
-    skip-cert-verify: true
-    sni: 193.123.160.109
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision-udp443
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP155|2.0MB/s|DNSOK|GPT⁺-JP"
-    network: tcp
-    port: 443
-    server: 23.27.11.86
-    tls: true
-    type: vless
-    udp: true
-    uuid: e8a346c2-e14c-4f82-876f-367dc19ee541
-    xudp: true
-    servername: jp.burmy.xyz
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR59|1.9MB/s|DNSOK|GPT⁺-KR"
-    network: tcp
-    port: 800
-    server: 129.154.61.196
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US460|1.9MB/s|DNSOK|GPT⁺-US"
-    network: raw
-    port: 48111
-    server: 129.146.143.80
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE139|1.9MB/s|DNSOK|GPT⁺-DE"
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE302|5.6MB/s|DNSOK|GPT⁺-DE"
     network: xhttp
     port: 7443
     server: 185.79.139.163
@@ -1512,274 +1530,244 @@ proxies:
         max-connections: '4'
     xudp: true
     servername: mama120.baklajann.ru
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO30|1.8MB/s|DNSOK|GPT⁺-RO"
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO28|5.5MB/s|DNSOK|GPT⁺-RO"
     password: ''
     port: 9002
-    server: 193.176.84.35
+    server: 193.176.84.37
     skip-cert-verify: true
     tls: true
     type: http
     username: ''
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO31|1.8MB/s|DNSOK|GPT⁺-RO"
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR91|5.4MB/s|DNSOK|GPT⁺-FR"
+    network: xhttp
+    port: 7443
+    server: 185.79.139.163
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
+    xhttp-opts:
+      host: mama51.baklajann.ru
+      mode: auto
+      path: /
+      reuse-settings:
+        c-max-reuse-times: '0'
+        h-keep-alive-period: 0
+        h-max-request-times: 600-900
+        h-max-reusable-secs: 1800-3000
+        max-concurrency: '0'
+        max-connections: '4'
+    xudp: true
+    servername: mama51.baklajann.ru
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO29|5.4MB/s|DNSOK|GPT⁺-RO"
+    password: ''
+    port: 9002
+    server: 193.176.84.31
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL361|5.4MB/s|DNSOK|GPT⁺-NL"
+    obfs: salamander
+    obfs-password: HysteriaHowdy
+    password: HowdyHysteria2023w0W
+    port: 8443
+    server: 51.15.19.206
+    skip-cert-verify: true
+    sni: vkvd127.mycdn.me
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO30|5.2MB/s|DNSOK|GPT⁺-RO"
+    password: ''
+    port: 9002
+    server: 193.176.84.36
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO31|5.2MB/s|DNSOK|GPT⁺-RO"
     password: 'null'
     port: 9002
-    server: 193.176.84.23
+    server: 193.176.84.27
     skip-cert-verify: true
     tls: true
     type: http
     username: 'null'
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US461|1.8MB/s|DNSOK|GPT⁺-US"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 185.215.132.18
-    type: ss
-    udp: true
-  - name: "\U0001F1E6\U0001F1EA | @WhiteDNS | AE8|1.8MB/s|DNSOK|GPT⁺-AE"
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO32|5.1MB/s|DNSOK|GPT⁺-RO"
+    password: 'null'
+    port: 9002
+    server: 193.176.84.31
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: 'null'
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI37|5.1MB/s|DNSOK|GPT⁺-FI"
     network: ws
-    port: 22573
-    server: 84.235.244.108
+    port: 993
+    server: 89.167.2.185
+    tls: true
     type: vless
     udp: true
-    uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+    uuid: 17ead557-8407-42ae-b9a1-f11a869f99c6
     ws-opts:
       headers:
-        Host: uae.unixzone.us
+        Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
       path: /
     xudp: true
-    servername: uae.unixzone.us
-  - alpn:
-      - h3
-    down: ''
+    servername: ifi1.modemjibi.com.
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO33|5.1MB/s|DNSOK|GPT⁺-RO"
+    password: ''
+    port: 9002
+    server: 193.176.84.17
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO34|5.0MB/s|DNSOK|GPT⁺-RO"
+    password: ''
+    port: 9002
+    server: 193.176.84.19
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - down: ''
     fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP156|1.7MB/s|DNSOK|GPT⁺-JP"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US450|4.6MB/s|DNSOK|GPT⁺-US"
     obfs: ''
     obfs-password: ''
-    password: oracle_hy2_pass_2026
+    password: 4afd4e1b1b0edd429b10d800a1cf64a7
     port: 8443
-    server: 129.225.181.46
+    server: 47.89.232.46
     skip-cert-verify: true
-    sni: bing.com
+    sni: hysteria2.local
     type: hysteria2
     up: ''
-  - client-fingerprint: firefox
-    encryption: none
-    name: "\U0001F1E6\U0001F1FA | @WhiteDNS | AU6|1.7MB/s|DNSOK|GPT⁺-AU"
+  - encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG122|4.3MB/s|DNSOK|GPT⁺-SG"
     network: ws
-    port: 8443
-    server: 46.250.246.11
-    tls: true
+    port: 80
+    server: support.zoom.us
     type: vless
     udp: true
-    uuid: 591e7de6-f2dd-4ff9-ae21-8e00d5affa2a
+    uuid: 5b551a75-d320-4233-88f8-c46dc496eecc
     ws-opts:
       headers:
-        Host: 46-250-246-11.sslip.io
+        Host: highspeed.sahanwickramasinghe.com
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /vpn-live
+          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Slackware/Chrome/12.0.742.100 Safari/534.30
+      path: /
     xudp: true
-    servername: 46-250-246-11.sslip.io
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc_common3
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR97|1.7MB/s|DNSOK|GPT⁺-FR"
-    network: grpc
-    port: 51671
-    reality-opts:
-      public-key: '-5PowNUY37Pi01YKO9fjRTrum1m_9n6XauaPDpmOJzU'
-      short-id: "2fed44d8c59f7e71"
-    server: 152.228.139.33
-    tls: true
-    type: vless
-    udp: true
-    uuid: 75cc7568-abb0-46a8-88be-8137d3c647d4
-    xudp: true
-    servername: www.sony.com
   - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP157|1.7MB/s|DNSOK|GPT⁺-JP"
-    password: '123456'
-    port: 5555
-    server: 8.216.4.158
+    name: "\U0001F1E8\U0001F1E6 | @WhiteDNS | CA197|4.3MB/s|DNSOK|GPT⁺-CA"
+    password: itzvpn@321
+    port: 8388
+    server: 192.99.151.230
     type: ss
     udp: true
-  - cipher: rc4-md5
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG100|1.7MB/s|DNSOK|GPT⁺-SG"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 68.183.227.4
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP158|1.7MB/s|DNSOK|GPT⁺-JP"
-    password: '123456'
-    port: 5555
-    server: 8.216.18.139
-    type: ss
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO32|1.7MB/s|DNSOK|GPT⁺-RO"
+  - name: "\U0001F1EA\U0001F1EA | @WhiteDNS | EE9|4.3MB/s|DNSOK|GPT⁺-EE"
     password: ''
-    port: 9002
-    server: 193.176.84.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1FB\U0001F1F3 | @WhiteDNS | VN11|1.7MB/s|DNSOK|GPT⁺-VN"
-    network: tcp
-    port: 2086
-    server: 150.95.109.109
-    type: vless
-    udp: true
-    uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
-    xudp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US462|1.7MB/s|DNSOK|GPT⁺-US"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 137.184.89.151
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR60|1.7MB/s|DNSOK|GPT⁺-KR"
-    password: 1234!@#$
-    port: 1774
-    server: 49.254.204.134
-    type: ss
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO33|1.7MB/s|DNSOK|GPT⁺-RO"
-    password: ''
-    port: 9002
-    server: 193.176.84.25
+    port: 9443
+    server: 95.153.31.66
     skip-cert-verify: true
     tls: true
     type: http
     username: ''
   - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP159|1.7MB/s|DNSOK|GPT⁺-JP"
-    password: '123456'
-    port: 5555
-    server: 8.216.11.25
+    name: "\U0001F1E8\U0001F1E6 | @WhiteDNS | CA198|4.3MB/s|DNSOK|GPT⁺-CA"
+    password: itzvpn@321
+    port: 8388
+    server: 184.107.106.77
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US463|1.7MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US451|4.0MB/s|DNSOK|GPT⁺-US"
     password: itzvpn@321
     port: 8388
     server: 40.160.86.43
     type: ss
     udp: true
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP160|1.7MB/s|DNSOK|GPT⁺-JP"
-    password: F3NzMNuYnG7akU2mSlBY
-    port: 8443
-    server: 193.123.160.109
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: trojan
-    udp: true
-    network: tcp
-  - name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB71|1.7MB/s|DNSOK|GPT⁺-FR"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US452|3.5MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 80
-    server: suh.cryptofront.uk
+    port: 443
+    server: a2c.ir
+    tls: true
     type: vless
     udp: true
-    uuid: c762af05-2e92-4133-bc30-8cf45dd40a28
+    uuid: bc591bd5-3fc9-9f3e-b194-939100000004
     ws-opts:
       headers:
-        Host: suh.cryptofront.uk
+        Host: flow-turbo-727.deloy10120.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.84 Safari/537.36
-      path: /
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: /sync
     xudp: true
-  - cipher: rc4-md5
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG101|1.6MB/s|DNSOK|GPT⁺-SG"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 68.183.227.236
-    type: ss
+    servername: flow-turbo-727.deloy10120.workers.dev
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE303|3.2MB/s|DNSOK|GPT⁺-GB"
+    network: ws
+    port: 443
+    server: wandering-river-cd33.mramezanian1375.workers.dev
+    tls: true
+    type: vless
     udp: true
-  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US464|1.6MB/s|DNSOK|GPT⁺-US"
-    password: ''
-    port: 9443
-    server: 38.95.111.226
+    uuid: 443b1e88-41fa-43bb-ff6c-982544254b74
+    ws-opts:
+      headers:
+        Host: wandering-river-cd33.mramezanian1375.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: /87fab74555d6e093
+    xudp: true
+    servername: wandering-river-cd33.mramezanian1375.workers.dev
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F5\U0001F1F1 | @WhiteDNS | PL41|3.1MB/s|DNSOK|GPT⁺-PL"
+    network: xhttp
+    port: 443
+    server: 193.42.109.29
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
+    xhttp-opts:
+      host: mama542.baklajann.ru
+      mode: auto
+      path: /
+      reuse-settings:
+        c-max-reuse-times: '0'
+        h-keep-alive-period: 0
+        h-max-request-times: 600-900
+        h-max-reusable-secs: 1800-3000
+        max-concurrency: '0'
+        max-connections: '4'
+    xudp: true
+    servername: mama542.baklajann.ru
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO35|3.0MB/s|DNSOK|GPT⁺-RO"
+    password: 'null'
+    port: 9002
+    server: 193.176.84.35
     skip-cert-verify: true
     tls: true
     type: http
-    username: ''
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG102|1.6MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 54327
-    server: 8.222.172.146
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 8a3d03bc-9b35-43b4-d901-c8531f2bbc6d
-    ws-opts:
-      headers: {}
-      path: /pages
-    xudp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR61|1.6MB/s|DNSOK|GPT⁺-KR"
-    network: http
-    port: 80
-    server: 217.142.138.61
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB72|1.6MB/s|DNSOK|GPT⁺-GB"
-    network: tcp
-    port: 2040
-    server: Ir.wbzo.ir
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7 | @WhiteDNS | FR98|1.5MB/s|DNSOK|GPT⁺-IN"
-    network: ws
-    port: 443
-    server: xray-dmr3b3hy-calm-maple-7.cloady.io
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /0175469f14317d82
-    xudp: true
-    servername: xray-dmr3b3hy-calm-maple-7.cloady.io
+    username: 'null'
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US465|1.5MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US453|3.0MB/s|DNSOK|GPT⁺-US"
     password: DZRy4Q3QH0jUGfKFl2jDCZ
     port: 28960
     server: 138.197.89.234
@@ -1787,148 +1775,120 @@ proxies:
     udp: true
   - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US466|1.5MB/s|DNSOK|GPT⁺-US"
-    network: raw
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 15.204.97.198
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US454|3.0MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: 87.120.222.199
     tls: true
     type: vless
     udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    xudp: true
-    servername: fuck.rkn
-  - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP161|1.5MB/s|DNSOK|GPT⁺-JP"
-    password: F3NzMNuYnG7akU2mSlBY
-    port: 8443
-    server: 193.123.160.109
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-  - cipher: aes-128-gcm
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP162|1.4MB/s|DNSOK|GPT⁺-JP"
-    password: Bwlqh7GcFB
-    port: 53758
-    server: jpa.123069.xyz
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EE\U0001F1F3 | @WhiteDNS | IN42|1.4MB/s|DNSOK|GPT⁺"
-    network: ws
-    port: 80
-    server: 152.67.8.205
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-    servername: "\U0001F1EE\U0001F1F3in-152.67.8.205-0173 | 3.966mb"
-  - name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB73|1.4MB/s|DNSOK|GPT⁺-FR"
-    network: ws
-    port: 80
-    server: 188.114.99.137
-    type: vless
-    udp: true
-    uuid: c762af05-2e92-4133-bc30-8cf45dd40a28
+    uuid: 3bbc98cb-46b1-4441-9d55-02a100000020
     ws-opts:
       headers:
-        Host: suh.cryptofront.uk
+        Host: cf-smart-354.pnihastam7021.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/63.0.3239.111 Mobile Safari/537.36
-      path: /
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/55.0.2883.87 Safari/537.36
+      path: /sync
     xudp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR62|1.3MB/s|DNSOK|GPT⁺-KR"
-    password: 1234!@#$
-    port: 1774
-    server: 49.254.204.133
+    servername: cf-smart-354.pnihastam7021.workers.dev
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US455|2.9MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 30016
+    server: 69.48.201.136
+    type: vless
+    udp: true
+    uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+    ws-opts:
+      headers:
+        Host: zoom.us
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /usserver
+    xudp: true
+    servername: zoom.us
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US456|2.9MB/s|DNSOK|GPT⁺-US"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 185.215.132.18
     type: ss
     udp: true
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO36|2.8MB/s|DNSOK|GPT⁺-RO"
+    password: ''
+    port: 9002
+    server: 193.176.84.27
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE140|1.3MB/s|DNSOK|GPT⁺-DE"
-    network: tcp
-    port: 16893
-    reality-opts:
-      public-key: dpmXAfLC6-Sf6cPjkQKGx_NliRQRFZ_oUiiPA5ALW0I
-      short-id: "849711f2b99d1176"
-    server: 91.107.185.86
+    encryption: mlkem768x25519plus.native.0rtt.8zXHNNlVq76P6zwMb6KN8crgkUR765MKT9-lpQP7CQk
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US457|2.8MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: subgift3.gcorecdn.com
     tls: true
     type: vless
     udp: true
-    uuid: 80256d6f-7cd3-4a3a-8df6-2981e52551dc
+    uuid: 047020df-f518-4b9b-a2d6-8e86f56f8c6e
+    ws-opts:
+      headers:
+        Host: subgift3.gcorecdn.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /t.me-SubGift
     xudp: true
-    servername: play.google.com
+    servername: subgift3.gcorecdn.com
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE141|1.2MB/s|DNSOK|GPT⁺-DE"
-    network: tcp
-    port: 2080
-    server: Ir.wbzo.ir
+    name: "\U0001F1FF\U0001F1E6 | @WhiteDNS | ZA5|2.8MB/s|DNSOK|GPT⁺-ZA"
+    network: ws
+    port: 443
+    server: 16.28.28.15
     skip-cert-verify: false
-    tls: false
+    tls: true
     type: vmess
     udp: true
-    uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+    uuid: 8ce18eab-fcc0-4757-b552-dbda5047ea11
+    ws-opts:
+      headers: {}
+      path: /7788/about
     xudp: true
+    servername: za-a-zzy.glnyhlgc.com
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US467|1.2MB/s|DNSOK|GPT⁺-US"
-    network: "tcp#\U0001F4A194@oneclickvpnkeysvless://352ff568-f971-4613-bf48-92997a5d44ed@23.95.222.127:8443?encryption=none"
-    port: 23576
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: '01'
-    server: 15.204.97.197
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP324|2.8MB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 4443
+    server: 178.105.133.160
     tls: true
     type: vless
     udp: true
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    uuid: c051d7bc-8a5c-415c-9f78-ddab3f337ba4
+    ws-opts:
+      headers:
+        Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /@Marisa_kristi
     xudp: true
-    servername: fuck.rkn
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US468|1.2MB/s|DNSOK|GPT⁺-US"
+    servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+  - encryption: mlkem768x25519plus.native.0rtt.x8try52PFaTDSgZvj01fbRsH43gXD5Dx0S3yX1QkuB8
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI38|2.8MB/s|DNSOK|GPT⁺-FI"
     network: tcp
-    port: 443
-    reality-opts:
-      public-key: 7pnL_m6XftDfRH5Lue-2zI1a0XWg-xcQd5F8m5lqChg
-      short-id: "d5f348390b201e86"
-    server: 207.244.243.12
-    tls: true
+    port: 3036
+    server: SUQmci.Deev-Guard.ir
     type: vless
     udp: true
-    uuid: a33f9fb8-51bb-46d0-8d3a-6b54fdc15943
+    uuid: d1ec39e3-ad7b-4b65-9f65-813696f9a04e
     xudp: true
-    servername: www.cloudflare.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1 | @WhiteDNS | NL313|1.1MB/s|DNSOK|GPT⁺"
-    obfs: salamander
-    obfs-password: HysteriaHowdy
-    password: HowdyHysteria2023w0W
-    port: 8443
-    server: hysteria.udpgw.com
-    skip-cert-verify: true
-    sni: sni-here.com
-    type: hysteria2
-    up: ''
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US469|1.1MB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US458|2.7MB/s|DNSOK|GPT⁺-US"
     network: ws
     port: 443
     server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
@@ -1940,59 +1900,792 @@ proxies:
       headers:
         Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.86 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /ffad70ffdfc3bcda
     xudp: true
     servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP163|1.1MB/s|DNSOK|GPT⁺-JP"
-    obfs: ''
-    obfs-password: ''
-    password: Yuike2026cat
-    port: 8443
-    server: 43.130.234.128
-    skip-cert-verify: false
-    sni: 43-130-234-128.sslip.io
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR63|1.0MB/s|DNSOK|GPT⁺-KR"
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US459|2.7MB/s|DNSOK|GPT⁺-US"
     network: ws
-    port: 25555
-    server: 152.69.226.63
+    port: 30016
+    server: uspanel.unixzone.us
     type: vless
     udp: true
-    uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+    uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
     ws-opts:
       headers:
-        Host: ''
+        Host: uspanel.unixzone.us
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.93 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /usserver
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US460|2.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 443
+    server: a2c.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: bc591bd5-3fc9-9f3e-b194-939100000004
+    ws-opts:
+      headers:
+        Host: flow-turbo-727.deloy10120.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
       path: /
     xudp: true
-    servername: 152.69.226.63
+    servername: flow-turbo-727.deloy10120.workers.dev
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FF\U0001F1E6 | @WhiteDNS | ZA6|2.7MB/s|DNSOK|GPT⁺-ZA"
+    password: Xsy8Ox4yOV3xLlpxtjzs3X
+    port: 16233
+    server: 102.133.165.160
+    type: ss
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO37|2.6MB/s|DNSOK|GPT⁺-RO"
+    password: 'null'
+    port: 9002
+    server: 193.176.84.19
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: 'null'
+  - client-fingerprint: random
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US461|2.6MB/s|DNSOK|GPT⁺-US"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: ''
+    server: ww13.levikogjgfdd.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US462|2.6MB/s|DNSOK|GPT⁺-US"
+    password: 'null'
+    port: 9002
+    server: 138.199.35.220
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: 'null'
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US463|2.6MB/s|DNSOK|GPT⁺-US"
+    password: ''
+    port: 8443
+    server: 74.208.250.147
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US464|2.6MB/s|DNSOK|GPT⁺-US"
+    password: 'null'
+    port: 9002
+    server: 138.199.35.204
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: 'null'
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US465|2.6MB/s|DNSOK|GPT⁺-US"
+    password: ''
+    port: 9002
+    server: 138.199.35.216
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1F7\U0001F1F4 | @WhiteDNS | RO38|2.6MB/s|DNSOK|GPT⁺-RO"
+    password: ''
+    port: 9002
+    server: 193.176.84.25
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US466|2.5MB/s|DNSOK|GPT⁺-US"
+    password: ''
+    port: 443
+    server: 149.34.248.65
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - client-fingerprint: firefox
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG123|2.5MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 8443
+    server: 172.66.40.229
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1acec266-04ee-4769-b96b-402358531dcb
+    ws-opts:
+      headers:
+        Host: highspeed.sahanwickramasinghe.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /
+    xudp: true
+    servername: highspeed.sahanwickramasinghe.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FF\U0001F1E6 | @WhiteDNS | ZA7|2.5MB/s|DNSOK|GPT⁺-ZA"
+    password: aduB9HGxQHjA2SBMRjkHX6
+    port: 443
+    server: 102.37.156.224
+    type: ss
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG124|2.5MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 2083
+    server: 141.193.213.20
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3b237274-8afd-4d22-b359-4a71f57b114b
+    ws-opts:
+      headers:
+        Host: cdn.zcstore.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.110 Safari/537.36
+      path: /
+    xudp: true
+    servername: cdn.zcstore.org
+  - client-fingerprint: firefox
+    encryption: none
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG125|2.5MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 8443
+    server: 104.17.70.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1acec266-04ee-4769-b96b-402358531dcb
+    ws-opts:
+      headers:
+        Host: highspeed.sahanwickramasinghe.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: highspeed.sahanwickramasinghe.com
+  - alpn:
+      - http%2f1.1
+    client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US467|2.5MB/s|DNSOK|GPT⁺-US"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 15.204.97.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG126|2.5MB/s|DNSOK|GPT⁺-IN"
+    network: ws
+    port: 14430
+    server: 13.140.56.100
+    type: vless
+    udp: true
+    uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+    ws-opts:
+      headers:
+        Host: 13.140.56.100
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /vless
+    xudp: true
+    servername: 13.140.56.100
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US468|2.5MB/s|DNSOK|GPT⁺-US"
+    password: ''
+    port: 9443
+    server: 38.95.111.226
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US469|2.4MB/s|DNSOK|GPT⁺-US"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 185.215.132.9
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US470|2.4MB/s|DNSOK|GPT⁺-US"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 137.184.89.151
+    type: ss
+    udp: true
+  - alpn:
+      - h3
+    down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP325|2.3MB/s|DNSOK|GPT⁺-JP"
+    obfs: ''
+    obfs-password: ''
+    password: oracle_hy2_pass_2026
+    port: 8443
+    server: 129.225.181.46
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+    up: ''
+  - client-fingerprint: random
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US471|2.3MB/s|DNSOK|GPT⁺-US"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: ''
+    server: 15.204.97.209
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US472|2.3MB/s|DNSOK|GPT⁺-US"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 02Yg4to3gnD2VkzaE9qBZlhsMqzE_oL5tZETE-8yx1Q
+      short-id: "53050dd29221b30f"
+    server: 66.94.113.190
+    tls: true
+    type: vless
+    udp: true
+    uuid: 31ce0fbd-130b-4188-82ac-5db19bc9debd
+    xudp: true
+    servername: www.tesla.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG127|2.2MB/s|DNSOK|GPT⁺-SG"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: gVQsvRtzd77zlvKW4Gk0dAOJNPRa7cfN1-jVe_AJ8Bo
+      short-id: "e1c483f9d4437d42"
+    server: 47.84.226.221
+    tls: true
+    type: vless
+    udp: true
+    uuid: 49b91402-f8e3-4390-9d7b-b7eddc2684a4
+    xudp: true
+    servername: www.samsung.com
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US473|2.2MB/s|DNSOK|GPT⁺-US"
+    password: 'null'
+    port: 9002
+    server: 138.199.35.206
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: 'null'
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB88|2.2MB/s|DNSOK|GPT⁺-GB"
+    network: tcp
+    port: 2040
+    server: ir.wbzo.ir
+    type: vmess
+    udp: true
+    uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+    xudp: true
+  - name: "\U0001F1FB\U0001F1F3 | @WhiteDNS | VN7|2.0MB/s|DNSOK|GPT⁺-VN"
+    network: tcp
+    port: 2086
+    server: 150.95.109.109
+    type: vless
+    udp: true
+    uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
+    xudp: true
+  - cipher: rc4-md5
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG128|2.0MB/s|DNSOK|GPT⁺-SG"
+    password: 14fFPrbezE3HDZzsMOr6
+    port: 8080
+    server: 68.183.227.4
+    type: ss
+    udp: true
+  - cipher: rc4-md5
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG129|2.0MB/s|DNSOK|GPT⁺-SG"
+    password: 14fFPrbezE3HDZzsMOr6
+    port: 8080
+    server: 68.183.227.236
+    type: ss
+    udp: true
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR61|2.0MB/s|DNSOK|GPT⁺-KR"
+    network: tcp
+    port: 800
+    server: 129.154.61.196
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR62|2.0MB/s|DNSOK|GPT⁺-KR"
+    network: ws
+    port: 443
+    server: 162.159.160.73
+    tls: true
+    type: vless
+    udp: true
+    uuid: db906786-8c49-4b17-9182-cea680ef954d
+    ws-opts:
+      headers:
+        Host: krc.80782636.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.101 Safari/537.36
+      path: /kw7x2mq9
+    xudp: true
+    servername: krc.80782636.xyz
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP326|1.9MB/s|DNSOK|GPT⁺-JP"
+    password: F3NzMNuYnG7akU2mSlBY
+    port: 8443
+    server: 193.123.160.109
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+    network: tcp
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP327|1.9MB/s|DNSOK|GPT⁺-JP"
+    password: 53dea5063dff45e4961fb9cba5d3f83a
+    port: 1080
+    server: jp-telegram-khp25-viber-09773510813.premiumx.giize.com
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR63|1.8MB/s|DNSOK|GPT⁺-KR"
+    password: 1234!@#$
+    port: 1774
+    server: 49.254.204.134
+    type: ss
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US474|1.8MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 30016
+    server: 69.48.201.136
+    type: vless
+    udp: true
+    uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+    ws-opts:
+      headers:
+        Host: uspanel.unixzone.us
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2228.0 Safari/537.36
+      path: /usserver
+    xudp: true
+    servername: uspanel.unixzone.us
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US475|1.8MB/s|DNSOK|GPT⁺-US"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 95.215.201.18
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP328|1.8MB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 43788
+    server: 89.22.224.146
+    tls: true
+    type: vless
+    udp: true
+    uuid: acc10ba5-a222-44b3-8a1a-4f247ffc6466
+    ws-opts:
+      headers:
+        Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /@Marisa_kristi
+    xudp: true
+    servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US476|1.8MB/s|DNSOK|GPT⁺-US"
+    password: pmZmPZcbrauTSbfdc6-RLIaR_F7bW3H1
+    port: 2060
+    server: 109.94.164.74
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    encryption: none
+    name: "\U0001F1E6\U0001F1FA | @WhiteDNS | AU7|1.8MB/s|DNSOK|GPT⁺-AU"
+    network: ws
+    port: 8443
+    server: 46.250.246.11
+    tls: true
+    type: vless
+    udp: true
+    uuid: 591e7de6-f2dd-4ff9-ae21-8e00d5affa2a
+    ws-opts:
+      headers:
+        Host: 46-250-246-11.sslip.io
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /vpn-live
+    xudp: true
+    servername: 46-250-246-11.sslip.io
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR64|1.8MB/s|DNSOK|GPT⁺-KR"
+    network: ws
+    port: 80
+    server: 132.145.80.230
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+    ws-opts:
+      headers: {}
+      path: /cctv13.m3u8
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP329|1.8MB/s|DNSOK|GPT⁺-JP"
+    network: raw
+    port: 443
+    reality-opts:
+      public-key: 99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8
+      short-id: "684c7531e599dec0"
+    server: 158.101.151.157
+    tls: true
+    type: vless
+    udp: true
+    uuid: 66171cbe-0b4b-4b24-99f6-d5a822f4dc9a
+    xudp: true
+    servername: www.microsoft.com
   - cipher: aes-128-gcm
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP164|1.0MB/s|DNSOK|GPT⁺-JP"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP330|1.7MB/s|DNSOK|GPT⁺-JP"
     password: Bwlqh7GcFB
     port: 53758
     server: 168.138.205.100
     type: ss
     udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US477|1.7MB/s|DNSOK|GPT⁺-US"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 185.230.230.18
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US478|1.7MB/s|DNSOK|GPT⁺-US"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 45.86.51.18
+    type: ss
+    udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP165|1.0MB/s|DNSOK|GPT⁺-JP"
+    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP331|1.7MB/s|DNSOK|GPT⁺-JP"
+    network: tcp
+    port: 443
+    server: 23.27.11.86
+    tls: true
+    type: vless
+    udp: true
+    uuid: e8a346c2-e14c-4f82-876f-367dc19ee541
+    xudp: true
+    servername: jp.burmy.xyz
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US479|1.7MB/s|DNSOK|GPT⁺-US"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 15.204.97.216
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP332|1.7MB/s|DNSOK|GPT⁺-JP"
     network: tcp
     password: F3NzMNuYnG7akU2mSlBY
     port: 8443
     server: 193.123.160.109
     skip-cert-verify: true
-    sni: www.microsoft.com
+    sni: 193.123.160.109
     type: trojan
     udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US480|1.7MB/s|DNSOK|GPT⁺-US"
+    password: pmZmPZcbrauTSbfdc6-RLIaR_F7bW3H1
+    port: 2060
+    server: Ir.wbzo.ir
+    type: ss
+    udp: true
+  - name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG130|1.7MB/s|DNSOK|GPT⁺-IN"
+    network: ws
+    port: 14430
+    server: 13.140.56.100
+    type: vless
+    udp: true
+    uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: /vless
+    xudp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US481|1.7MB/s|DNSOK|GPT⁺-US"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 193.151.160.9
+    type: ss
+    udp: true
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US482|1.7MB/s|DNSOK|GPT⁺-US"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 15.204.97.214
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP333|1.7MB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 80
+    server: 168.138.43.75
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+    ws-opts:
+      headers:
+        Host: jp01.a0a.xyz
+      path: /cctv13.m3u8
+    xudp: true
+    servername: jp01.a0a.xyz
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US483|1.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 30016
+    server: 69.48.201.136
+    type: vless
+    udp: true
+    uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+    ws-opts:
+      headers:
+        Host: zoom.us
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      path: /usserver
+    xudp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US484|1.7MB/s|DNSOK|GPT⁺-US"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 193.151.163.18
+    type: ss
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US485|1.7MB/s|DNSOK|GPT⁺-US"
+    network: ws
+    port: 30016
+    server: uspanel.unixzone.us
+    type: vless
+    udp: true
+    uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+    ws-opts:
+      headers:
+        Host: uspanel.unixzone.us
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /usserver
+    xudp: true
+    servername: uspanel.unixzone.us
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR65|1.7MB/s|DNSOK|GPT⁺-KR|(AzadNet.t.me)"
+    network: ws
+    port: 80
+    server: 132.145.80.230
+    skip-cert-verify: false
+    sub_tag: (AzadNet.t.me)
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+    ws-opts:
+      headers:
+        Host: 132.145.80.230
+      path: /cctv13.m3u8
+    xudp: true
+    servername: 132.145.80.230
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    http-opts:
+      headers:
+        Host:
+          - down-cdn.dingtalk.com
+      path:
+        - /3x
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI39|1.6MB/s|DNSOK|GPT⁺-FI"
+    network: http
+    port: 2053
+    server: 185.212.149.7
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: aeb3c019-ae83-4677-af97-846baa787ad5
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US486|1.6MB/s|DNSOK|GPT⁺-US"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 15.204.97.216
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - cipher: aes-256-cfb
+    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR66|1.6MB/s|DNSOK|GPT⁺-KR"
+    password: 1234!@#$
+    port: 1774
+    server: 49.254.204.133
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US487|1.6MB/s|DNSOK|GPT⁺-US"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 193.151.160.18
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP334|1.6MB/s|DNSOK|GPT⁺-JP"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8
+      short-id: "684c7531e599dec0"
+    server: 158.101.151.157
+    tls: true
+    type: vless
+    udp: true
+    uuid: 66171cbe-0b4b-4b24-99f6-d5a822f4dc9a
+    xudp: true
+    servername: www.microsoft.com
+  - name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG131|1.6MB/s|DNSOK|GPT⁺"
+    password: ''
+    port: 9090
+    server: 128.199.116.219
+    skip-cert-verify: true
+    type: http
+    username: ''
+  - name: "\U0001F1E6\U0001F1EA | @WhiteDNS | AE7|1.6MB/s|DNSOK|GPT⁺-AE"
+    network: ws
+    port: 22573
+    server: uae.unixzone.us
+    type: vless
+    udp: true
+    uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+    ws-opts:
+      headers:
+        Host: uae.unixzone.us
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      path: /
+    xudp: true
+    servername: uae.unixzone.us
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US488|1.6MB/s|DNSOK|GPT⁺-US"
+    network: tcp
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 15.204.97.206
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
   - client-fingerprint: random
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US470|1022KB/s|DNSOK|GPT⁺-US"
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US489|1.5MB/s|DNSOK|GPT⁺-US"
     network: tcp
     port: 23576
     reality-opts:
@@ -2005,90 +2698,315 @@ proxies:
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     xudp: true
     servername: fuck.rkn
-  - name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG103|1015KB/s|DNSOK|GPT⁺-IN"
-    network: ws
-    port: 14430
-    server: 13.140.56.100
+  - cipher: 2022-blake3-aes-256-gcm
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG132|1.5MB/s|DNSOK|GPT⁺-SG"
+    password: >-
+      sUR6Ny8Y6PSvHhl/DUxconwxg6VZyFdsdfaVCvEatJo=:7bTEhHgpErKiRjE1ega+H6pcpJsNLFB0CjQseujAHrA=
+    port: 14384
+    server: 129.150.59.74
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG133|1.5MB/s|DNSOK|GPT⁺-SG"
+    network: tcp
+    port: 10444
+    reality-opts:
+      public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+      short-id: "8debcf36f1cc69ff"
+    server: 147.93.173.45
+    tls: true
     type: vless
     udp: true
-    uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /vless
+    uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
     xudp: true
-  - alterId: 0
+    servername: video.yandex.ru
+  - alpn:
+      - ''
+    alterId: '0'
     cipher: auto
-    name: "\U0001F1EE\U0001F1F3 | @WhiteDNS | IN43|1006KB/s|DNSOK|GPT⁺-IN"
-    network: ws
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR67|1.4MB/s|DNSOK|GPT⁺-KR"
+    network: http
     port: 80
-    server: 152.67.8.205
+    server: 217.142.138.61
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-    ws-opts:
-      headers: {}
-      path: /
+    uuid: ac1b933d-afff-4487-93ef-f57130a55dff
     xudp: true
-    servername: "\U0001F1EE\U0001F1F3in-152.67.8.205-0279 | 3.849mb"
-  - name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR64|1004KB/s|DNSOK|GPT⁺-KR"
+  - encryption: none
+    name: "\U0001F1E6\U0001F1EA | @WhiteDNS | AE8|1.4MB/s|DNSOK|GPT⁺-AE"
     network: ws
-    port: 25555
-    server: 152.69.226.63
+    port: 22573
+    server: 84.235.244.108
     type: vless
     udp: true
-    uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+    uuid: 39947382-3212-41c9-bc3a-589574ac8b23
     ws-opts:
       headers:
-        Host: ''
+        Host: uae.unixzone.us
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /
-    xudp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI28|955KB/s|DNSOK|GPT⁺-FI"
-    network: ws
-    port: 993
-    server: ifi1.modemjibi.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 17ead557-8407-42ae-b9a1-f11a869f99c6
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
           Safari/537.36
       path: /
     xudp: true
-    servername: ifi1.modemjibi.com.
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F0\U0001F1F7 | @WhiteDNS | KR68|1.3MB/s|DNSOK|GPT⁺-KR"
+    network: ws
+    port: 80
+    server: 132.145.80.230
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+    ws-opts:
+      headers: {}
+      path: /cctv13.m3u8
+    xudp: true
+    servername: kr02.a0a.xyz
   - client-fingerprint: chrome
-    encryption: none
     flow: xtls-rprx-vision
-    name: ❓ | @WhiteDNS | OT368|920KB/s|DNSOK|GPT⁺
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US490|1.3MB/s|DNSOK|GPT⁺-US"
     network: raw
-    port: 443
+    port: 23576
     reality-opts:
-      public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
-      short-id: "e6"
-    server: 161.97.160.224
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: 15.204.97.209
     tls: true
     type: vless
     udp: true
-    uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     xudp: true
-    servername: passport.yandex.ru
+    servername: fuck.rkn
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US491|1.3MB/s|DNSOK|GPT⁺-US"
+    password: LCvps-199-168-136-193-bak8443
+    port: 443
+    server: 49.51.39.148
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US492|1.2MB/s|DNSOK|GPT⁺-US"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 7pnL_m6XftDfRH5Lue-2zI1a0XWg-xcQd5F8m5lqChg
+      short-id: "d5f348390b201e86"
+    server: 207.244.243.12
+    tls: true
+    type: vless
+    udp: true
+    uuid: a33f9fb8-51bb-46d0-8d3a-6b54fdc15943
+    xudp: true
+    servername: www.cloudflare.com
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG134|1.2MB/s|DNSOK|GPT⁺-SG"
+    network: ws
+    port: 54327
+    server: 8.222.172.146
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 8a3d03bc-9b35-43b4-d901-c8531f2bbc6d
+    ws-opts:
+      headers: {}
+      path: /pages
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG135|1.2MB/s|DNSOK|GPT⁺-SG"
+    network: raw
+    port: 443
+    reality-opts:
+      public-key: gVQsvRtzd77zlvKW4Gk0dAOJNPRa7cfN1-jVe_AJ8Bo
+      short-id: "e1c483f9d4437d42"
+    server: 47.84.226.221
+    tls: true
+    type: vless
+    udp: true
+    uuid: 49b91402-f8e3-4390-9d7b-b7eddc2684a4
+    xudp: true
+    servername: www.samsung.com
+  - encryption: mlkem768x25519plus.native.0rtt.x8try52PFaTDSgZvj01fbRsH43gXD5Dx0S3yX1QkuB8
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI40|1.1MB/s|DNSOK|GPT⁺-FI"
+    network: tcp
+    port: 3036
+    server: SUR.Deev-Guard.ir
+    type: vless
+    udp: true
+    uuid: d1ec39e3-ad7b-4b65-9f65-813696f9a04e
+    xudp: true
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP335|1.0MB/s|DNSOK|GPT⁺-JP"
+    password: F3NzMNuYnG7akU2mSlBY
+    port: 8443
+    server: 193.123.160.109
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: trojan
+    udp: true
+    network: tcp
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI41|1.0MB/s|DNSOK|GPT⁺-FI"
+    network: raw
+    port: 443
+    server: mail1.besttotaldns.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: da14e323-6af7-406f-a5c2-1eb7975ada8b
+    xudp: true
+    servername: mail1.besttotaldns.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US493|1022KB/s|DNSOK|GPT⁺-US"
+    network: raw
+    port: 23576
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: '01'
+    server: ww13.levikogjgfdd.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    xudp: true
+    servername: fuck.rkn
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP336|1019KB/s|DNSOK|GPT⁺-JP"
+    network: ws
+    port: 80
+    server: 168.138.43.75
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+    ws-opts:
+      headers:
+        Host: none
+      path: /cctv13.m3u8
+    xudp: true
+    servername: none
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI42|1015KB/s|DNSOK|GPT⁺-FI"
+    network: tcp
+    port: 443
+    server: mail1.besttotaldns.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: da14e323-6af7-406f-a5c2-1eb7975ada8b
+    xudp: true
+    servername: mail1.besttotaldns.com
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5 | @WhiteDNS | JP337|936KB/s|DNSOK|GPT⁺-JP"
+    network: tcp
+    password: F3NzMNuYnG7akU2mSlBY
+    port: 8443
+    server: 193.123.160.109
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: trojan
+    udp: true
+  - name: "\U0001F1EC\U0001F1E7 | @WhiteDNS | GB89|914KB/s|DNSOK|GPT⁺-FR"
+    network: ws
+    port: 80
+    server: 188.114.99.137
+    type: vless
+    udp: true
+    uuid: c762af05-2e92-4133-bc30-8cf45dd40a28
+    ws-opts:
+      headers:
+        Host: suh.cryptofront.uk
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      path: /
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8 | @WhiteDNS | US494|791KB/s|DNSOK|GPT⁺-US"
+    network: raw
+    port: 48111
+    server: 129.146.143.80
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+    xudp: true
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    http-opts:
+      headers: {}
+      path:
+        - /3x
+    name: "\U0001F1EB\U0001F1EE | @WhiteDNS | FI43|748KB/s|DNSOK|GPT⁺-FI"
+    network: http
+    port: 52080
+    server: 185.212.149.7
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: ec3c8b97-f308-4fee-aa16-95e2c7595acd
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE304|677KB/s|DNSOK|GPT⁺-DE"
+    network: tcp
+    port: 2080
+    server: Ir.wbzo.ir
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+    xudp: true
+  - name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG136|617KB/s|DNSOK|GPT⁺-SG"
+    password: '8888'
+    port: 1080
+    server: 47.236.168.243
+    skip-cert-verify: true
+    type: socks5
+    username: '8888'
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EA | @WhiteDNS | DE305|607KB/s|DNSOK|GPT⁺-DE"
+    network: tcp
+    port: 2080
+    server: ir.wbzo.ir
+    type: vmess
+    udp: true
+    uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+    xudp: true
 dns:
   enable: true
   prefer-h3: false
