@@ -1,38 +1,17 @@
 proxies:
-  - alpn:
-      - http/1.1
-    client-fingerprint: unsafe
-    name: "\U0001F1F2\U0001F1E9 | @WhiteDNS | MD2|5.5MB/s|DNSOK|GPT⁺-MD"
-    network: ws
-    password: 963A4918-A630-29DA-A873-093CDF8AD784
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EE\U0001F1F3 | @WhiteDNS | IN26|1.5MB/s|DNSOK|GPT⁺-IN"
+    password: 806a291d6fa98489025802ae1285df63811ed499011dcf35
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: india.astroapps.io
+      mode: websocket
+      path: /d282ea66de9394f68a3e792e
+      tls: true
     port: 443
-    server: 188.114.98.0
-    skip-cert-verify: false
-    sni: dry-snowflake-b29f.vpnetwork3567.workers.dev
-    type: trojan
+    server: india.astroapps.io
+    type: ss
     udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-      path: /
-  - encryption: none
-    name: "\U0001F1F8\U0001F1EC | @WhiteDNS | SG88|3.1MB/s|DNSOK|GPT⁺-SG"
-    network: ws
-    port: 80
-    server: 188.114.99.137
-    type: vless
-    udp: true
-    uuid: 9ce32242-557a-4d18-864d-c9c385b3dfa4
-    ws-opts:
-      headers:
-        Host: matrix.learnpodedu.com
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
-          Safari/537.36
-      path: /
 dns:
   enable: true
   prefer-h3: false
